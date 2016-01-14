@@ -1,0 +1,49 @@
+.bg {
+  position: absolute;
+  z-index: -20;
+  top: 0;
+  height: 777px;
+  width: 100%;
+  background: url("/home/images/home_banner_large.png") no-repeat;
+  background-size: 3143px 777px;
+  background-position: center top; }
+
+.shade {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  width: calc(50%);
+  height: 744px;
+  background-image: url("/home/images/shade_large.png");
+  background-repeat: no-repeat;
+  background-size: 1168px 744px; }
+
+section.promo-tiles {
+  max-width: 1920px; }
+
+section.promo-tiles .promo-tile {
+  padding: 6px; }
+
+section.promo-tiles .promo-tile:first-child {
+  padding-left: 0; }
+
+section.promo-tiles .promo-tile:last-child {
+  padding-right: 0; }
+
+section.promo-tiles .promo-tile a {
+  background-color: red;
+  height: 200px;
+  display: block; }
+
+section.promo-tiles .promo-1 a {
+  background-image: url("/home/images/promo_aam_large.png"); }
+
+section.promo-tiles .promo-2 a {
+  background-image: url("/home/images/promo_aam_large.png"); }
+
+section.promo-tiles .promo-3 a {
+  background-image: url("/home/images/promo_aam_large.png"); }
+
+section.promo-tiles .promo-4 a {
+  background-image: url("/home/images/promo_aam_large.png"); }
