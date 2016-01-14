@@ -3986,10 +3986,22 @@ header .logo {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
   header .logo {
     background-image: url("/global/images/logo_2x.png"); } }
+.AAF-white {
+  background-image: url("/global/images/logo_white_large.png");
+  background-repeat: no-repeat;
+  background-size: 203px 35px;
+  width: 204px;
+  height: 35px;
+  margin: 15px auto 30px; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  .AAF-white {
+    background-image: url("/global/images/logo_white_large_2x.png"); } }
 main {
   margin-top: 606px;
   width: 100%;
-  min-height: 987px;
+  max-height: 987px;
+  min-height: 500px;
   background-image: url("/global/images/body_curve_large.png");
   background-repeat: no-repeat;
   background-position: center top; }

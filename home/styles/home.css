@@ -19,8 +19,12 @@
   background-repeat: no-repeat;
   background-size: 1168px 744px; }
 
+main {
+  padding-top: 40px; }
+
 section.promo-tiles {
-  max-width: 1920px; }
+  max-width: 1920px;
+  margin: 0 auto; }
 
 section.promo-tiles .promo-tile {
   padding: 6px; }
@@ -32,18 +36,34 @@ section.promo-tiles .promo-tile:last-child {
   padding-right: 0; }
 
 section.promo-tiles .promo-tile a {
-  background-color: red;
-  height: 200px;
+  border-radius: 4px;
+  height: 256px;
+  background-size: 470px 256px;
+  background-position: center top;
+  background-repeat: no-repeat;
   display: block; }
 
 section.promo-tiles .promo-1 a {
-  background-image: url("/home/images/promo_aam_large.png"); }
+  background-image: url("/home/images/promo_recruiting_large.png"); }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  section.promo-tiles .promo-1 a {
+    background-image: url("/home/images/promo_recruiting_large_2x.png"); } }
 section.promo-tiles .promo-2 a {
-  background-image: url("/home/images/promo_aam_large.png"); }
+  background-image: url("/home/images/promo_year_in_review_large.png"); }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  section.promo-tiles .promo-2 a {
+    background-image: url("/home/images/promo_year_in_review_large_2x.png"); } }
 section.promo-tiles .promo-3 a {
   background-image: url("/home/images/promo_aam_large.png"); }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  section.promo-tiles .promo-3 a {
+    background-image: url("/home/images/promo_aam_large_2x.png"); } }
 section.promo-tiles .promo-4 a {
-  background-image: url("/home/images/promo_aam_large.png"); }
+  background-image: url("/home/images/promo_who_large.png"); }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  section.promo-tiles .promo-4 a {
+    background-image: url("/home/images/promo_who_large_2x.png"); } }
