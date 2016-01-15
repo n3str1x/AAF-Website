@@ -14,6 +14,7 @@
   top: 0;
   left: 50%;
   width: calc(50%);
+  opacity: 0.92;
   height: 744px;
   background-image: url("/home/images/shade_large.png");
   background-repeat: no-repeat;
@@ -24,10 +25,11 @@ main {
 
 section.promo-tiles {
   max-width: 1920px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 256px; }
 
 section.promo-tiles .promo-tile {
-  padding: 6px; }
+  padding: 3px; }
 
 section.promo-tiles .promo-tile:first-child {
   padding-left: 0; }

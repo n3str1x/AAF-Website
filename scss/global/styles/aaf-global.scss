@@ -67,12 +67,30 @@ header .logo {
 	background-size: 203px 194px;
 	height: 194px;
 	width: 203px;
-	margin: 0 auto;
+	position: absolute;
+	left: calc(50% - (203px/2));
+	top: 0;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 	header .logo {
 		background-image: url('/global/images/logo_2x.png');
 	}
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+	vertical-align: top;
+}
+header nav.right {
+	float: right;
+}
+header nav a {
+	color: #FFF;
+}
+header nav a {
+	padding: 40px;
+vertical-align: top;
 }
 
 .AAF-white {
@@ -81,7 +99,7 @@ header .logo {
 	background-size: 203px 35px;
 	width: 204px;
 	height: 35px;
-	margin: 15px auto 30px;
+	margin: 15px auto 25px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
@@ -89,12 +107,13 @@ header .logo {
 		background-image: url('/global/images/logo_white_large_2x.png');
 	}
 }
-
+.space {
+	height: 606px;
+}
 main {
-	margin-top: 606px;
 	width: 100%;
 	max-height: 987px;
-	min-height: 500px;
+	min-height: 600px;
 	background-image: url('/global/images/body_curve_large.png');
 	background-repeat: no-repeat;
 	background-position: center top;
