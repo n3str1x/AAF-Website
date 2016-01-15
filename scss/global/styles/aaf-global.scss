@@ -86,11 +86,21 @@ header nav.right {
 	float: right;
 }
 header nav a {
+	font-family: "Proxima Nova";
+	font-weight: 600;
+	font-size: 14px;
 	color: #FFF;
+	vertical-align: top;
+	padding: 0 20px;
 }
-header nav a {
-	padding: 40px;
-vertical-align: top;
+header nav a.button {
+	font-family: "Proxima Nova";
+	font-weight: 600;
+	font-size: 14px;
+	vertical-align: baseline;
+	margin: 0 5px;
+	margin-top: -0.85em;
+	padding: 16px 40px;
 }
 
 .AAF-white {
