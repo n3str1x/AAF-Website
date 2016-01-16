@@ -12,13 +12,35 @@
   position: absolute;
   z-index: -1;
   top: 0;
-  left: 50%;
-  width: calc(50%);
-  opacity: 0.92;
+  left: calc(50% - 180px);
+  width: calc(50% + 180px);
   height: 744px;
   background-image: url("/home/images/shade_large.png");
   background-repeat: no-repeat;
-  background-size: 1168px 744px; }
+  background-size: 1168px 744px;
+  padding: 270px 40px 0 200px; }
+
+.shade h1 {
+  color: #FFF;
+  font-family: "Bebas Kai";
+  font-weight: 500;
+  font-size: 51px;
+  line-height: 43px; }
+
+.shade h1 span {
+  color: #2583d9; }
+
+.shade p {
+  color: #7d9fbd;
+  max-width: 500px; }
+
+.shade a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 15px 35px;
+  margin-right: 10px;
+  margin-top: -5px; }
 
 main {
   padding-top: 40px; }
@@ -32,10 +54,10 @@ section.promo-tiles .promo-tile {
   padding: 3px; }
 
 section.promo-tiles .promo-tile:first-child {
-  padding-left: 0; }
+  padding-left: 6px; }
 
 section.promo-tiles .promo-tile:last-child {
-  padding-right: 0; }
+  padding-right: 6px; }
 
 section.promo-tiles .promo-tile a {
   border-radius: 4px;

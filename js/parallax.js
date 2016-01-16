@@ -66,7 +66,7 @@ ParallaxManager = (function() {
 
 new ParallaxManager('.parallax-layer');
 
-
+ 
 /* Test for Mouse or Trackpad and aujust scrolling accordingly */
 
 var scrolling = false;

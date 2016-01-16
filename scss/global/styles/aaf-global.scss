@@ -43,6 +43,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 /* HEADER */
 
 header {
@@ -79,27 +81,27 @@ header .logo {
 
 header nav {
 	display: inline-block;
-	margin-top: 35px;
+	margin-top: 38px;
 	vertical-align: top;
 }
 header nav.right {
 	float: right;
 }
 header nav a {
-	font-family: "Proxima Nova";
-	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;;
+	font-weight: 400;
 	font-size: 14px;
 	color: #FFF;
 	vertical-align: top;
-	padding: 0 20px;
+	padding: 0 50px;
 }
 header nav a.button {
-	font-family: "Proxima Nova";
-	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;;
+	font-weight: 400;
 	font-size: 14px;
-	vertical-align: baseline;
+	vertical-align: bottom;
 	margin: 0 5px;
-	margin-top: -0.85em;
+	margin-top: -13px;
 	padding: 16px 40px;
 }
 
@@ -118,7 +120,7 @@ header nav a.button {
 	}
 }
 .space {
-	height: 606px;
+	height: 1px;
 }
 main {
 	width: 100%;
@@ -127,4 +129,9 @@ main {
 	background-image: url('/global/images/body_curve_large.png');
 	background-repeat: no-repeat;
 	background-position: center top;
+	margin-top: 605px;
+}
+
+html {
+	font-size: 99%;
 }
