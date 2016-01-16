@@ -104,7 +104,7 @@ var mouseHandle = function (evt) {
         var direction = (evt.detail<0 || evt.wheelDelta>0) ? 1 : -1;
         
         if (!isTouchPad) {
-            $(".parallax-layer").css("transition","transform 400ms ease");
+            $(".parallax-layer").css("transition","transform 0ms ease");
         }
     }
 }
