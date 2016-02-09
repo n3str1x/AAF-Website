@@ -1,49 +1,15 @@
 @charset 'utf-8';
 
-@import 'settings';
-@import 'foundation';
-@import 'motion-ui';
+@import 'mixins';
 
-@include foundation-global-styles;
-@include foundation-grid;
-@include foundation-typography;
-@include foundation-button;
-@include foundation-forms;
-@include foundation-visibility-classes;
-@include foundation-float-classes;
-@include foundation-accordion;
-@include foundation-accordion-menu;
-@include foundation-badge;
-@include foundation-breadcrumbs;
-@include foundation-button-group;
-@include foundation-callout;
-@include foundation-close-button;
-@include foundation-drilldown-menu;
-@include foundation-dropdown;
-@include foundation-dropdown-menu;
-@include foundation-flex-video;
-@include foundation-label;
-@include foundation-media-object;
-@include foundation-menu;
-@include foundation-off-canvas;
-@include foundation-orbit;
-@include foundation-pagination;
-@include foundation-progress-bar;
-@include foundation-slider;
-@include foundation-sticky;
-@include foundation-reveal;
-@include foundation-switch;
-@include foundation-table;
-@include foundation-tabs;
-@include foundation-thumbnail;
-@include foundation-title-bar;
-@include foundation-tooltip;
-@include foundation-top-bar;
+@import 'settings'; @import 'foundation'; @import 'motion-ui';
 
-@include motion-ui-transitions;
-@include motion-ui-animations;
+@include foundation-global-styles; @include foundation-grid; @include foundation-typography; @include foundation-button; @include foundation-forms; @include foundation-visibility-classes; @include foundation-float-classes; @include foundation-accordion; @include foundation-accordion-menu; @include foundation-badge; @include foundation-breadcrumbs; @include foundation-button-group; @include foundation-callout; @include foundation-close-button; @include foundation-drilldown-menu; @include foundation-dropdown; @include foundation-dropdown-menu; @include foundation-flex-video; @include foundation-label; @include foundation-media-object; @include foundation-menu; @include foundation-off-canvas; @include foundation-orbit; @include foundation-pagination; @include foundation-progress-bar; @include foundation-slider; @include foundation-sticky; @include foundation-reveal; @include foundation-switch; @include foundation-table; @include foundation-tabs; @include foundation-thumbnail; @include foundation-title-bar; @include foundation-tooltip; @include foundation-top-bar;
+ @include motion-ui-transitions; @include motion-ui-animations;
 
+/* Include Mosterrat */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@include font-face(Bebas, /fonts/BebasKai-Regular, null, null, otf);
 
 /* HEADER */
 
@@ -119,9 +85,6 @@ header nav a.button {
 		background-image: url('/global/images/logo_white_large_2x.png');
 	}
 }
-.space {
-	height: 1px;
-}
 main {
 	width: 100%;
 	max-height: 987px;
@@ -129,9 +92,4 @@ main {
 	background-image: url('/global/images/body_curve_large.png');
 	background-repeat: no-repeat;
 	background-position: center top;
-	margin-top: 605px;
-}
-
-html {
-	font-size: 99%;
 }

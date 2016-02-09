@@ -1,12 +1,18 @@
+.hero {
+  height: 605px;
+  margin-left: calc(50% + 20px);
+  padding: 270px 20px 0 0; }
+
 .bg {
   position: absolute;
   z-index: -20;
   top: 0;
   height: 777px;
   width: 100%;
-  background: url("/home/images/home_banner_large.png") no-repeat;
+  background: url("/home/images/home_banner_large_2x.png") no-repeat;
   background-size: 3143px 777px;
-  background-position: center top; }
+  background-position: center top;
+  pointer-events: none; }
 
 .shade {
   position: absolute;
@@ -15,26 +21,26 @@
   left: calc(50% - 180px);
   width: calc(50% + 180px);
   height: 744px;
-  background-image: url("/home/images/shade_large.png");
+  background-image: url("/home/images/shade_large_2x.png");
   background-repeat: no-repeat;
   background-size: 1168px 744px;
-  padding: 270px 40px 0 200px; }
+  padding: 270px 50px 0 200px; }
 
-.shade h1 {
+.hero h1 {
   color: #FFF;
   font-family: "Bebas Kai";
   font-weight: 500;
   font-size: 51px;
   line-height: 43px; }
 
-.shade h1 span {
+.hero h1 span {
   color: #2583d9; }
 
-.shade p {
+.hero p {
   color: #7d9fbd;
   max-width: 500px; }
 
-.shade a {
+.hero a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -48,46 +54,41 @@ main {
 section.promo-tiles {
   max-width: 1920px;
   margin: 0 auto;
-  height: 256px; }
+  height: 256px;
+  padding: 0 16px; }
 
 section.promo-tiles .promo-tile {
-  padding: 3px; }
-
-section.promo-tiles .promo-tile:first-child {
-  padding-left: 6px; }
-
-section.promo-tiles .promo-tile:last-child {
-  padding-right: 6px; }
+  padding: 3px 3px; }
 
 section.promo-tiles .promo-tile a {
   border-radius: 4px;
   height: 256px;
-  background-size: 470px 256px;
+  background-size: 670px 256px;
   background-position: center top;
   background-repeat: no-repeat;
   display: block; }
 
 section.promo-tiles .promo-1 a {
-  background-image: url("/home/images/promo_recruiting_large.png"); }
+  background-image: url("/home/images/promo_recruiting_small.png"); }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
   section.promo-tiles .promo-1 a {
-    background-image: url("/home/images/promo_recruiting_large_2x.png"); } }
+    background-image: url("/home/images/promo_recruiting_small_2x.png"); } }
 section.promo-tiles .promo-2 a {
-  background-image: url("/home/images/promo_year_in_review_large.png"); }
+  background-image: url("/home/images/promo_year_in_review_small.png"); }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
   section.promo-tiles .promo-2 a {
-    background-image: url("/home/images/promo_year_in_review_large_2x.png"); } }
+    background-image: url("/home/images/promo_year_in_review_small_2x.png"); } }
 section.promo-tiles .promo-3 a {
-  background-image: url("/home/images/promo_aam_large.png"); }
+  background-image: url("/home/images/promo_aam_small.png"); }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
   section.promo-tiles .promo-3 a {
-    background-image: url("/home/images/promo_aam_large_2x.png"); } }
+    background-image: url("/home/images/promo_aam_small_2x.png"); } }
 section.promo-tiles .promo-4 a {
-  background-image: url("/home/images/promo_who_large.png"); }
+  background-image: url("/home/images/promo_who_small.png"); }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
   section.promo-tiles .promo-4 a {
-    background-image: url("/home/images/promo_who_large_2x.png"); } }
+    background-image: url("/home/images/promo_who_small_2x.png"); } }

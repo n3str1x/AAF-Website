@@ -3962,6 +3962,10 @@ table.hover tr:nth-of-type(even):hover {
 .long-delay {
   animation-delay: 700ms !important; }
 
+/* Include Mosterrat */
+@font-face {
+  font-family: "Bebas";
+  src: url("/fonts/BebasKai-Regular.otf") format("opentype"); }
 /* HEADER */
 header {
   position: fixed;
@@ -4025,17 +4029,10 @@ header nav a.button {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
   .AAF-white {
     background-image: url("/global/images/logo_white_large_2x.png"); } }
-.space {
-  height: 1px; }
-
 main {
   width: 100%;
   max-height: 987px;
   min-height: 600px;
   background-image: url("/global/images/body_curve_large.png");
   background-repeat: no-repeat;
-  background-position: center top;
-  margin-top: 605px; }
-
-html {
-  font-size: 99%; }
+  background-position: center top; }
