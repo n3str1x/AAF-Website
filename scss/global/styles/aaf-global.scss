@@ -14,6 +14,7 @@
 /* HEADER */
 
 header {
+	z-index: 100;
 	position: fixed;
 	top: 0;
 	height: 120px;
@@ -61,6 +62,12 @@ header nav a {
 	vertical-align: top;
 	padding: 0 50px;
 }
+@media screen and (max-width: 64em) {
+	header nav a {
+		padding: 0 (100vw / 30 - (20vw / 30) * 2);
+	}
+}
+
 header nav a.button {
 	font-family: 'Montserrat', sans-serif;;
 	font-weight: 400;
@@ -86,9 +93,10 @@ header nav a.button {
 	}
 }
 main {
+	color: #FFF;
+	padding-top: 40px;
 	width: 100%;
-	max-height: 987px;
-	min-height: 600px;
+	min-height: 1100px;
 	background-image: url('/global/images/body_curve_large.png');
 	background-repeat: no-repeat;
 	background-position: center top;
