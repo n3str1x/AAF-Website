@@ -3342,17 +3342,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/home\/images\/1559423_10154572752750646_2865594016256663502_o.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 140309,
-		"inputAbbreviatedPath": "\/home\/images\/1559423_10154572752750646_2865594016256663502_o.jpg",
-		"outputAbbreviatedPath": "\/home\/images\/1559423_10154572752750646_2865594016256663502_o.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/home\/images\/home_banner_large.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3371,6 +3360,17 @@
 		"initialSize": 1.57013e+07,
 		"inputAbbreviatedPath": "\/home\/images\/home_banner_large_2x.png",
 		"outputAbbreviatedPath": "\/home\/images\/home_banner_large_2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/home\/images\/home_bg_large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140309,
+		"inputAbbreviatedPath": "\/home\/images\/home_bg_large.jpg",
+		"outputAbbreviatedPath": "\/home\/images\/home_bg_large.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

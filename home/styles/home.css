@@ -1,10 +1,9 @@
 .hero {
   height: 605px;
   text-align: center;
-  padding: 270px 0 0;
-  margin-bottom: -40px; }
+  padding: 300px 0 0; }
   .hero p {
-    color: #7d9fbd;
+    color: #CCCCCC;
     max-width: 700px;
     margin: 0px auto 30px;
     text-shadow: #000 0px 0px 15px; }
@@ -21,7 +20,8 @@
     font-weight: 500;
     font-size: 51px;
     line-height: 43px;
-    text-shadow: #000 0px 0px 35px; }
+    text-shadow: #000 0px 0px 35px;
+    margin: 0; }
     .hero h1 span {
       color: #2583d9; }
 
@@ -31,12 +31,11 @@
   top: 0;
   height: 777px;
   width: 100%;
-  background: url("/home/images/1559423_10154572752750646_2865594016256663502_o.jpg") no-repeat;
+  background: url("/home/images/home_bg_large.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
   pointer-events: none;
-  overflow: hidden;
-  opacity: 0.25; }
+  overflow: hidden; }
   .bg video {
     width: 100%;
     display: none; }
