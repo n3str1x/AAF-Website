@@ -3966,6 +3966,16 @@ table.hover tr:nth-of-type(even):hover {
 @font-face {
   font-family: "Bebas";
   src: url("/fonts/BebasKai-Regular.otf") format("opentype"); }
+figure {
+  margin: 0; }
+
+.row:before, .row:after {
+  content: ' ';
+  display: table; }
+
+.row:after {
+  clear: both; }
+
 /* HEADER */
 header {
   z-index: 100;
@@ -3977,67 +3987,85 @@ header {
   background-size: 2863px 120px;
   background-position: center top;
   background-repeat: no-repeat; }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-  header {
-    background-image: url("/global/images/header_curve_large_2x.png"); } }
-header .logo {
-  background-image: url("/global/images/logo.png");
-  background-repeat: no-repeat;
-  background-size: 203px 194px;
-  height: 194px;
-  width: 203px;
-  position: absolute;
-  left: calc(50% - (203px/2));
-  top: 0; }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+    header {
+      background-image: url("/global/images/header_curve_large_2x.png"); } }
   header .logo {
-    background-image: url("/global/images/logo_2x.png"); } }
-header nav {
-  display: inline-block;
-  margin-top: 38px;
-  vertical-align: top; }
+    background-image: url("/global/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 203px 194px;
+    height: 194px;
+    width: 203px;
+    position: absolute;
+    left: calc(50% - (203px/2));
+    top: 0; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+      header .logo {
+        background-image: url("/global/images/logo_2x.png"); } }
+  header nav {
+    display: inline-block;
+    margin-top: 38px;
+    vertical-align: top; }
+    header nav a {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #FFF;
+      vertical-align: top;
+      padding: 0 50px; }
+      @media screen and (max-width: 64em) {
+        header nav a {
+          padding: 0 2vw; } }
+    header nav a.button {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      vertical-align: bottom;
+      margin: 0 5px;
+      margin-top: -13px;
+      padding: 16px 40px; }
+  header nav.right {
+    float: right; }
 
-header nav.right {
-  float: right; }
-
-header nav a {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #FFF;
-  vertical-align: top;
-  padding: 0 50px; }
-
-@media screen and (max-width: 64em) {
-  header nav a {
-    padding: 0 2vw; } }
-header nav a.button {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  vertical-align: bottom;
-  margin: 0 5px;
-  margin-top: -13px;
-  padding: 16px 40px; }
-
-.AAF-white {
-  background-image: url("/global/images/logo_white_large.png");
-  background-repeat: no-repeat;
-  background-size: 203px 35px;
-  width: 204px;
-  height: 35px;
-  margin: 15px auto 25px; }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-  .AAF-white {
-    background-image: url("/global/images/logo_white_large_2x.png"); } }
 main {
   color: #FFF;
   padding-top: 40px;
   width: 100%;
-  min-height: 1100px;
+  min-height: 100vh;
   background-image: url("/global/images/body_curve_large.png");
   background-repeat: no-repeat;
   background-position: center top; }
+  main .AAF-white {
+    background-image: url("/global/images/logo_white_large.png");
+    background-repeat: no-repeat;
+    background-size: 203px 35px;
+    width: 204px;
+    height: 35px;
+    margin: 15px auto 25px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+      main .AAF-white {
+        background-image: url("/global/images/logo_white_large_2x.png"); } }
+
+footer {
+  padding: 60px 30px; }
+  footer .emblum {
+    clear: both;
+    height: 85px;
+    width: 73px;
+    background-image: url("/global/images/footer_emblum_2x.png");
+    background-size: 73px 85px; }
+  footer p {
+    font-size: 13px;
+    text-align: center;
+    color: #2583d9;
+    max-width: 700px;
+    padding: 0 90px;
+    margin: 0 auto; }
+    footer p span {
+      display: block;
+      color: #576d80; }
+  footer .alexsinnott {
+    height: 84px;
+    width: 79px;
+    background-image: url("/global/images/footer_alexsinnott_2x.png");
+    background-size: 79px 84px; }
