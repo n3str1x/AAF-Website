@@ -6,8 +6,6 @@
 					<span>ARMA 2&trade; ARMA 3&trade; and Bohemia Interactive&trade; are trademarks of Bohemia Interactive.</span>
 				</p>
 			</footer>
-			</main>
-		</div>
 
 
 		<script src="/bower_components/jquery/dist/jquery.js"></script>
@@ -21,5 +19,3 @@
 	      $('#content').smoothState();
 	    })(jQuery);
 	    </script>
-	</body>
-</html>

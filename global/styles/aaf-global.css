@@ -3964,8 +3964,13 @@ table.hover tr:nth-of-type(even):hover {
 
 /* Include Mosterrat */
 @font-face {
-  font-family: "Bebas";
-  src: url("/fonts/BebasKai-Regular.otf") format("opentype"); }
+  font-family: 'Bebas Kai';
+  src: url("/global/fonts/BebasKai-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("/global/fonts/BebasKai-Regular.eot?#iefix") format("embedded-opentype"), url("/global/fonts/BebasKai-Regular.woff") format("woff"), url("/global/fonts/BebasKai-Regular.ttf") format("truetype"), url("/global/fonts/BebasKai-Regular.svg#c28975f7bc16b5c3daf2206ee900d152") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
 figure {
   margin: 0; }
 
@@ -3978,7 +3983,7 @@ figure {
 
 /* HEADER */
 header {
-  z-index: 100;
+  z-index: 999;
   position: fixed;
   top: 0;
   height: 120px;
@@ -3991,7 +3996,7 @@ header {
     header {
       background-image: url("/global/images/header_curve_large_2x.png"); } }
   header .logo {
-    background-image: url("/global/images/logo.png");
+    background-image: url("/global/images/logo_large.png");
     background-repeat: no-repeat;
     background-size: 203px 194px;
     height: 194px;
@@ -4001,7 +4006,7 @@ header {
     top: 0; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
       header .logo {
-        background-image: url("/global/images/logo_2x.png"); } }
+        background-image: url("/global/images/logo_large_2x.png"); } }
   header nav {
     display: inline-block;
     margin-top: 38px;
@@ -4012,7 +4017,11 @@ header {
       font-size: 14px;
       color: #FFF;
       vertical-align: top;
-      padding: 0 50px; }
+      padding: 0 50px;
+      display: none; }
+      @media screen and (min-width: 40em) {
+        header nav a {
+          display: inline-block; } }
       @media screen and (max-width: 64em) {
         header nav a {
           padding: 0 2vw; } }
@@ -4026,6 +4035,21 @@ header {
       padding: 16px 40px; }
   header nav.right {
     float: right; }
+  header a.mobile_menu_button {
+    width: 29px;
+    height: 28px;
+    background-image: url("/global/images/menu_button_small");
+    background-size: 29px 28px;
+    display: block;
+    float: right;
+    margin-top: 36px;
+    margin-right: 30px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+      header a.mobile_menu_button {
+        background-image: url("/global/images/menu_button_small_2x"); } }
+    @media screen and (min-width: 40em) {
+      header a.mobile_menu_button {
+        display: none; } }
 
 main {
   color: #FFF;
@@ -4034,7 +4058,9 @@ main {
   min-height: 100vh;
   background-image: url("/global/images/body_curve_large.png");
   background-repeat: no-repeat;
-  background-position: center top; }
+  background-position: center top;
+  position: absolute;
+  z-index: 998; }
   main .AAF-white {
     background-image: url("/global/images/logo_white_large.png");
     background-repeat: no-repeat;
@@ -4045,6 +4071,17 @@ main {
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
       main .AAF-white {
         background-image: url("/global/images/logo_white_large_2x.png"); } }
+  main h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold; }
+    main h1 small {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: normal;
+      display: block;
+      font-size: 15px;
+      color: #576d80; }
 
 footer {
   padding: 60px 30px; }
@@ -4055,12 +4092,15 @@ footer {
     background-image: url("/global/images/footer_emblum_2x.png");
     background-size: 73px 85px; }
   footer p {
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
     color: #2583d9;
     max-width: 700px;
     padding: 0 90px;
     margin: 0 auto; }
+    @media screen and (min-width: 40em) {
+      footer p {
+        font-size: 13px; } }
     footer p span {
       display: block;
       color: #576d80; }

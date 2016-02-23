@@ -9,7 +9,19 @@
 
 /* Include Mosterrat */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@include font-face(Bebas, /fonts/BebasKai-Regular, null, null, otf);
+
+@font-face {
+  font-family: 'Bebas Kai';
+  src: url('/global/fonts/BebasKai-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/global/fonts/BebasKai-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/global/fonts/BebasKai-Regular.woff') format('woff'), /* Modern Browsers */
+       url('/global/fonts/BebasKai-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/global/fonts/BebasKai-Regular.svg#c28975f7bc16b5c3daf2206ee900d152') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
 
 
 
@@ -24,7 +36,7 @@ figure { margin: 0; }
 /* HEADER */
 
 header {
-	z-index: 100;
+	z-index: 999;
 	position: fixed;
 	top: 0;
 	height: 120px;
@@ -39,7 +51,7 @@ header {
 	}
 
 	.logo {
-		background-image: url('/global/images/logo.png');
+		background-image: url('/global/images/logo_large.png');
 		background-repeat: no-repeat;
 		background-size: 203px 194px;
 		height: 194px;
@@ -49,7 +61,7 @@ header {
 		top: 0;
 
 		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-			background-image: url('/global/images/logo_2x.png');
+			background-image: url('/global/images/logo_large_2x.png');
 		}
 	}
 
@@ -65,13 +77,18 @@ header {
 			color: #FFF;
 			vertical-align: top;
 			padding: 0 50px;
+			display: none;
+
+			@media screen and (min-width: 40em) {
+				display: inline-block;
+			}
 		
 			@media screen and (max-width: 64em) {
 				padding: 0 (100vw / 30 - (20vw / 30) * 2);
 			}
 		}
 		a.button {
-			font-family: 'Montserrat', sans-serif;;
+			font-family: 'Montserrat', sans-serif;
 			font-weight: 400;
 			font-size: 14px;
 			vertical-align: bottom;
@@ -82,6 +99,25 @@ header {
 	}
 	nav.right {
 		float: right;
+	}
+
+	a.mobile_menu_button {
+		width: 29px;
+		height: 28px;
+		background-image: url("/global/images/menu_button_small");
+		background-size: 29px 28px;
+		display: block;
+		float: right;
+		margin-top: 36px;
+		margin-right: 30px;
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+			background-image: url("/global/images/menu_button_small_2x");
+		}
+	
+		@media screen and (min-width: 40em) {
+			display: none;
+		}
 	}
 }
 
@@ -96,6 +132,8 @@ main {
 	background-image: url('/global/images/body_curve_large.png');
 	background-repeat: no-repeat;
 	background-position: center top;
+	position: absolute;
+	z-index: 998;
 	
 	.AAF-white {
 		background-image: url('/global/images/logo_white_large.png');
@@ -104,8 +142,24 @@ main {
 		width: 204px;
 		height: 35px;
 		margin: 15px auto 25px;
+		
 		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 				background-image: url('/global/images/logo_white_large_2x.png');
+		}
+	}
+
+	h1 {
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		font-size: 35px;
+		font-weight: bold;
+		
+		small {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: normal;
+			display: block;
+			font-size: 15px;
+			color: #576d80;
 		}
 	}
 }
@@ -122,12 +176,17 @@ footer {
 		background-size: 73px 85px;
 	}
 	p {
-		font-size: 13px;
+		font-size: 10px;
 		text-align: center;
 		color: #2583d9;
 		max-width: 700px;
 		padding: 0 90px;
 		margin: 0 auto;
+
+
+		@media screen and (min-width: 40em) {
+			font-size: 13px;
+		}
 
 		span {
 			display: block;

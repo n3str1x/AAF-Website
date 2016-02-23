@@ -5,12 +5,17 @@ main {
 }
 
 .hero {
+	z-index: 1;
 	height: 605px;
-	text-align: center;
+	text-align: left;
 	padding: 300px 0 0;
 
+	@media screen and (min-width: 40em) {
+		text-align: center;
+	}
+
 	p {
-		color: #CCCCCC;
+		color: #D0C0BC;
 		max-width: 700px;
 		margin: 0px auto 30px;
 		text-shadow: #000 0px 0px 15px;
@@ -22,7 +27,15 @@ main {
 		padding: 15px 35px;
 		margin-right: 10px;
 		margin-top: -5px;
+		width: 100%;
+
+		@media screen and (min-width: 30em) {	
+			width: auto;
+		}
 	}
+
+
+
 	h1 {
 		color: #FFF;
 		font-family: "Bebas Kai";
@@ -43,7 +56,7 @@ main {
 	top: 0;
 	height: 777px;
 	width: 100%;
-	background: url('/home/images/home_bg_large.jpg') no-repeat;
+	background: url('/home/images/home_banner_large.png') no-repeat;
 	background-size: cover;
 	background-position: center center;
 	pointer-events: none;
@@ -77,74 +90,129 @@ aside.promo-tiles {
 		padding: 0 0px;
 
 		.promo-tile { 
-			padding: 0px 3px; 
+			padding: 0px; 
+
+			@media screen and (min-width: 40em) {	
+				padding: 0px 3px;
+			}
 
 			a {
 				border-radius: $global-radius;
 				height: 256px;
-				background-size: 474px 256px;
+				background-size: 670px 256px;
 				background-position: center top;
 				background-repeat: no-repeat;
 				display: block;
 			}
+			@media screen and (min-width: 64em) {	
+				a {
+					background-size: 474px 256px;
+				}
+			}
+		}
+	}
+
+	.promo-1 a {
+		background-image: url('/home/images/promo_recruiting_small.png');
+	}
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+		
+		.promo-1 a {
+			background-image: url('/home/images/promo_recruiting_small_2x.png');
+		}
+	}
+	@media screen and (min-width: 64em) {
+		.promo-1 a {
+			background-image: url('/home/images/promo_recruiting_large.png');
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+		
+			.promo-1 a {
+				background-image: url('/home/images/promo_recruiting_large_2x.png');
+			}
+		}
+	}
+
+
+
+	.promo-2 a {
+		background-image: url('/home/images/promo_year_in_review_small.png');
+	}
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+		
+		.promo-2 a {
+			background-image: url('/home/images/promo_year_in_review_small_2x.png');
+		}
+
+	}
+	@media screen and (min-width: 64em) {
+		.promo-2 a {
+			background-image: url('/home/images/promo_year_in_review_large.png');
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+		
+			.promo-2 a {
+				background-image: url('/home/images/promo_year_in_review_large_2x.png');
+			}
+		}
+	}
+
+
+
+	.promo-3 a {
+		background-image: url('/home/images/promo_aam_small.png');
+	}
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+		
+		.promo-3 a {
+			background-image: url('/home/images/promo_aam_small_2x.png');
+		}
+
+	}
+	@media screen and (min-width: 64em) {
+		.promo-3 a {
+			background-image: url('/home/images/promo_aam_large.png');
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+		
+			.promo-3 a {
+				background-image: url('/home/images/promo_aam_large_2x.png');
+			}
+		}
+	}
+
+
+
+	.promo-4 a {
+		background-image: url('/home/images/promo_who_small.png');
+	}
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+		
+		.promo-4 a {
+			background-image: url('/home/images/promo_who_small_2x.png');
+		}
+	}
+	@media screen and (min-width: 64em) {
+		.promo-4 a {
+			background-image: url('/home/images/promo_who_large.png');
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+		
+			.promo-4 a {
+				background-image: url('/home/images/promo_who_large_2x.png');
+			}
 		}
 	}
 }
+
 aside.promo-tiles:before, aside.promo-tiles:after {
 	content: ' ';
     display: table;
 }
 aside.promo-tiles:after {
 	clear: both;
-}
-
-
-
-aside.promo-tiles .promo-1 a {
-	background-image: url('/home/images/promo_recruiting_large.png');
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-	
-	aside.promo-tiles .promo-1 a {
-		background-image: url('/home/images/promo_recruiting_large_2x.png');
-	}
-}
-
-
-
-aside.promo-tiles .promo-2 a {
-	background-image: url('/home/images/promo_year_in_review_large.png');
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-	
-	aside.promo-tiles .promo-2 a {
-		background-image: url('/home/images/promo_year_in_review_large_2x.png');
-	}
-
-}
-
-
-
-aside.promo-tiles .promo-3 a {
-	background-image: url('/home/images/promo_aam_large.png');
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-	
-	aside.promo-tiles .promo-3 a {
-		background-image: url('/home/images/promo_aam_large_2x.png');
-	}
-
-}
-
-
-
-aside.promo-tiles .promo-4 a {
-	background-image: url('/home/images/promo_who_large.png');
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-	
-	aside.promo-tiles .promo-4 a {
-		background-image: url('/home/images/promo_who_large_2x.png');
-	}
-
 }
