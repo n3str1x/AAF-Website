@@ -3965,9 +3965,9 @@ table.hover tr:nth-of-type(even):hover {
 /* Include Mosterrat */
 @font-face {
   font-family: 'Bebas Kai';
-  src: url("/global/fonts/BebasKai-Regular.eot");
+  src: url("/aaf-global/fonts/BebasKai-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("/global/fonts/BebasKai-Regular.eot?#iefix") format("embedded-opentype"), url("/global/fonts/BebasKai-Regular.woff") format("woff"), url("/global/fonts/BebasKai-Regular.ttf") format("truetype"), url("/global/fonts/BebasKai-Regular.svg#c28975f7bc16b5c3daf2206ee900d152") format("svg");
+  src: url("/aaf-global/fonts/BebasKai-Regular.eot?#iefix") format("embedded-opentype"), url("/aaf-global/fonts/BebasKai-Regular.woff") format("woff"), url("/aaf-global/fonts/BebasKai-Regular.ttf") format("truetype"), url("/aaf-global/fonts/BebasKai-Regular.svg#c28975f7bc16b5c3daf2206ee900d152") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
@@ -3988,15 +3988,15 @@ header {
   top: 0;
   height: 120px;
   width: 100%;
-  background-image: url("/global/images/header_curve_large.png");
+  background-image: url("/aaf-global/images/header/header_curve_large.png");
   background-size: 2863px 120px;
   background-position: center top;
   background-repeat: no-repeat; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
     header {
-      background-image: url("/global/images/header_curve_large_2x.png"); } }
+      background-image: url("/aaf-global/images/header/header_curve_large_2x.png"); } }
   header .logo {
-    background-image: url("/global/images/logo_large.png");
+    background-image: url("/aaf-global/images/header/logo_large.png");
     background-repeat: no-repeat;
     background-size: 203px 194px;
     height: 194px;
@@ -4006,7 +4006,7 @@ header {
     top: 0; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
       header .logo {
-        background-image: url("/global/images/logo_large_2x.png"); } }
+        background-image: url("/aaf-global/images/header/logo_large_2x.png"); } }
   header nav {
     display: inline-block;
     margin-top: 38px;
@@ -4038,7 +4038,7 @@ header {
   header a.mobile_menu_button {
     width: 29px;
     height: 28px;
-    background-image: url("/global/images/menu_button_small");
+    background-image: url("/aaf-global/images/header/menu_button_small..png");
     background-size: 29px 28px;
     display: block;
     float: right;
@@ -4046,7 +4046,7 @@ header {
     margin-right: 30px; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
       header a.mobile_menu_button {
-        background-image: url("/global/images/menu_button_small_2x"); } }
+        background-image: url("/aaf-global/images/header/menu_button_small_2x.png"); } }
     @media screen and (min-width: 40em) {
       header a.mobile_menu_button {
         display: none; } }
@@ -4056,13 +4056,13 @@ main {
   padding-top: 40px;
   width: 100%;
   min-height: 100vh;
-  background-image: url("/global/images/body_curve_large.png");
+  background-image: url("/aaf-global/images/content/body_curve_large.png");
   background-repeat: no-repeat;
   background-position: center top;
   position: absolute;
   z-index: 998; }
   main .AAF-white {
-    background-image: url("/global/images/logo_white_large.png");
+    background-image: url("/aaf-global/images/content/logo_white_large.png");
     background-repeat: no-repeat;
     background-size: 203px 35px;
     width: 204px;
@@ -4070,7 +4070,7 @@ main {
     margin: 15px auto 25px; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
       main .AAF-white {
-        background-image: url("/global/images/logo_white_large_2x.png"); } }
+        background-image: url("/aaf-global/images/content/logo_white_large_2x.png"); } }
   main h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -4089,7 +4089,7 @@ footer {
     clear: both;
     height: 85px;
     width: 73px;
-    background-image: url("/global/images/footer_emblum_2x.png");
+    background-image: url("/aaf-global/images/footer/footer_emblum_2x.png");
     background-size: 73px 85px; }
   footer p {
     font-size: 10px;
@@ -4107,5 +4107,5 @@ footer {
   footer .alexsinnott {
     height: 84px;
     width: 79px;
-    background-image: url("/global/images/footer_alexsinnott_2x.png");
+    background-image: url("/aaf-global/images/footer/footer_alexsinnott_2x.png");
     background-size: 79px 84px; }
