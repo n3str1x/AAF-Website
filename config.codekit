@@ -418,6 +418,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/about\/images\/community_driven_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.41721e+06,
+		"inputAbbreviatedPath": "\/about\/images\/community_driven_bg.jpg",
+		"outputAbbreviatedPath": "\/about\/images\/community_driven_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/about\/images\/friends_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.26731e+06,
+		"inputAbbreviatedPath": "\/about\/images\/friends_bg.jpg",
+		"outputAbbreviatedPath": "\/about\/images\/friends_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/about\/images\/intro_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13254e+06,
+		"inputAbbreviatedPath": "\/about\/images\/intro_bg.jpg",
+		"outputAbbreviatedPath": "\/about\/images\/intro_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/about\/images\/seriously_tactical_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.18265e+06,
+		"inputAbbreviatedPath": "\/about\/images\/seriously_tactical_bg.jpg",
+		"outputAbbreviatedPath": "\/about\/images\/seriously_tactical_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/about\/images\/structured_organised_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.90969e+06,
+		"inputAbbreviatedPath": "\/about\/images\/structured_organised_bg.jpg",
+		"outputAbbreviatedPath": "\/about\/images\/structured_organised_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/about\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3703,6 +3758,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/home\/images\/banner_temp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.86789e+06,
+		"inputAbbreviatedPath": "\/home\/images\/banner_temp.png",
+		"outputAbbreviatedPath": "\/home\/images\/banner_temp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/home\/images\/home_banner_large.png": {
 		"fileType": 32768,

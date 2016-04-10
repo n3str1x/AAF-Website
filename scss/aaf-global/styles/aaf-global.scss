@@ -10,6 +10,8 @@
 /* Include Mosterrat */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+@import url(https://fonts.googleapis.com/css?family=Exo:400,500,600,700,800,900,300,200,100);
+
 @font-face {
   font-family: 'Bebas Kai';
   src: url('/aaf-global/fonts/BebasKai-Regular.eot'); /* IE9 Compat Modes */
@@ -17,7 +19,7 @@
        url('/aaf-global/fonts/BebasKai-Regular.woff') format('woff'), /* Modern Browsers */
        url('/aaf-global/fonts/BebasKai-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('/aaf-global/fonts/BebasKai-Regular.svg#c28975f7bc16b5c3daf2206ee900d152') format('svg'); /* Legacy iOS */
-       
+
   font-style:   normal;
   font-weight:  400;
 }
@@ -82,7 +84,7 @@ header {
 			@media screen and (min-width: 40em) {
 				display: inline-block;
 			}
-		
+
 			@media screen and (max-width: 64em) {
 				padding: 0 (100vw / 30 - (20vw / 30) * 2);
 			}
@@ -114,7 +116,7 @@ header {
 		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 			background-image: url("/aaf-global/images/header/menu_button_small_2x.png");
 		}
-	
+
 		@media screen and (min-width: 40em) {
 			display: none;
 		}
@@ -134,7 +136,7 @@ main {
 	background-position: center top;
 	position: absolute;
 	z-index: 998;
-	
+
 	.AAF-white {
 		background-image: url('/aaf-global/images/content/logo_white_large.png');
 		background-repeat: no-repeat;
@@ -142,7 +144,7 @@ main {
 		width: 204px;
 		height: 35px;
 		margin: 15px auto 25px;
-		
+
 		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 				background-image: url('/aaf-global/images/content/logo_white_large_2x.png');
 		}
@@ -153,7 +155,7 @@ main {
 		text-transform: uppercase;
 		font-size: 35px;
 		font-weight: bold;
-		
+
 		small {
 			font-family: 'Montserrat', sans-serif;
 			font-weight: normal;

@@ -10,10 +10,13 @@ main {
     .hero {
       text-align: center; } }
   .hero p {
-    color: #D0C0BC;
+    font-size: 22px;
+    font-family: "Exo";
+    font-weight: 400;
+    color: #cfcece;
     max-width: 700px;
     margin: 0px auto 30px;
-    text-shadow: #000 0px 0px 15px; }
+    text-shadow: #000 0px 0px 15px, #000 0px 0px 15px, #000 0px 0px 15px; }
   .hero a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -21,17 +24,18 @@ main {
     padding: 15px 35px;
     margin-right: 10px;
     margin-top: -5px;
-    width: 100%; }
+    width: 100%;
+    box-shadow: #000 0px 0px 35px; }
     @media screen and (min-width: 30em) {
       .hero a {
         width: auto; } }
   .hero h1 {
     color: #FFF;
-    font-family: "Bebas Kai";
-    font-weight: 500;
+    font-family: "Exo";
+    font-weight: 600;
     font-size: 51px;
     line-height: 43px;
-    text-shadow: #000 0px 0px 35px;
+    text-shadow: #000 0px 0px 35px, #000 0px 0px 35px, #000 0px 0px 35px;
     margin: 0; }
     .hero h1 span {
       color: #2583d9; }
@@ -42,7 +46,7 @@ main {
   top: 0;
   height: 777px;
   width: 100%;
-  background: url("/home/images/home_banner_large.png") no-repeat;
+  background: url("/home/images/banner_temp.png") no-repeat;
   background-size: cover;
   background-position: center center;
   pointer-events: none;
