@@ -1,3 +1,140 @@
 main {
+	padding-top: 20px;
+	min-height: auto;
+	margin-top: -100px;
+}
+
+section {
+	height: 760px;
+	background-position: center center;
+	background-size: cover;
+
+	h1 {
+		color: #FFF;
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		font-size: 35px;
+		font-weight: bold;
+
+		small {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: normal;
+			display: block;
+			font-size: 15px;
+			color: rgba(255,255,255,0.4);
+		}
+	}
+
+	h2 {
+	  font-size: 52px;
+	  font-family: "Exo";
+	  color: rgb(255, 255, 255);
+	  font-weight: bold;
+	  margin-top: 120px;
+	  line-height: 1;
+	}
+	h3 {
+	  font-size: 27px;
+	  font-family: "Exo";
+	  color: rgb(200, 193, 188);
+	  margin-top: -10px;
+	}
+	p {
+		color: #b0b0b0;
+		max-width: 570px;
+		margin-top: 20px;
+	}
+}
+
+section#intro {
+	background-image: url('/about/images/intro_bg.jpg');
+	background-position: center top;
 	padding-top: 150px;
+
+	p {
+		margin: 0 auto;
+	}
+}
+
+section#structured {
+	background-image: url('/about/images/structured_organised_bg.jpg');
+	padding-top: 150px;
+
+	h2 {
+		color: #1b1917;
+	}
+	h3 {
+		color: #946036
+	}
+	p {
+		color: #332517;
+		text-shadow: 0px 0px 10px #ffefcf, 0px 0px 15px #ffeacf, 0px 0px 20px #ffeacf, 0px 0px 50px #ffeacf, 0px 0px 50px #ffefcft;
+	}
+}
+
+section#community {
+	background-image: url('/about/images/community_driven_bg.jpg');
+	padding-top: 130px;
+
+	h2 {
+		color: #FFF;
+	}
+	h3 {
+		color: #d9e883;
+	}
+	p {
+		color: #FFF;
+		max-width: 600px;
+	}
+}
+
+section#tactical {
+	background-image: url('/about/images/seriously_tactical_bg.jpg');
+	padding-top: 130px;
+
+	h2 {
+		color: #FFF;
+	}
+	h3 {
+		color: #55d55d;
+	}
+	p {
+		color: #EEE;
+	}
+}
+
+section#growing {
+	background-image: url('/about/images/growing_strong_bg.jpg');
+	padding-top: 130px;
+
+	h2, h3, p {
+		text-shadow: 0 0 16px rgba(0,0,0,0.84);
+	}
+	h2 {
+		color: #FFF;
+	}
+	h3 {
+		color: #7eabfc;
+	}
+	p {
+		color: #fff;
+	}
+}
+
+section#friends {
+	background-image: url('/about/images/friends_bg.jpg');
+	padding-top: 130px;
+
+	h2, h3, p {
+		text-shadow: 0 0 20px rgba(255,255,255,0.84);
+	}
+	h2 {
+		color: #1c1c1c;
+	}
+	h3 {
+		color: #3a6099;
+	}
+	p {
+		color: #292929;
+	}
 }

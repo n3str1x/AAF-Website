@@ -440,6 +440,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/about\/images\/growing_strong_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8.31228e+06,
+		"inputAbbreviatedPath": "\/about\/images\/growing_strong_bg.jpg",
+		"outputAbbreviatedPath": "\/about\/images\/growing_strong_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/about\/images\/intro_bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
