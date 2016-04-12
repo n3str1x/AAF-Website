@@ -3340,8 +3340,8 @@ table {
   thead,
   tbody,
   tfoot {
-    border: 1px solid #f1f1f1;
-    background-color: #fefefe; }
+    border: 1px solid #25395b;
+    background-color: #1f304d; }
 
   caption {
     font-weight: bold;
@@ -3349,8 +3349,8 @@ table {
 
   thead,
   tfoot {
-    background: #f8f8f8;
-    color: #0a0a0a; }
+    background: #223454;
+    color: #fefefe; }
     thead tr,
     tfoot tr {
       background: transparent; }
@@ -3363,7 +3363,7 @@ table {
       text-align: left; }
 
   tbody tr:nth-child(even) {
-    background-color: #f1f1f1; }
+    background-color: #25395b; }
   tbody th,
   tbody td {
     padding: 0.5rem 0.625rem 0.625rem; }
@@ -3386,9 +3386,9 @@ table.scroll {
   overflow-x: auto; }
 
 table.hover tr:hover {
-  background-color: #f9f9f9; }
+  background-color: #1c2b46; }
 table.hover tr:nth-of-type(even):hover {
-  background-color: #ececec; }
+  background-color: #152034; }
 
 .tabs {
   margin: 0;
