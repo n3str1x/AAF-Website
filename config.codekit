@@ -376,6 +376,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/aaf-global\/images\/og_image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33397,
+		"inputAbbreviatedPath": "\/aaf-global\/images\/og_image.png",
+		"outputAbbreviatedPath": "\/aaf-global\/images\/og_image.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/aaf-global\/scripts\/app.js": {
 		"fileType": 64,
 		"ignore": 0,
