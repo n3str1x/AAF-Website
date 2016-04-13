@@ -3752,6 +3752,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/divisions\/images\/icons\/applicant.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1512,
+		"inputAbbreviatedPath": "\/divisions\/images\/icons\/applicant.png",
+		"outputAbbreviatedPath": "\/divisions\/images\/icons\/applicant.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/divisions\/images\/icons\/leader.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1682,
+		"inputAbbreviatedPath": "\/divisions\/images\/icons\/leader.png",
+		"outputAbbreviatedPath": "\/divisions\/images\/icons\/leader.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/divisions\/images\/icons\/prospect.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1442,
+		"inputAbbreviatedPath": "\/divisions\/images\/icons\/prospect.png",
+		"outputAbbreviatedPath": "\/divisions\/images\/icons\/prospect.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/divisions\/images\/icons\/recruit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1681,
+		"inputAbbreviatedPath": "\/divisions\/images\/icons\/recruit.png",
+		"outputAbbreviatedPath": "\/divisions\/images\/icons\/recruit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/divisions\/images\/icons\/regular.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1796,
+		"inputAbbreviatedPath": "\/divisions\/images\/icons\/regular.png",
+		"outputAbbreviatedPath": "\/divisions\/images\/icons\/regular.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/divisions\/images\/icons\/staff.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1712,
+		"inputAbbreviatedPath": "\/divisions\/images\/icons\/staff.png",
+		"outputAbbreviatedPath": "\/divisions\/images\/icons\/staff.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/divisions\/images\/icons\/visitor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1477,
+		"inputAbbreviatedPath": "\/divisions\/images\/icons\/visitor.png",
+		"outputAbbreviatedPath": "\/divisions\/images\/icons\/visitor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/divisions\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,

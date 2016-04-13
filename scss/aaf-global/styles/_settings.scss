@@ -474,9 +474,9 @@ $switch-paddle-transition: all 0.25s ease-out;
 // 30. Table
 // ---------
 
-$table-background: #1f304d;
-$table-color-scale: 5%;
-$table-border: 1px solid smart-scale($table-background, $table-color-scale);
+$table-background: rgba(0,0,0,0.2);
+$table-color-scale: 30%;
+$table-border: none;
 $table-padding: rem-calc(8 10 10);
 $table-hover-scale: 2%;
 $table-row-hover: darken($table-background, $table-hover-scale);
@@ -485,8 +485,8 @@ $table-striped-background: smart-scale($table-background, $table-color-scale);
 $table-stripe: even;
 $table-head-background: smart-scale($table-background, $table-color-scale / 2);
 $table-foot-background: smart-scale($table-background, $table-color-scale);
-$table-head-font-color: $white;
-$show-header-for-stacked: false;
+$table-head-font-color: $black;
+$show-header-for-stacked: true;
 
 // 31. Tabs
 // --------
