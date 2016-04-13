@@ -354,6 +354,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/aaf-global\/images\/icons\/twitterlogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16714,
+		"inputAbbreviatedPath": "\/aaf-global\/images\/icons\/twitterlogo.png",
+		"outputAbbreviatedPath": "\/aaf-global\/images\/icons\/twitterlogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/aaf-global\/images\/icons\/youtube-social-icon_red_128px.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11135,
+		"inputAbbreviatedPath": "\/aaf-global\/images\/icons\/youtube-social-icon_red_128px.png",
+		"outputAbbreviatedPath": "\/aaf-global\/images\/icons\/youtube-social-icon_red_128px.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/aaf-global\/scripts\/app.js": {
 		"fileType": 64,
 		"ignore": 0,

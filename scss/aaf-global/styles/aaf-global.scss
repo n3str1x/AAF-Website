@@ -26,7 +26,7 @@
 
 
 
-
+/* Utilities */
 figure { margin: 0; }
 .row:before, .row:after {
 	content: ' ';
@@ -35,6 +35,26 @@ figure { margin: 0; }
 .row:after {
     clear: both;
 }
+
+/* Icons */
+
+.icon.youtube {
+    background-image: url("/aaf-global/images/icons/youtube-social-icon_red_128px.png");
+    background-size: 64px 45px;
+    height: 45px;
+    width: 64px;
+    display: inline-block;
+}
+
+.icon.twitter {
+    background-image: url("/aaf-global/images/icons/twitterlogo.png");
+    background-size: 59px 48px;
+    height: 48px;
+    width: 59px;
+    display: inline-block;
+}
+
+
 /* HEADER */
 
 header {
