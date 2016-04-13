@@ -3880,17 +3880,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/home\/images\/banner_temp_export.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 286960,
-		"inputAbbreviatedPath": "\/home\/images\/banner_temp_export.png",
-		"outputAbbreviatedPath": "\/home\/images\/banner_temp_export.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/home\/images\/home_banner_large.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3909,28 +3898,6 @@
 		"initialSize": 1.57013e+07,
 		"inputAbbreviatedPath": "\/home\/images\/home_banner_large_2x.png",
 		"outputAbbreviatedPath": "\/home\/images\/home_banner_large_2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/home\/images\/home_bg_large.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 140309,
-		"inputAbbreviatedPath": "\/home\/images\/home_bg_large.jpg",
-		"outputAbbreviatedPath": "\/home\/images\/home_bg_large.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/home\/images\/IMG_1754.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8.10612e+06,
-		"inputAbbreviatedPath": "\/home\/images\/IMG_1754.jpg",
-		"outputAbbreviatedPath": "\/home\/images\/IMG_1754.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
