@@ -50,7 +50,8 @@ section#intro {
 	background-image: url('/about/images/intro_bg.jpg');
 	background-position: center top;
 	padding-top: 150px;
-
+}
+section span.text-center {
 	p {
 		margin: 0 auto;
 	}
@@ -123,7 +124,7 @@ section#growing {
 
 section#friends {
 	background-image: url('/about/images/friends_bg.jpg');
-	padding-top: 130px;
+	padding-top: 100px;
 
 	h2, h3, p {
 		text-shadow: 0 0 20px rgba(255,255,255,0.84);
@@ -135,6 +136,26 @@ section#friends {
 		color: #3a6099;
 	}
 	p {
-		color: #292929;
+		color: #1c1c1c;
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	a.button {
+		margin: 0 auto;
+		margin-top: 50px;
+		font-family: 'Montserrat', sans-serif;;
+		font-weight: 400;
+		font-size: 14px;
+		padding: 15px 35px;
+		margin-right: 10px;
+		width: 100%;
+
+		@media screen and (min-width: 30em) {
+			width: auto;
+		}
+	}
+
+	a.secondary {
+		background-color: hsla(215,24%,12%,1);
 	}
 }
