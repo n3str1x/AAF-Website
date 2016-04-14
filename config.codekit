@@ -3767,6 +3767,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/divisions\/images\/icons\/aam.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18757,
+		"inputAbbreviatedPath": "\/divisions\/images\/icons\/aam.png",
+		"outputAbbreviatedPath": "\/divisions\/images\/icons\/aam.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/divisions\/images\/icons\/applicant.png": {
 		"fileType": 32768,
 		"ignore": 0,
