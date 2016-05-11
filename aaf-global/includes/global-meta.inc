@@ -8,6 +8,7 @@
 <meta property="og:image" content="http://australianarmedforces.org/aaf-global/images/og_image.png" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Australian Armed Forces – Arma 3 Unit" />
+<meta name="theme-color" content="#2583d9">
 
 <link rel="home" href="http://australianarmedforces.org/" />
 <link rel="index" href="http://australianarmedforces.org/" />
