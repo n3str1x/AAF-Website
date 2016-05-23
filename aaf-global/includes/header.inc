@@ -9,7 +9,7 @@
 			<a href="/"><div class="logo"></div></a>
 			<nav class="right">
 				<a href="/contact/">CONTACT</a>
-				<a href="https://discord.gg/0lKWghNku8ozvUJU">DISCORD</a>
+				<a href="https://discord.gg/0lKWghNku8qNrI6r">DISCORD</a>
 				<!-- <a class="button" href="#">APPLY NOW</a> -->
 				<a href="/apply/">APPLY</a>
 			</nav>
