@@ -19,5 +19,11 @@
     "test",
     "tests"
   ],
-  "private": true
+  "private": true,
+  "resolutions": {
+    "what-input": "^2.1.0",
+    "motion-ui": "^1.2.2",
+    "jquery": "^2.2.4",
+    "foundation-sites": "^6.2.3"
+  }
 }
