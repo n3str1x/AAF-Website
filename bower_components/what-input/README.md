@@ -1,5 +1,13 @@
 # What Input?
 
+## What Input is now v2
+
+Because of the ever-shifing complexity of supporting module loaders, __What Input__ v2 no longer supports UMD module loading (e.g., `var WhatInput = require('what-input')`). You can still require What Input without assigning a variable (e.g., `require('what-input')`).
+
+If you need UMD module loading, check out the last [v1.x.x](https://github.com/ten1seven/what-input/releases/tag/v1.2.5) release or [open a ticket](https://github.com/ten1seven/what-input/issues) so I can assess demand.
+
+## About What Input
+
 __A global utility for tracking the current input method (mouse, keyboard or touch).__
 
 What Input improves on [track-focus](https://github.com/ten1seven/track-focus) by adding a data attribute on the `<body>` instead of littering the DOM with classes on elements that have been interacted with. It also exposes a simple API that can be used for scripting interactions.
@@ -8,22 +16,34 @@ What Input improves on [track-focus](https://github.com/ten1seven/track-focus) b
 
 What Input uses event bubbling on the `<body>` to watch for mouse, keyboard and touch events (via `mousedown`, `keydown` and `touchstart`). It then sets or updates a `data-whatinput` on the `<body>`.
 
-Since the form fields `input` and `textarea` rely on the keyboard as their only means of input, What Input _does not_ switch the input type to keyboard when typing to preserve the last detected input type. To override this behavior and allow the keyboard to be recorded, add:
-
-```html
-<body data-whatinput-formtyping>
-```
+Where present, Pointer Events are supported, but note that `pen` inputs are remapped to `touch`.
 
 What Input also exposes a tiny API that allows the developer to ask for or set the current input.
 
 _What Input does not make assumptions about the input environment before the user makes their first interaction._
 
+### Interacting with Forms
+
+Since interacting with a form requires use of the keyboard, What Input _does not switch the input type while form inputs are being interacted with_, preserving the last detected input type. To override this behavior and allow the keyboard to be recorded, add:
+
+```html
+<body data-whatinput-formswitching>
+```
+
 ## Installing
 
-Download the file directly or install via Bower.
+Download the file directly...
+
+or install via Bower...
 
 ```shell
 bower install what-input
+```
+
+or install via NPM...
+
+```shell
+npm install what-input
 ```
 
 ## Usage
@@ -34,7 +54,7 @@ Include the script directly in your project.
 <script src="assets/scripts/what-input.js"></script>
 ```
 
-Or require with a script loader (What Input is AMD compatible).
+Or require with a script loader.
 
 ```javascript
 require('what-input');
@@ -48,7 +68,7 @@ What Input will start doing its thing while you do yours.
 /**
  * set a default :focus style
  */
-a:focus {
+:focus {
   outline: 3px dotted #06c;
 }
 
@@ -56,8 +76,8 @@ a:focus {
  * remove :focus style via What Input using progressive enhancement
  * so :focus isn't left broken if JavaScript fails
  */
-[data-whatinput="mouse"] a:focus,
-[data-whatinput="touch"] a:focus {
+[data-whatinput="mouse"] :focus,
+[data-whatinput="touch"] :focus {
   outline: none;
 }
 ```
@@ -91,9 +111,9 @@ whatInput.types(); // ex. returns ['mouse', 'keyboard']
 Tell What Input what's being used. This can be useful if you'd like to set an input method before the user has actually interacted with the page. What Input is not so assumptive on its own.
 
 ```javascript
-whatInput.set('hampster');
+whatInput.set('hamster');
 
-whatInput.ask(); // 'hampster'
+whatInput.ask(); // 'hamster'
 ```
 
 #### Key Logging
