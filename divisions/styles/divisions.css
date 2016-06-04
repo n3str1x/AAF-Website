@@ -24,15 +24,10 @@ h5 {
     margin-bottom: 10px;
     background: #5b72ac !important;
     content: none !important;
-    border-radius: 5px 5px 0 0; }
-    .teamspeakFrame > div > div:first-child :before {
-      content: "Teamspeak";
-      position: absolute;
-      display: block;
-      background-color: #000;
-      width: 100%;
-      height: 138px;
-      bottom: 0px; }
+    border-radius: 5px 5px 0 0;
+    text-indent: 100% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important; }
   .teamspeakFrame > div > div:nth-child(2), .teamspeakFrame > div > div:nth-child(5) {
     display: none !important; }
   .teamspeakFrame > div > div:nth-child(4) {
