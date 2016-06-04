@@ -31,16 +31,9 @@ h5 {
 		background: #5b72ac !important;
 		content: none !important;
 		border-radius: 5px 5px 0 0;
-
-		:before {
-			content: "Teamspeak";
-    position: absolute;
-    display: block;
-    background-color: #000;
-    width: 100%;
-    height: 138px;
-    bottom: 0px;
-		}
+		text-indent: 100% !important;
+		white-space: nowrap !important;
+		overflow: hidden !important;
 	}
 	> div:nth-child(2), > div:nth-child(5) {
 		display: none !important;
