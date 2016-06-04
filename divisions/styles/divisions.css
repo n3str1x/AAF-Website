@@ -16,6 +16,10 @@ h5 {
 .row.padding-bottom {
   padding-bottom: 50px; }
 
+.teamspeakMenu {
+  margin-bottom: -60px;
+  margin-left: 20px; }
+
 .teamspeakFrame > div {
   border-radius: 5px; }
   .teamspeakFrame > div > div:first-child {
