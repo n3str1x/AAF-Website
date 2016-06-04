@@ -20,3 +20,39 @@ h5 {
 .row.padding-bottom {
 	padding-bottom: 50px;
 }
+
+.teamspeakFrame > div {
+    border-radius: 5px;
+
+	> div:first-child {
+		padding: 25px 20px;
+		text-align: right;
+		margin-bottom: 10px;
+		background: #5b72ac !important;
+		content: none !important;
+		border-radius: 5px 5px 0 0;
+
+		:before {
+			content: "Teamspeak";
+    position: absolute;
+    display: block;
+    background-color: #000;
+    width: 100%;
+    height: 138px;
+    bottom: 0px;
+		}
+	}
+	> div:nth-child(2), > div:nth-child(5) {
+		display: none !important;
+	}
+	> div:nth-child(4) {
+		padding-bottom: 30px;
+	}
+	> div {
+		padding: 0 20px;
+	}
+	div {
+		color: #CCC !important;
+		font-size: 14px;
+	}
+}
