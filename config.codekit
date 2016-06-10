@@ -4498,6 +4498,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/divisions\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/divisions\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/divisions\/styles\/divisions.css": {
 		"fileType": 16,
 		"ignore": 1,
