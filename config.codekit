@@ -4809,6 +4809,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_10_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15971,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_10_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_10_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_11.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4816,6 +4827,17 @@
 		"initialSize": 242114,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_11.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_11_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12695,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_11_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_11_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4831,6 +4853,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_12_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7002,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_12_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_12_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_13.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4838,6 +4871,17 @@
 		"initialSize": 391381,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_13.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_13_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17070,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_13_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_13_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4853,6 +4897,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_14_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6167,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_14_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_14_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_15.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4860,6 +4915,17 @@
 		"initialSize": 174136,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_15.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_15_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14819,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_15_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_15_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4875,6 +4941,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_16_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18447,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_16_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_16_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_17.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4882,6 +4959,17 @@
 		"initialSize": 179801,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_17.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_17_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14828,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_17_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_17_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4897,6 +4985,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_18_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25821,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_18_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_18_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_19.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4904,6 +5003,17 @@
 		"initialSize": 641081,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_19.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_19.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_19_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29554,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_19_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_19_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4941,6 +5051,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_20_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14356,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_20_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_20_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_21.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4948,6 +5069,17 @@
 		"initialSize": 496027,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_21.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_21.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_21_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13459,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_21_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_21_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4963,6 +5095,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_22_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15149,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_22_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_22_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_23.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4970,6 +5113,17 @@
 		"initialSize": 531707,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_23.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_23.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_23_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15300,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_23_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_23_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4985,6 +5139,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_24_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15102,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_24_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_24_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_25.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4992,6 +5157,17 @@
 		"initialSize": 413199,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_25.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_25.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_25_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13145,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_25_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_25_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5007,6 +5183,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_26_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9870,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_26_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_26_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_27.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5014,6 +5201,17 @@
 		"initialSize": 347631,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_27.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_27.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_27_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11138,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_27_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_27_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5029,6 +5227,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_28_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18045,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_28_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_28_thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/images\/gallery_29.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5036,6 +5245,17 @@
 		"initialSize": 400148,
 		"inputAbbreviatedPath": "\/media\/images\/gallery_29.jpg",
 		"outputAbbreviatedPath": "\/media\/images\/gallery_29.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_29_thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17463,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_29_thumb.jpg",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_29_thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5755,15 +5975,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/media\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/media\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/media\/scripts\/media.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -5863,15 +6074,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/media\/styles\/media.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/media\/styles\/media.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/media\/styles\/photoswipe.css": {
 		"fileType": 16,
@@ -6062,22 +6264,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/media\/styles\/default-skin\/default-skin.scss",
 		"outputAbbreviatedPath": "\/media\/styles\/default-skin\/default-skin.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/scss\/media\/styles\/media.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/media\/styles\/media.scss",
-		"outputAbbreviatedPath": "\/media\/styles\/media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

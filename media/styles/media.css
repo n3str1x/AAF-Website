@@ -1,5 +1,7 @@
 main {
   padding-top: 0px; }
+  main .titles {
+    margin-bottom: 30px; }
 
 .shader {
   padding: 150px 0 50px;
@@ -11,12 +13,11 @@ main {
   max-height: 161.3px; }
 
 .videoWrapper {
-  margin-top: 30px;
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  padding-top: 25px;
-  height: 0; }
+  position: relative; }
+  .videoWrapper .ratio {
+    display: block;
+    width: 100%;
+    height: auto; }
   .videoWrapper iframe {
     position: absolute;
     top: 0;
