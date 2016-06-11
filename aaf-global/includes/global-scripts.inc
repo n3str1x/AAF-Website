@@ -1,7 +1,5 @@
-		<script src="/bower_components/jquery/dist/jquery.js"></script>
-		<script src="/bower_components/what-input/what-input.js"></script>
-		<script src="/bower_components/foundation-sites/dist/foundation.js"></script>
-	    <script src="/aaf-global/scripts/jquery.smoothState.js"></script>
+		<script src="/aaf-global/scripts/min/aaf-global-v1-min.js"></script>
+	    <script src="/aaf-global/scripts/min/jquery.smoothState-min.js"></script>
 
 
 	    <script>
@@ -19,4 +17,3 @@
 			ga('create', 'UA-43361759-4', 'auto');
 			ga('send', 'pageview');
 		</script>
-		
