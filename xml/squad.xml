@@ -105,19 +105,25 @@
     <member id="76961198141027127" nick="IceJad">
         <name>IceJad</name>
         <email>N/A</email>
-        <icq></icq>
+        <icq>N/A</icq>
         <remark>Smoke me a kipper I'll be home for breakfast.</remark>
     </member>
     <member id="76561197990250291" nick="Rommel">
         <name>Rommel</name>
         <email>N/A</email>
-        <icq></icq>
+        <icq>N/A</icq>
         <remark>Just the tip</remark>
     </member>
     <member id="76561197994625073" nick="AliasAlpha">
         <name>AliasAlpha</name>
         <email>N/A</email>
-        <icq></icq>
+        <icq>N/A</icq>
         <remark>No Gods, No Masters</remark>
+    </member>
+    <member id="76561198014394595" nick="Valk">
+        <name>Valk</name>
+        <email>N/A</email>
+        <icq>N/A</icq>
+        <remark>Brass polished to the nth degree.</remark>
     </member>
 </squad>
