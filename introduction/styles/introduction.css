@@ -1,14 +1,22 @@
 main {
-  padding-top: 150px; }
+  padding-top: 0px; }
+  main .titles {
+    margin-bottom: 20px; }
 
-h1 {
-  margin-bottom: 50px; }
+.shader {
+  padding: 150px 0 50px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); }
 
-h3 {
+h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 24px;
-  text-transform: uppercase; }
-
-h5 {
-  margin-top: -10px; }
+  text-transform: uppercase;
+  margin: 30px 0; }
+  h4 small {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    display: block;
+    font-size: 15px;
+    color: #576d80;
+    line-height: 0.5; }
