@@ -4809,6 +4809,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/introduction\/images\/scarlet_updater.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.56419e+06,
+		"inputAbbreviatedPath": "\/introduction\/images\/scarlet_updater.png",
+		"outputAbbreviatedPath": "\/introduction\/images\/scarlet_updater.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/introduction\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
