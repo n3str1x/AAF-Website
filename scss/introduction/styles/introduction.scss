@@ -1,5 +1,4 @@
-main {
-	padding-top: 0px;
+main { padding-top: 150px; }
 
 	.titles {
 		margin-bottom: 20px;
@@ -21,24 +20,11 @@ main {
 	}
 }
 
-.shader {
-	padding: 150px 0 50px;
-	width: 100%;
-	background: rgba(0,0,0,0.5);
-}
-
-h4 {
+h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	font-size: 24px;
 	text-transform: uppercase;
-	margin: 30px 0;
-
-	small {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: normal;
-		display: block;
-		font-size: 15px;
-		color: #576d80;
-		line-height: 0.5;
-	}
 }
+
+h5 { margin-top: -10px; }
