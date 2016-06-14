@@ -1,0 +1,26 @@
+main {
+  padding-top: 0px; }
+  main .titles {
+    margin-bottom: 20px; }
+  main p, main li, main small {
+    color: rgba(255, 255, 255, 0.7); }
+  main .button-third {
+    width: 100%;
+    display: inline-block; }
+    @media screen and (min-width: 40em) {
+      main .button-third {
+        width: 32%; } }
+    main .button-third:last-child:not(:first-child), main .button-third:last-child:not(:first-child) {
+      float: right; }
+
+h1 {
+  margin-bottom: 50px; }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase; }
+
+h5 {
+  margin-top: -10px; }
