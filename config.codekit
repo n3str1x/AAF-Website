@@ -5997,6 +5997,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/images\/gallery_pano.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.09222e+07,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_pano.png",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_pano.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/images\/gallery_pano_thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 570169,
+		"inputAbbreviatedPath": "\/media\/images\/gallery_pano_thumb.png",
+		"outputAbbreviatedPath": "\/media\/images\/gallery_pano_thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
