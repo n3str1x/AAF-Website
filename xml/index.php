@@ -1,3 +1,3 @@
 <?php
 
-    header("Location: http://australianarmedforces.org/xml/squad.xml");
+    header("Location: http://" . $_SERVER['HTTP_HOST'] . "/xml/squad.xml");
