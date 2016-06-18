@@ -3,13 +3,15 @@ main {
 
 .hero {
   z-index: 1;
-  height: 605px;
+  height: 705px;
   text-align: left;
-  padding: 300px 0 0; }
+  padding: 250px 0 500px; }
   @media screen and (min-width: 40em) {
     .hero {
-      text-align: center; } }
-  .hero p {
+      text-align: center;
+      height: 605px;
+      padding: 260px 0 0; } }
+  .hero .small-12 > p {
     font-size: 22px;
     font-family: "Exo";
     font-weight: 400;
@@ -23,7 +25,6 @@ main {
     font-size: 14px;
     padding: 15px 35px;
     margin-right: 10px;
-    margin-top: -5px;
     width: 100%; }
     @media screen and (min-width: 30em) {
       .hero a {
@@ -34,12 +35,38 @@ main {
     color: #FFF;
     font-family: "Exo";
     font-weight: 600;
-    font-size: 51px;
+    font-size: 40px;
     line-height: 43px;
-    text-shadow: #000 0px 0px 35px, #000 0px 0px 35px, #000 0px 0px 35px;
-    margin: 0; }
+    margin: 0;
+    text-shadow: #000 0px 0px 12px; }
+    @media screen and (min-width: 40em) {
+      .hero h1 {
+        font-size: 48px;
+        line-height: 48px;
+        text-shadow: #000 0px 0px 35px, #000 0px 0px 35px, #000 0px 0px 35px; } }
+    @media screen and (min-width: 64em) {
+      .hero h1 {
+        font-size: 51px; } }
     .hero h1 span {
-      color: #2583d9; }
+      color: #2999ff; }
+      @media screen and (min-width: 64em) {
+        .hero h1 span {
+          color: #2583d9; } }
+  .hero .application-callout {
+    margin-bottom: 15px; }
+    .hero .application-callout .callout {
+      padding: 5px 20px;
+      max-width: 400px;
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #d54422;
+      margin: 0 auto;
+      font-size: 9px;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+      text-align: center; }
 
 .bg {
   position: absolute;
