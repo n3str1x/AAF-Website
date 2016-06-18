@@ -6,33 +6,39 @@ main {
 
 .hero {
 	z-index: 1;
-	height: 605px;
+	height: 705px;
 	text-align: left;
-	padding: 300px 0 0;
+	padding: 250px 0 500px;
 
 	@media screen and (min-width: 40em) {
 		text-align: center;
+		height: 605px;
+		padding: 260px 0 0;
 	}
 
-	p {
-		font-size: 22px;
+	.small-12>p {
+		font-size: 18px;
 		font-family: "Exo";
 		font-weight: 400;
 		color: #cfcece;
 		max-width: 700px;
 		margin: 0px auto 30px;
 		text-shadow: #000 0px 0px 15px, #000 0px 0px 15px, #000 0px 0px 15px;
+
+
+		@media screen and (min-width: 40em) {
+			font-size: 22px;
+		}
 	}
 	a {
-		font-family: 'Montserrat', sans-serif;;
+		font-family: 'Montserrat', sans-serif;
 		font-weight: 400;
 		font-size: 14px;
 		padding: 15px 35px;
 		margin-right: 10px;
-		margin-top: -5px;
 		width: 100%;
 
-		@media screen and (min-width: 30em) {
+		@media screen and (min-width: 40em) {
 			width: auto;
 		}
 	}
@@ -40,50 +46,104 @@ main {
 		background-color: hsla(215,24%,12%,1);
 	}
 
-
-
 	h1 {
 		color: #FFF;
 		font-family: "Exo";
 		font-weight: 600;
-		font-size: 51px;
+		font-size: 40px;
 		line-height: 43px;
-		text-shadow: #000 0px 0px 35px, #000 0px 0px 35px, #000 0px 0px 35px;
 		margin: 0;
+		text-shadow: #000 0px 0px 12px;
 
-		span { color: #2583d9; }
+		@media screen and (min-width: 40em) {
+			font-size: 48px;
+			line-height: 48px;
+			text-shadow: #000 0px 0px 35px, #000 0px 0px 35px, #000 0px 0px 35px;
+		}
+
+		@media screen and (min-width: 64em) {
+			font-size: 51px;
+		}
+
+		span {
+			color: #2999ff;
+
+			@media screen and (min-width: 64em) {
+				color: #2583d9;
+			}
+		}
+	}
+	.application-callout {
+		margin-bottom: 15px;
+
+		.callout {
+			padding: 5px 20px;
+			max-width: 400px;
+			display: inline-block;
+			border-radius: 4px;
+			background-color: rgb(213, 68, 34);
+			margin: 0 auto;
+			font-size: 9px;
+			font-family: 'Montserrat', sans-serif;
+			text-transform: uppercase;
+			color: rgb(255, 255, 255);
+			font-weight: bold;
+			text-align: center;
+		}
 	}
 
 }
+
 
 .bg {
 	position: absolute;
 	z-index: -20;
-	top: 0;
+	top: 0; 
 	height: 777px;
 	width: 100%;
-	background: url('/home/images/banner_temp.png') no-repeat;
+	background: url("/home/images/banner_temp.png") no-repeat;
 	background-size: cover;
 	background-position: center center;
 	pointer-events: none;
 	overflow: hidden;
+	background-image: url('/home/images/banner_home_small.png');
 
-	video {
-		width: 100%;
-		display: none;
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+		& {
+			background-image: url('/home/images/banner_home_small_2x.png');
+		}
+
 	}
-}
-.shade {
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	left: calc(50% - 180px);
-	width: calc(50% + 180px);
-	height: 744px;
-	background-image: url('/home/images/shade_large_2x.png');
-	background-repeat: no-repeat;
-	background-size: 1168px 744px;
-	padding: 270px 50px 0 200px;
+	@media screen and (min-width: 40em) {
+		& {
+			background-image: url('/home/images/banner_home_large.png');
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+			& {
+				background-image: url('/home/images/banner_home_large_2x.png');
+			}
+		}
+	}
+	@media screen and (min-width: 64em) {
+		& {
+			background-image: url('/home/images/banner_home_large.png');
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+			& {
+				background-image: url('/home/images/banner_home_large_2x.png');
+			}
+		}
+
+		video {
+			width: 100%;
+			display: none;
+		}
+	}
 }
 main {
 	padding-top: 40px;
