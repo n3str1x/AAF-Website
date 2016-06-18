@@ -17,13 +17,18 @@ main {
 	}
 
 	.small-12>p {
-		font-size: 22px;
+		font-size: 18px;
 		font-family: "Exo";
 		font-weight: 400;
 		color: #cfcece;
 		max-width: 700px;
 		margin: 0px auto 30px;
 		text-shadow: #000 0px 0px 15px, #000 0px 0px 15px, #000 0px 0px 15px;
+
+
+		@media screen and (min-width: 40em) {
+			font-size: 22px;
+		}
 	}
 	a {
 		font-family: 'Montserrat', sans-serif;
@@ -33,7 +38,7 @@ main {
 		margin-right: 10px;
 		width: 100%;
 
-		@media screen and (min-width: 30em) {
+		@media screen and (min-width: 40em) {
 			width: auto;
 		}
 	}
@@ -89,34 +94,56 @@ main {
 
 }
 
+
 .bg {
 	position: absolute;
 	z-index: -20;
-	top: 0;
+	top: 0; 
 	height: 777px;
 	width: 100%;
-	background: url('/home/images/banner_temp.png') no-repeat;
+	background: url("/home/images/banner_temp.png") no-repeat;
 	background-size: cover;
 	background-position: center center;
 	pointer-events: none;
 	overflow: hidden;
+	background-image: url('/home/images/banner_home_small.png');
 
-	video {
-		width: 100%;
-		display: none;
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+		& {
+			background-image: url('/home/images/banner_home_small_2x.png');
+		}
+
 	}
-}
-.shade {
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	left: calc(50% - 180px);
-	width: calc(50% + 180px);
-	height: 744px;
-	background-image: url('/home/images/shade_large_2x.png');
-	background-repeat: no-repeat;
-	background-size: 1168px 744px;
-	padding: 270px 50px 0 200px;
+	@media screen and (min-width: 40em) {
+		& {
+			background-image: url('/home/images/banner_home_large.png');
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+			& {
+				background-image: url('/home/images/banner_home_large_2x.png');
+			}
+		}
+	}
+	@media screen and (min-width: 64em) {
+		& {
+			background-image: url('/home/images/banner_home_large.png');
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+			& {
+				background-image: url('/home/images/banner_home_large_2x.png');
+			}
+		}
+
+		video {
+			width: 100%;
+			display: none;
+		}
+	}
 }
 main {
 	padding-top: 40px;
