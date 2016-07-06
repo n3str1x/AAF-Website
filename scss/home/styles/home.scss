@@ -98,7 +98,7 @@ main {
 .bg {
 	position: absolute;
 	z-index: -20;
-	top: 0; 
+	top: 0;
 	height: 777px;
 	width: 100%;
 	background: url("/home/images/banner_temp.png") no-repeat;
@@ -169,10 +169,22 @@ aside.promo-tiles {
 				background-position: center top;
 				background-repeat: no-repeat;
 				display: block;
-			}
-			@media screen and (min-width: 64em) {
-				a {
+
+				@media screen and (min-width: 64em) {
 					background-size: 474px 256px;
+				}
+
+				.alt {
+					position: absolute;
+					clip: rect(1px 1px 1px 1px);
+					clip: rect(1px, 1px, 1px, 1px);
+					-webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+					clip-path: inset(0px 0px 99.9% 99.9%);
+					overflow: hidden;
+					height: 1px;
+					width: 1px;
+					padding: 0;
+					border: 0;
 				}
 			}
 		}
