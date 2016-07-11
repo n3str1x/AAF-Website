@@ -5,19 +5,7 @@ main {
 		margin-bottom: 20px;
 	}
 	p, li, small {
-		color: rgba(255,255,255, 0.7);
-	}
-	.button-third {
-		width: 100%;
-		display: inline-block;
-
-		@media screen and (min-width: 40em) {
-			width: 32%;
-		}
-
-		&:last-child:not(:first-child), &:last-child:not(:first-child) {
-			float:right;
-		}
+		color: rgb(114, 134, 162);
 	}
 }
 
