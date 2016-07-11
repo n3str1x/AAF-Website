@@ -5,18 +5,26 @@ main {
 		margin-bottom: 20px;
 	}
 	p, li, small {
-		color: rgba(255,255,255, 0.7);
+		color: #576d80;
 	}
-	.button-third {
+	div.image {
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		border-radius: 3px;
+		margin-bottom: 1em;
+		height: 160px;
 		width: 100%;
-		display: inline-block;
 
-		@media screen and (min-width: 40em) {
-			width: 32%;
+		&.scarlet {
+			background-position: top;
+			background-image: url('http://i.imgur.com/SNqUxXzl.png');
 		}
-
-		&:last-child:not(:first-child), &:last-child:not(:first-child) {
-			float:right;
+		&.discord {
+			background-image: url('http://i.imgur.com/CEs9Y6u.png');
+		}
+		&.play {
+			background-image: url('http://i.imgur.com/eCVu24Ul.jpg');
 		}
 	}
 }

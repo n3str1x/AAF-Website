@@ -126,7 +126,7 @@ header {
 	a.mobile_menu_button {
 		width: 29px;
 		height: 28px;
-		background-image: url("/aaf-global/images/header/menu_button_small..png");
+		background-image: url("/aaf-global/images/header/menu_button_small.png");
 		background-size: 29px 28px;
 		display: block;
 		float: right;
@@ -148,7 +148,7 @@ header {
 
 main {
 	color: #FFF;
-	padding-top: 40px;
+    padding-top: 160px;
 	width: 100%;
 	min-height: 100vh;
 	background-image: url('/aaf-global/images/content/body_curve_large.png');
@@ -156,6 +156,10 @@ main {
 	background-position: center top;
 	position: absolute;
 	z-index: 998;
+
+    @media screen and (min-width: 40em) {
+        padding-top: 150px;
+    }
 
 	.AAF-white {
 		background-image: url('/aaf-global/images/content/logo_white_large.png');
