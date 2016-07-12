@@ -1,4 +1,2 @@
 ErrorDocument 404 /aaf-global/errors/404.html
-Redirect /apply/ https://docs.google.com/forms/d/1Ltyj22AZ9GbehFdYJ_e1Dj8ppr-cQvwP1_gL85axuKg/viewform
-
 AddType application/octet-stream paa
