@@ -1,5 +1,7 @@
+@import "foundation";
+@import 'util/mixins';
+
 main {
-	padding-top: 0px;
 
 	.titles {
 		margin-bottom: 20px;
@@ -15,15 +17,38 @@ main {
 		margin-bottom: 1em;
 		height: 160px;
 		width: 100%;
+	}
 
-		&.scarlet {
-			background-position: top;
+	.scarlet {
+		.image {
 			background-image: url('http://i.imgur.com/SNqUxXzl.png');
 		}
-		&.discord {
+	}
+	.discord {
+		a.discord {
+			@include button-style(transparent, transparent, #7289da);
+			border-color: #7289da;
+
+			&:hover {
+				border-color: #5d6a9c;
+				color: #5d6a9c;
+			}
+		}
+		a.units {
+			@include button-style(transparent, transparent, #CCC);
+			border-color: #CCC;
+
+			&:hover {
+				border-color: #9d9d9d;
+				color: #9d9d9d;
+			}
+		}
+		.image {
 			background-image: url('http://i.imgur.com/CEs9Y6u.png');
 		}
-		&.play {
+	}
+	.fun {
+		.image {
 			background-image: url('http://i.imgur.com/eCVu24Ul.jpg');
 		}
 	}
