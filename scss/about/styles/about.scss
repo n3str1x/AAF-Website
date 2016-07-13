@@ -71,7 +71,7 @@ section span.text-center {
 
 section#structured {
 	background-image: url('/about/images/structured_organised_bg.jpg');
-	padding-top: 150px;
+	padding-top: 140px;
 
 	h2 {
 		color: #1b1917;
@@ -80,11 +80,8 @@ section#structured {
 		color: #946036
 	}
 	p {
-		color: #fff;
-		text-shadow: 0px 0px 10px #ffefcf, 0px 0px 15px #ffeacf, 0px 0px 20px #ffeacf, 0px 0px 50px #ffeacf, 0px 0px 50px #ffefcft;
-		@include breakpoint(medium up) {
-			color: #332517;
-		}
+		color: #332517;
+		text-shadow: 0px 0px 10px #ffefcf, 0px 0px 15px #ffeacf, 0px 0px 20px #ffeacf, 0px 0px 50px #ffeacf, 0px 0px 50px #ffefcf;
 	}
 }
 
