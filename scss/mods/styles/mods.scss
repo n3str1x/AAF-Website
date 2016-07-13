@@ -109,8 +109,6 @@
   font-weight:  200;
 }
 
-
-
 main {
 	background-image: url('/mods/images/home_bg_2x.png');
 	background-size: cover;
@@ -122,15 +120,30 @@ main {
 		}
 	}
 
-	h2 {
-		color: #FFF;
-		font-family: 'Exo 2 Light', sans-serif;
-		font-size: 28px;
-		text-align: center;
-		@media screen and (min-width: 40em) {
-			font-size: 40px;
-		}
-	}
+    .heading {
+        text-align: center;
+
+    	h2 {
+    		color: #FFF;
+    		font-family: 'Exo 2 Light', sans-serif;
+    		font-size: 28px;
+    		@media screen and (min-width: 40em) {
+    			font-size: 40px;
+    		}
+    	}
+        p {
+            color: #AD7577;
+            margin-top: -10px;
+
+            a {
+                color: #F7646A;
+
+                &:hover {
+                    color: #c45e62;
+                }
+            }
+        }
+    }
 
 	.scarlet-logo {
 		margin: 0 auto;
