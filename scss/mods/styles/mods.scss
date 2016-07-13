@@ -1,0 +1,45 @@
+@import "foundation";
+@import 'util/mixins';
+
+main {
+	background-image: url('/mods/images/home_bg_2x.png');
+	background-size: cover;
+
+	h1 {
+		small {
+			color: #FFF;
+			opacity: 0.5;
+		}
+	}
+
+	.scarlet-logo {
+		margin: 0 auto;
+		margin-top: 100px;
+		height: 103px;
+		width: 101px;
+		background-image: url('/mods/images/logo.png');
+		background-size: 101px 103px;
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+			background-image: url('/mods/images/logo_2x.png');
+		}
+	}
+
+	.download {
+		a {
+			background: #e04646;
+			display: block;
+			width: 200px;
+			margin: 0 auto;
+			margin-top: 50px;
+
+			&:hover {
+				background: #a23c3c;
+			}
+		}
+		p {
+			text-align: center;
+			margin-top: 50px;
+		}
+	}
+}
