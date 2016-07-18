@@ -215,24 +215,24 @@ aside.promo-tiles {
 
 
 	.promo-2 a {
-		background-image: url('/home/images/promo_year_in_review_small.png');
+		background-image: url('/home/images/promo_youtube_small.png');
 	}
 	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
 		.promo-2 a {
-			background-image: url('/home/images/promo_year_in_review_small_2x.png');
+			background-image: url('/home/images/promo_youtube_small_2x.png');
 		}
 
 	}
 	@media screen and (min-width: 64em) {
 		.promo-2 a {
-			background-image: url('/home/images/promo_year_in_review_large.png');
+			background-image: url('/home/images/promo_youtube_large.png');
 		}
 
 		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
 			.promo-2 a {
-				background-image: url('/home/images/promo_year_in_review_large_2x.png');
+				background-image: url('/home/images/promo_youtube_large_2x.png');
 			}
 		}
 	}
