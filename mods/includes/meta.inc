@@ -10,7 +10,9 @@
 <meta property="og:site_name" content="Mods - Australian Armed Forces – Arma 3 Unit" />
 <meta name="theme-color" content="#2583d9">
 
-<meta name="author" content="Australian Armed Forces">
+<meta name="Author" content="Australian Armed Forces" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://australianarmedforces.org/" />
 
 <link rel="home" href="http://australianarmedforces.org/" />
 <link rel="index" href="http://australianarmedforces.org/" />
