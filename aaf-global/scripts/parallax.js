@@ -64,9 +64,13 @@ ParallaxManager = (function() {
 
 })();
 
-new ParallaxManager('.parallax-layer');
 
- 
+if(window.innerWidth > 640) {
+    new ParallaxManager('.parallax-layer');    
+}
+
+
+
 /* Test for Mouse or Trackpad and aujust scrolling accordingly */
 
 var scrolling = false;
@@ -102,7 +106,7 @@ var mouseHandle = function (evt) {
         // the multiple event calls to trigger multiple unwanted actions (trackpad)
         if (!evt) evt = event;
         var direction = (evt.detail<0 || evt.wheelDelta>0) ? 1 : -1;
-        
+
         if (!isTouchPad) {
             $(".parallax-layer").css("transition","transform 0ms ease");
         }
