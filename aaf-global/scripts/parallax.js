@@ -4,13 +4,19 @@ ParallaxPart = (function() {
   function ParallaxPart(el) {
     this.el = el;
     this.speed = parseFloat(this.el.getAttribute('data-parallax-speed'));
-    this.maxScroll = parseInt(this.el.getAttribute('data-max-scroll'));
-    this.maxScroll = parseInt(this.el.getAttribute('data-opacity-start'));
-    this.maxScroll = parseInt(this.el.getAttribute('data-opacity-end'));
+    if(!this.el.classList.contains('auto-parallax')) {
+        this.maxScroll = parseInt(this.el.getAttribute('data-max-scroll'));
+        this.minScroll = parseInt(this.el.getAttribute('data-min-scroll'));
+    } else {
+        this.maxScroll = parseInt(this.el.getAttribute('data-max-scroll'));
+    }
+    this.startOpacity = parseInt(this.el.getAttribute('data-opacity-start'));
+    this.endOpacity = parseInt(this.el.getAttribute('data-opacity-end'));
   }
 
   ParallaxPart.prototype.update = function(scrollY) {
     if (scrollY > this.maxScroll) { return; }
+    if (scrollY < this.minScroll) { return; }
     var offset = -(scrollY * this.speed);
     this.setYTransform(offset);
   };
@@ -21,6 +27,7 @@ ParallaxPart = (function() {
     this.el.style.OTransform      = "translate3d(0, " + val + "px, 0)";
     this.el.style.transform       = "translate3d(0, " + val + "px, 0)";
     this.el.style.msTransform     = "translateY(" + val + "px)";
+    this.el.style.marginTop       = "" + this.minScroll * this.speed  + "px";
   };
 
   return ParallaxPart;
@@ -65,9 +72,8 @@ ParallaxManager = (function() {
 })();
 
 
-if(window.innerWidth > 640) {
-    new ParallaxManager('.parallax-layer');    
-}
+new ParallaxManager('.parallax-layer');
+
 
 
 
@@ -82,7 +88,6 @@ var eventCountStart;
 
 var mouseHandle = function (evt) {
     var isTouchPadDefined = isTouchPad || typeof isTouchPad !== "undefined";
-    console.log("isTouchPadDefined = " + isTouchPadDefined);
     if (!isTouchPadDefined) {
         if (eventCount === 0) {
             eventCountStart = new Date().getTime();
