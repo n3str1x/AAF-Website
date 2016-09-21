@@ -6,9 +6,9 @@ main {
 
 .hero {
 	z-index: 1;
-	height: 1000px;
+	height: 800px;
 	text-align: left;
-	padding: 250px 0 25px;
+	padding: 300px 0 25px;
 
 	@media screen and (min-width: 40em) {
 		text-align: center;
@@ -82,8 +82,8 @@ main {
 		color: #FFF;
 		font-family: "Montserrat";
 		font-weight: 400;
-		font-size: 40px;
-		line-height: 0px;
+		font-size: 20px;
+		line-height: 20px;
 		margin: 0;
 		text-transform: uppercase;
 		text-shadow: rgba(0,0,0,0.7) 0px 0px 12px;
