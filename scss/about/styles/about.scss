@@ -36,7 +36,7 @@ section {
 	}
 
 	h2 {
-	  font-size: 40px;
+	  font-size: 32px;
 	  font-family: "Exo";
 	  color: rgb(255, 255, 255);
 	  font-weight: bold;
@@ -44,19 +44,32 @@ section {
 	  line-height: 1;
 
 	  @include breakpoint(medium up) {
+		font-size: 42px;
+	  }
+
+	  @include breakpoint(large up) {
 		font-size: 52px;
 	  }
 	}
 	h3 {
-	  font-size: 27px;
+	  font-size: 22px;
 	  font-family: "Exo";
 	  color: rgb(200, 193, 188);
 	  margin-top: -10px;
+
+	  @include breakpoint(medium up) {
+		font-size: 24px;
+	  }
+
+	  @include breakpoint(large up) {
+		font-size: 27px;
+	  }
 	}
 	p {
 		color: #b0b0b0;
 		max-width: 570px;
 		margin-top: 20px;
+		display: inline-block;
 	}
 }
 
