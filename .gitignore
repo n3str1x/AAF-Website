@@ -5,3 +5,4 @@ bower_components/
 *.codekit
 config.codekit
 *.scssc
+.DS_Store
