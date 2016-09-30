@@ -1,7 +1,8 @@
 @import "../../aaf-global/styles/_settings";
 
-html, body {
-    max-height: 100vh;
+body {
+    height: 100%;
+    overflow: hidden;    
 }
 
 main {
