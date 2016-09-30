@@ -12,19 +12,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Exo:400,500,600,700,800,900,300,200,100);
 
-@font-face {
-  font-family: 'Bebas Kai';
-  src: url('/aaf-global/fonts/BebasKai-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/aaf-global/fonts/BebasKai-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/aaf-global/fonts/BebasKai-Regular.woff') format('woff'), /* Modern Browsers */
-       url('/aaf-global/fonts/BebasKai-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/aaf-global/fonts/BebasKai-Regular.svg#c28975f7bc16b5c3daf2206ee900d152') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  400;
-}
-
-
 
 /* Utilities */
 figure { margin: 0; }
@@ -61,32 +48,35 @@ header {
 	z-index: 999;
 	position: fixed;
 	top: 0;
-	height: 100px;
+	height: 66px;
 	width: 100%;
-	background-image: url('/aaf-global/images/header/header_curve_small.png');
+	background-image: url('/aaf-global/images/header/header_background_small.png');
 	background-size: 640px 120px;
 	background-position: center bottom;
 	background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-		background-image: url('/aaf-global/images/header/header_curve_small_2x.png');
+		background-image: url('/aaf-global/images/header/header_background_small_2x.png');
 	}
 
 	@media screen and (min-width: 40em) {
-		background-image: url('/aaf-global/images/header/header_curve_medium.png');
+		background-image: url('/aaf-global/images/header/header_background_medium.png');
         background-size: 1024px 120px;
-        height: 120px;
+        height: 66px;
 
 		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-			background-image: url('/aaf-global/images/header/header_curve_medium_2x.png');
+			background-image: url('/aaf-global/images/header/header_background_medium_2x.png');
 		}
 	}
 	@media screen and (min-width: 64em) {
-		background-image: url('/aaf-global/images/header/header_curve_large_2x.png');
-        background-size: 2863px 120px;
+		background-image: url('/aaf-global/images/header/header_background_large.png');
+        background-size: 3143px 66px;
 
 		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-			background-image: url('/aaf-global/images/header/header_curve_large_2x.png');
+			background-image: url('/aaf-global/images/header/header_background_large_2x.png');
 		}
 	}
 
@@ -106,10 +96,10 @@ header {
 
     	@media screen and (min-width: 40em) {
     		background-image: url('/aaf-global/images/header/logo_large.png');
-            background-size: 203px 194px;
-            width: 203px;
-            height: 194px;
-            left: calc(50% - (203px/2));
+            background-size: 172px 158px;
+            width: 172px;
+            height: 158px;
+            left: calc(50% - (172px/2));
 
     		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
     			background-image: url('/aaf-global/images/header/logo_large_2x.png');
@@ -119,7 +109,7 @@ header {
 
 	nav {
 		display: inline-block;
-		margin-top: 38px;
+		margin-top: 25px;
 		vertical-align: top;
 
 		a {
@@ -160,7 +150,7 @@ header {
 		background-size: 29px 28px;
 		display: block;
 		float: right;
-		margin-top: 28px;
+		margin-top: 22px;
 		margin-right: 30px;
 
 		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
@@ -181,14 +171,15 @@ main {
     padding-top: 160px;
 	width: 100%;
 	min-height: 100vh;
-	background-image: url('/aaf-global/images/content/body_curve_large.png');
+	background-image: url('/aaf-global/images/content/body_background_large.png');
 	background-repeat: no-repeat;
 	background-position: center top;
+    background-size: 3143px 1005px;
 	position: absolute;
 	z-index: 998;
 
     @media screen and (min-width: 40em) {
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
 	.AAF-white {
@@ -255,4 +246,10 @@ footer {
 		background-image: url('/aaf-global/images/footer/footer_alexsinnott_2x.png');
 		background-size: 79px 84px;
 	}
+}
+
+#content.error {
+    main {
+        padding-top: 45vh;
+    }
 }
