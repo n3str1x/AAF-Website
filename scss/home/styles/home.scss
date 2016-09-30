@@ -6,24 +6,24 @@ main {
 
 .hero {
 	z-index: 1;
-	height: 705px;
+	height: 800px;
 	text-align: left;
-	padding: 250px 0 25px;
+	padding: 300px 0 25px;
 
 	@media screen and (min-width: 40em) {
 		text-align: center;
-		height: 605px;
-		padding: 260px 0 0;
+		height: 800px;
+		padding: 330px 0 0;
 	}
 
 	.small-12>p {
 		font-size: 18px;
 		font-family: "Exo";
 		font-weight: 400;
-		color: #cfcece;
+		color: #dadada;
 		max-width: 700px;
 		margin: 0px auto 30px;
-		text-shadow: #000 0px 0px 15px, #000 0px 0px 15px, #000 0px 0px 15px;
+		text-shadow: rgba(0,0,0,0.7) 0px 0px 12px;
 
 
 		@media screen and (min-width: 40em) {
@@ -34,9 +34,13 @@ main {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 400;
 		font-size: 14px;
-		padding: 15px 35px;
+		padding: 12px 35px;
 		margin-right: 10px;
 		width: 100%;
+	    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.9);
+	    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.9);
+	    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.9);
+		border-radius: 3px;
 
 		@media screen and (min-width: 40em) {
 			width: auto;
@@ -53,12 +57,12 @@ main {
 		font-size: 40px;
 		line-height: 43px;
 		margin: 0;
-		text-shadow: #000 0px 0px 12px;
+		text-shadow: rgba(0,0,0,0.7) 0px 0px 12px;
 
 		@media screen and (min-width: 40em) {
 			font-size: 48px;
 			line-height: 48px;
-			text-shadow: #000 0px 0px 35px, #000 0px 0px 35px, #000 0px 0px 35px;
+
 		}
 
 		@media screen and (min-width: 64em) {
@@ -66,10 +70,40 @@ main {
 		}
 
 		span {
-			color: #2999ff;
+			color: #4aa6fb;
 
 			@media screen and (min-width: 64em) {
-				color: #2583d9;
+				color: #4aa6fb;
+			}
+		}
+	}
+
+	h3 {
+		color: #FFF;
+		font-family: "Montserrat";
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 20px;
+		margin: 0;
+		text-transform: uppercase;
+		text-shadow: rgba(0,0,0,0.7) 0px 0px 12px;
+
+		@media screen and (min-width: 40em) {
+			font-size: 18px;
+			line-height: 15px;
+
+		}
+
+		@media screen and (min-width: 64em) {
+			font-size: 20px;
+			line-height: 30px;
+		}
+
+		span {
+			color: #4aa6fb;
+
+			@media screen and (min-width: 64em) {
+				color: #4aa6fb;
 			}
 		}
 	}
@@ -99,7 +133,7 @@ main {
 	position: absolute;
 	z-index: -20;
 	top: 0;
-	height: 777px;
+	height: 800px;
 	width: 100%;
 	background: url("/home/images/banner_temp.png") no-repeat;
 	background-size: cover;
@@ -146,7 +180,7 @@ main {
 	}
 }
 main {
-	padding-top: 40px;
+	padding-top: 0;
 }
 
 aside.promo-tiles {
@@ -154,12 +188,16 @@ aside.promo-tiles {
 		max-width: 1920px;
 		margin: 0 auto;
 		padding: 0 0px;
+		margin-top: -100px;
 
 		.promo-tile {
 			padding: 0px;
+		    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
+		    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
+		    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 
 			@media screen and (min-width: 40em) {
-				padding: 0px 3px;
+				padding: 0px 5px;
 			}
 
 			a {
