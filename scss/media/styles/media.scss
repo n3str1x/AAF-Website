@@ -1,16 +1,14 @@
 main {
-	padding-top: 0px;
-
+	.shader {
+		width: 100%;
+		background: rgba(0,0,0,0.5);
+	}
 	.titles {
 		margin-bottom: 30px;
 	}
 }
 
-.shader {
-	padding: 100px 0 50px;
-	width: 100%;
-	background: rgba(0,0,0,0.5);
-}
+
 
 .image-gallery {
 

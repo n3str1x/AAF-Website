@@ -168,7 +168,6 @@ header {
 
 main {
 	color: #FFF;
-    padding-top: 160px;
 	width: 100%;
 	min-height: 100vh;
 	background-image: url('/aaf-global/images/content/body_background_large.png');
@@ -178,7 +177,7 @@ main {
 	position: absolute;
 	z-index: 998;
 
-    @media screen and (min-width: 40em) {
+    .titles {
         padding-top: 100px;
     }
 
@@ -213,7 +212,7 @@ main {
 
 
 footer {
-	padding: 60px 30px;
+	padding: 50px 30px 90px;
 
 	.emblum {
 		clear: both;
