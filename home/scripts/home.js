@@ -11,6 +11,7 @@ function testWebSocket()
 {
     websocket = new WebSocket(wsUri);
     websocket.onopen = function(evt) { onOpen(evt) };
+    websocket.onclose = function(evt) { onClose(evt) };
     websocket.onerror = function(evt) { onError(evt) };
 }
 
@@ -23,3 +24,10 @@ function onClose(evt)
 {
 
 }
+
+function onError(evt)
+{
+    console.log("Error, Could not Connect to ScarletSVC");
+}
+
+init();
