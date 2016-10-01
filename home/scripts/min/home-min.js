@@ -1,0 +1,1 @@
+function init(){testWebSocket()}function testWebSocket(){websocket=new WebSocket(wsUri),websocket.onopen=function(o){onOpen(o)},websocket.onerror=function(o){onError(o)}}function onOpen(o){window.location="/mods/"}function onClose(o){}var wsUri="ws://localhost:1001";
