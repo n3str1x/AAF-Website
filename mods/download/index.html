@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-AU" lang="en-AU" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="utf-8">
+		<!--#include virtual="/aaf-global/includes/global-ie9.inc" -->
+
+		<title>Mod Download - Australian Armed Forces | Arma 3&trade; Unit</title>
+		<!--#include virtual="/aaf-global/includes/global-meta.inc" -->
+
+		<!--#include virtual="/aaf-global/includes/global-styles.inc" -->
+		<link rel="stylesheet" href="/mods/styles/download.css" />
+	</head>
+	<body id="content">
+
+		<!--#include virtual="/aaf-global/includes/header.inc" -->
+
+		<main>
+			<div class="row titles">
+				<div class="small-12 columns">
+					<h1>Mod Download <small>Powered by Scarlet</small></h1>
+				</div>
+			</div>
+			<section class="background"></section>
+			<div class="row padding-bottom">
+				<div class="small-12 columns">
+                    <p>
+                        <div id="output">
+                            Connecting to Scarlet Servers
+                        </div>
+                        <div class="progress" role="progressbar" tabindex="0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-meter"></div>
+                        </div>
+                    </p>
+				</div>
+                <div class="small-12 small-centered columns">
+                    <p>
+                        <span class="status"> </span> <span class="file"> </span><br />
+                        <input class="button disabled" id="start" disabled="disabled" type="button" name="name" value="Start Download" onclick="startDownload()">
+                        <input class="button disabled" id="location" disabled="disabled" type="button" name="name" value="Change Download Location" onclick="changeLocation()">
+                    </p>
+                </div>
+			</div>
+
+			<!--#include virtual="/aaf-global/includes/footer.inc" -->
+			<!--#include virtual="/aaf-global/includes/global-scripts.inc" -->
+            <script src="/mods/scripts/min/download-min.js" charset="utf-8"></script>
+		</main>
+	</body>
+</html>
