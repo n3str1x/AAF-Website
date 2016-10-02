@@ -2,7 +2,7 @@
 var IP;
 var connected = false;
 var connectedNo = 1;
-var info = $.getJSON("//scarlet.australianarmedforces.org/api/user/info/omega");
+var info = $.getJSON("//staging.scarlet.australianarmedforces.org/api/user/info/omega");
 
 
 $(function() {
