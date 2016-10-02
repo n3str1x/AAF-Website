@@ -109,6 +109,14 @@
   font-weight:  200;
 }
 
+body.noheader {
+    header {
+        display: none;
+    }
+    .titles {
+        padding-top: 30px;
+    }
+}
 
 section.background {
     background-image: url('https://images-ext-2.discordapp.net/.eJwNxUsOwiAQANC7cABG_kN3fPQeE0Jqo7RNgZXx7vo278Pm9WYLe45xLgBbo7V2Ti9qtPE-KrXZ61WOfdR98HI0mGsBaaRBr7yQKG4GjbKgHlKjS06HHO5aYIjKeJtsTMGpjNn-c1E4YN8figYhsw.5jyhD3h43zZWiFtw5U3z7qEsNac');
