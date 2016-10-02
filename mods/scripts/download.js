@@ -2,7 +2,7 @@
 var IP;
 var connected = false;
 var connectedNo = 1;
-var info = $.getJSON("//staging.scarlet.australianarmedforces.org/api/user/info/omega");
+var info = {"id":28,"username":"omega","key":"42de65d777b8bcb2a2cf5396c87f8508","clanid":2,"installDir":"K:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3"};
 
 
 $(function() {
