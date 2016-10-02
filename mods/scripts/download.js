@@ -7,6 +7,11 @@ $.getJSON("https://sscarlet.australianarmedforces.org/api/user/info/omega", func
     info = data;
 });
 
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+info.username = capitalizeFirstLetter(info.username);
 
 $(function() {
     $.getJSON("/api/ip/",
