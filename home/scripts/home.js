@@ -17,7 +17,7 @@ function testWebSocket()
 
 function onOpen(evt)
 {
-    window.location = "/mods/";
+    window.location = "/mods/download/";
 }
 
 function onClose(evt)
