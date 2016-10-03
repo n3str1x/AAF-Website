@@ -43,10 +43,16 @@
 				</div>
 			</div>
 
+			
+			<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
 
 			<!--#include virtual="/aaf-global/includes/footer.inc" -->
 			<!--#include virtual="/aaf-global/includes/global-scripts.inc" -->
             <script src="/mods/scripts/min/download-min.js" charset="utf-8"></script>
+
+
+			<!-- Insert this line after script imports -->
+			<script>if (window.module) module = window.module;</script>
 		</main>
 	</body>
 </html>
