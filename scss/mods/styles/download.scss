@@ -110,18 +110,31 @@
 }
 
 body.noheader {
-    header {
+    overflow: hidden;
+
+    header, footer {
         display: none;
     }
     .titles {
         padding-top: 30px;
+    }
+    .bottom {
+        background-image: url('/aaf-global/images/content/body_background_large.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 3143px 1005px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 100;
+        height: 169px;
     }
 }
 
 section.background {
     background-image: url('https://images-ext-2.discordapp.net/.eJwNxUsOwiAQANC7cABG_kN3fPQeE0Jqo7RNgZXx7vo278Pm9WYLe45xLgBbo7V2Ti9qtPE-KrXZ61WOfdR98HI0mGsBaaRBr7yQKG4GjbKgHlKjS06HHO5aYIjKeJtsTMGpjNn-c1E4YN8figYhsw.5jyhD3h43zZWiFtw5U3z7qEsNac');
     background-size: cover;
-    background-position: center center;
-    height: 500px;
+    background-position: center;;
+    height: 100vh;
     margin: 40px 0;
 }
