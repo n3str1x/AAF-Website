@@ -109,32 +109,76 @@
   font-weight:  200;
 }
 
-body.downloader {
-    overflow: hidden;
+html, body {
+    margin: 0;
+    height: 100%;
 
-    header, footer {
-        display: none;
-    }
-    .titles {
-        padding-top: 30px;
-    }
-    .bottom {
-        background-image: url('/aaf-global/images/content/body_background_large.png');
-        background-repeat: no-repeat;
+    #wrapper {
+        height: 100%;
+        display: block;
+        margin: 0;
+        background-image: url('/mods/electron/images/background.png');
+        background-size: cover;
         background-position: center top;
-        background-size: 3143px 1005px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        z-index: 100;
-        height: 169px;
-    }
-}
+        padding-top: 30px;
 
-section.background {
-    background-image: url('https://images-ext-2.discordapp.net/.eJwNxUsOwiAQANC7cABG_kN3fPQeE0Jqo7RNgZXx7vo278Pm9WYLe45xLgBbo7V2Ti9qtPE-KrXZ61WOfdR98HI0mGsBaaRBr7yQKG4GjbKgHlKjS06HHO5aYIjKeJtsTMGpjNn-c1E4YN8figYhsw.5jyhD3h43zZWiFtw5U3z7qEsNac');
-    background-size: cover;
-    background-position: center;;
-    height: 100vh;
-    margin: 40px 0;
+        @include breakpoint(retina) {
+            background-image: url('/mods/electron/images/background_2x.png');
+        }
+
+
+        #window-buttons {
+            font-family: 'Arial';
+            position: fixed;
+            top: 0;
+            right: 0;
+
+            .minimise, .close {
+                margin: 0;
+                background: rgba(#161616, 0.48);
+                display: inline-block;
+                height: 25px;
+                width: 100px;
+                text-align: center;
+                padding-top: 10px;
+                color: #FFF;
+
+                &:hover {
+                    background-color: #FFF;
+                    color: #000;
+                }
+            }
+            .minimise {
+                background: #333;
+            }
+        }
+
+        .logo {
+            width: 266px;
+            height: 91px;
+            background-image: url('/mods/electron/images/aaf_logo.png');
+            background-size: 266px 91px;
+            margin-left: 30px;
+
+            @include breakpoint(retina) {
+                background-image: url('/mods/electron/images/aaf_logo_2x.png');
+            }
+        }
+
+        .banner {
+            height: 315px;
+            width: 100%;
+            background-image: url('/mods/electron/images/pano_background.png');
+            background-size: 1076px 315px;
+            background-position: center;
+            margin-top: 30px;
+
+            @include breakpoint(large) {
+                background-size: cover;
+            }
+            @include breakpoint(retina) {
+                background-image: url('/mods/electron/images/pano_background_2x.png');
+            }
+        }
+    }
 }

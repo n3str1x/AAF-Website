@@ -37,13 +37,14 @@
 	                    <p>
 	                        <span class="status"> </span> <span class="file"> </span><br />
 	                        <input class="button disabled" id="start" disabled="disabled" type="button" name="name" value="Start Download" onclick="startDownload()">
-	                        <input class="button disabled" id="location" disabled="disabled" type="file" name="name" value="Change Download Location" onclick="changeLocation()">
+	                        <!-- <input class="button disabled" id="location" disabled="disabled" type="file" name="name" value="Change Download Location" onclick="changeLocation()"> -->
+							<input type="file" webkitdirectory directory multiple/>
 	                    </p>
 	                </div>
 				</div>
 			</div>
 
-			
+
 			<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
 
 			<!--#include virtual="/aaf-global/includes/footer.inc" -->
