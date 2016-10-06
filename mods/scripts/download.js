@@ -8,17 +8,17 @@ var serverInfo;
 $.getJSON("https://sscarlet.australianarmedforces.org/api/user/info/omega", function(data) {
     info = data;
     info.username = capitalizeFirstLetter(info.username);
-    $("#status_scarletapi").removeClass("orange").addClass("green");
-}).fail(function() { $("#status_scarletapi").removeClass("orange").addClass("red"); });
+    $("#status_scarletapi").removeClass("orange").removeClass("red").removeClass("green").addClass("green");
+}).fail(function() { $("#status_scarletapi").removeClass("orange").removeClass("red").removeClass("green").addClass("red"); });
 
 $.getJSON("https://sscarlet.australianarmedforces.org/api/armaserver", function(data) {
     serverInfo = data;
     if(serverInfo["58.162.184.102:2302"].gq_online == true) {
-        $("#status_arma").removeClass("orange").addClass("green");
+        $("#status_arma").removeClass("orange").removeClass("red").removeClass("green").addClass("green");
     } else{
-        $("#status_arma").removeClass("orange").addClass("red");
+        $("#status_arma").removeClass("orange").removeClass("red").removeClass("green").addClass("red");
     }
-}).fail(function() { $("#status_arma").removeClass("orange").addClass("red"); });
+});
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -110,7 +110,7 @@ function updaterNowConnected(free) {
     writeToScreen("Connected to Updater");
     console.log("Updater Ping - Connected");
     connected = true;
-    $("#status_updater").removeClass("orange").removeClass("red").addClass("green");
+    $("#status_updater").removeClass("orange").removeClass("red").removeClass("green").addClass("green");
     if(free == "free") {
         $('input').removeAttr("disabled");
         $('input').removeAttr("class");
@@ -138,7 +138,7 @@ function stopDownload() {
 
 function onError(evt) {
     writeToScreen('<span style="color: red;">ERROR:</span> ' + "Unable to connect to Scarlet Servers");
-    $("#status_updater").removeClass("orange").addClass("red");
+    $("#status_updater").removeClass("orange").removeClass("red").removeClass("green").addClass("red");
 }
 
 function doSend(message) {
