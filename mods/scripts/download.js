@@ -4,11 +4,13 @@ var connected = false;
 var connectedNo = 1;
 var info;
 var serverInfo;
+
 $.getJSON("https://sscarlet.australianarmedforces.org/api/user/info/omega", function(data) {
     info = data;
     info.username = capitalizeFirstLetter(info.username);
     $("#status_scarletapi").removeClass("orange").addClass("green");
-});
+}).fail(function() { $("#status_scarletapi").removeClass("orange").addClass("red"); });
+
 $.getJSON("https://sscarlet.australianarmedforces.org/api/armaserver", function(data) {
     serverInfo = data;
     if(serverInfo["58.162.184.102:2302"].gq_online == true) {
@@ -55,6 +57,8 @@ function onOpen(evt)
     browserConnect();
     updateStatus("Hello <span class='username'>" + info.username + "</span>");
     updateFile("Current Install Location is: " + info.installDir);
+
+    $("#status_updater").removeClass("orange").addClass("green");
 }
 
 function onClose(evt)
