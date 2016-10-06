@@ -1,5 +1,8 @@
 // @codekit-prepend "granim.js";
 
+const remote = require('electron').remote;
+const {shell} = require('electron');
+
 var IP;
 var connected = false;
 var connectedNo = 1;
