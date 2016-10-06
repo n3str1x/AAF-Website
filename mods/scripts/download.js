@@ -1,3 +1,4 @@
+// @codekit-prepend "granim.js";
 
 var IP;
 var connected = false;
@@ -36,11 +37,9 @@ function capitalizeFirstLetter(string) {
 
 
 $(function() {
-    $.getJSON("/api/ip/",
-        function(json) {
-            IP = json.ip;
-        }
-    );
+    $.getJSON("https://sscarlet.australianarmedforces.org/api/ip/").done(function(json) {
+        IP = json.ip;
+    });
 });
 
 var wsUri = "ws://localhost:1001";
@@ -168,6 +167,7 @@ function updateProgress(message) {
     var array = message.split("/");
     var percent = parseFloat(array[0]);
     $(".progress-meter").css("width", percent + "%");
+
 }
 
 function updateInstallLocation(message) {
@@ -192,8 +192,28 @@ function changeLocation() {
 function writeToScreen(message) {
     var pre = document.createElement("p");
     pre.style.wordWrap = "break-word";
-
     output.innerHTML = message;
 }
 
 window.addEventListener("load", init, false);
+
+
+
+
+/* var granimInstance = new Granim({
+   element: '.progress-meter',
+   name: 'granim',
+   opacity: [1, 1],
+   isPausedWhenNotInView: false,
+   direction: 'left-right',
+   states : {
+       "default-state": {
+           gradients: [
+                ['#AA076B', '#61045F'],
+                ['#02AAB0', '#00CDAC'],
+                ['#DA22FF', '#9733EE']
+           ]
+       }
+   }
+});
+*/
