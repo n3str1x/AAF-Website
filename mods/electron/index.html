@@ -10,7 +10,7 @@
 
 		<link rel="stylesheet" href="/mods/styles/electron.css" />
 	</head>
-	<body class="<!--#echo var="QUERY_STRING" -->">
+	<body class="">
 
         <content id="wrapper">
             <div id="drag"></div>
@@ -50,6 +50,10 @@
 
 
         </content>
+
+		<script type="text/javascript">
+			var username = "<!--#echo var="QUERY_STRING" -->";
+		</script>
 
 			<!-- Insert this line after script imports -->
             <script type="text/javascript">

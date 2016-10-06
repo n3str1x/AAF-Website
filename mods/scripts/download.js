@@ -12,7 +12,7 @@ jQuery.fn.extend({
     }
 });
 
-$.getJSON("https://sscarlet.australianarmedforces.org/api/user/info/omega")
+$.getJSON("https://sscarlet.australianarmedforces.org/api/user/info/" + username)
 .done(function(data) {
     info = data;
     info.username = capitalizeFirstLetter(info.username);
