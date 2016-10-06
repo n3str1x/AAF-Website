@@ -66,6 +66,13 @@ html, body {
             .minimise {
                 background: rgba(#333333, 0.42);
             }
+            .logout {
+                color: transparent;
+                text-decoration: none;
+                &:hover {
+                    cursor: default;
+                }
+            }
         }
 
         .logo {
