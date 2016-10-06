@@ -12,7 +12,7 @@ jQuery.fn.extend({
     }
 });
 
-$.getJSON("https://sscarlet.australianarmedforces.org/api/user/info/" + username)
+$.getJSON("https://scarlet.australianarmedforces.org/api/user/info/" + username)
 .done(function(data) {
     info = data;
     info.username = capitalizeFirstLetter(info.username);
@@ -22,7 +22,7 @@ $.getJSON("https://sscarlet.australianarmedforces.org/api/user/info/" + username
     $("#status_scarletapi").statusColour("red");
 });
 
-$.getJSON("https://sscarlet.australianarmedforces.org/api/armaserver", function(data) {
+$.getJSON("https://scarlet.australianarmedforces.org/api/armaserver", function(data) {
     serverInfo = data;
     if(serverInfo["58.162.184.102:2302"].gq_online == true) {
         $("#status_arma").statusColour("green");
@@ -37,7 +37,7 @@ function capitalizeFirstLetter(string) {
 
 
 $(function() {
-    $.getJSON("https://sscarlet.australianarmedforces.org/api/ip/").done(function(json) {
+    $.getJSON("https://scarlet.australianarmedforces.org/api/ip/").done(function(json) {
         IP = json.ip;
     });
 });
