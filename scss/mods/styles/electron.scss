@@ -1,0 +1,213 @@
+@import "foundation";
+@import 'util/mixins';
+@import '../../aaf-global/styles/_exofont';
+
+html, body {
+    margin: 0;
+    height: 100%;
+    cursor: default;
+    overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+    #wrapper {
+        height: 100%;
+        display: block;
+        margin: 0;
+        background-image: url('/mods/electron/images/background.png');
+        background-size: cover;
+        background-position: center top;
+        padding-top: 30px;
+
+        @include breakpoint(retina) {
+            background-image: url('/mods/electron/images/background_2x.png');
+        }
+
+        #drag {
+            position: fixed;
+            z-index: -10;
+            width: 100%;
+            height: 130px;
+            margin-top: -30px;
+            margin-bottom: -100px;
+            -webkit-app-region: drag;
+            right: 160px;
+        }
+
+        #window-buttons {
+            font-family: 'Arial';
+            position: fixed;
+            top: -1px;
+            right: 0;
+            z-index: 10;
+
+            .minimise, .close {
+                margin: 0;
+                background: rgba(#000000, 0.64);
+                display: inline-block;
+                vertical-align: top;
+                height: 30px;
+                width: 80px;
+                text-align: center;
+                font-size: 14px;
+                color: #FFF;
+                line-height: 2.3;
+                -webkit-user-select:none;
+                cursor: default;
+
+                &:hover {
+                    background-color: #FFF;
+                    color: #000;
+                }
+                &.close:hover {
+                    background-color: #d23535;
+                }
+            }
+            .minimise {
+                background: rgba(#333333, 0.42);
+            }
+        }
+
+        .logo {
+            width: 266px;
+            height: 91px;
+            background-image: url('/mods/electron/images/aaf_logo_2x.png');
+            background-size: 266px 91px;
+            margin-left: 30px;
+            -webkit-app-region: no-drag;
+
+            @include breakpoint(retina) {
+                background-image: url('/mods/electron/images/aaf_logo_2x.png');
+            }
+        }
+
+        .status_area {
+            float: right;
+            margin-right: 30px;
+            margin-top: -40px;
+            -webkit-user-select:none;
+
+            & > span {
+                display: block;
+                color: #717b92;
+                font-family: 'Exo 2';
+                font-size: 12px;
+                text-align: right;
+                margin-bottom: 2px;
+
+                .statusicon {
+                    height: 9px;
+                    width: 9px;
+                    background-size: 9px 9px;
+                    display: inline-block;
+                    margin-top: 1px;
+                    margin-left: 10px;
+
+                    &.green {
+                        background-image: url('/mods/electron/images/status_green.png');
+
+                        @include breakpoint(retina) {
+                            background-image: url('/mods/electron/images/status_green_2x.png');
+                        }
+                    }
+
+                    &.orange {
+                        background-image: url('/mods/electron/images/status_orange.png');
+
+                        @include breakpoint(retina) {
+                            background-image: url('/mods/electron/images/status_orange_2x.png');
+                        }
+                    }
+
+                    &.red {
+                        background-image: url('/mods/electron/images/status_red.png');
+
+                        @include breakpoint(retina) {
+                            background-image: url('/mods/electron/images/status_red_2x.png');
+                        }
+                    }
+                }
+            }
+        }
+
+        .banner {
+            height: 315px;
+            width: 100%;
+            background-image: url('/mods/electron/images/pano_background_2x.png');
+            background-size: 1076px 315px;
+            background-position: center;
+            margin-top: 30px;
+
+            @include breakpoint(large) {
+                background-size: cover;
+            }
+        }
+
+        .progress-wrapper {
+            -webkit-user-select:none;
+            padding: 0 30px;
+
+            &, &:focus, .progress, .progress:focus {
+                outline: none;
+            }
+
+            .progress {
+                margin: -30px 0 0;
+                width: 100%;
+                height: 48px;
+                background-color: #060b16;
+                border-radius: 4px;
+                padding: 6px;
+
+                .progress-meter {
+                    background-color: #3787d0;
+                    height: 100%;
+                    width: 0;
+                    border-radius: 4px;
+
+                    #granim-canvas {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+        .control-wrapper {
+            font-family: 'Exo 2';
+            font-size: 14px;
+            display: block;
+            padding: 0 30px;
+            -webkit-user-select:none;
+            margin-bottom: 10px;
+
+            .status {
+                color: #3787d0;
+            }
+            .file {
+                color: #FFF;
+            }
+
+            .buttons {
+                margin-top: 20px;
+                display: block;
+
+                input {
+                    border: none;
+                    font-family: 'Exo 2 Medium';
+                    font-size: 14px;
+                    background: #3787d0;
+                    color: #FFF;
+                    padding: 8px 28px;
+                    border-radius: 4px;
+                    cursor: pointer;
+
+                    &#location {
+                        color: #7a8c9d;
+                        background-color: #284056;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-AU" lang="en-AU" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="utf-8">
+		<!--#include virtual="/aaf-global/includes/global-ie9.inc" -->
+
+		<title>Mod Download - Australian Armed Forces | Arma 3&trade; Unit</title>
+		<!--#include virtual="/aaf-global/includes/global-meta.inc" -->
+
+
+		<link rel="stylesheet" href="/mods/styles/electron.css" />
+	</head>
+	<body class="<!--#echo var="QUERY_STRING" -->">
+
+        <content id="wrapper">
+            <div id="drag"></div>
+            <div id="window-buttons" class="">
+                <div id="minimise" class="minimise">_</div><div id="close" class="close">✕</div>
+            </div>
+            <div class="logo"></div>
+			<div class="status_area">
+				<span>Scarlet API
+					<span id="status_scarletapi" class="statusicon orange"></span>
+				</span>
+				<span>AAF Server
+					<span id="status_arma" class="statusicon orange"></span>
+				</span>
+				<span>Updater Connected
+					<span id="status_updater" class="statusicon orange"></span>
+				</span>
+			</div>
+            <div class="banner"></div>
+
+            <div class="progress-wrapper">
+                <div class="progress" role="progressbar" tabindex="0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <canvas class="progress-meter"></canvas>
+                </div>
+            </div>
+
+            <span class="control-wrapper">
+                <div id="output">
+                    Connecting to Scarlet Servers
+                </div>
+                <span class="status"> </span> <span class="file"> </span>
+				<span class="buttons">
+	                <input class="button disabled" id="start" disabled="disabled" type="button" name="name" value="Start Download" onclick="startDownload()">
+	                <input class="button disabled" id="location" disabled="disabled" type="button" name="name" value="Change Download Location" onclick="changeLocation()">
+				</span>
+            </span>
+
+
+        </content>
+
+			<!-- Insert this line after script imports -->
+            <script type="text/javascript">
+            const remote = require('electron').remote;
+            document.getElementById("close").addEventListener("click", function (e) {
+                window.close();
+            });
+            document.getElementById("minimise").addEventListener("click", function (e) {
+                var window = remote.getCurrentWindow();
+                window.minimize();
+            });
+            </script>
+
+
+            <!-- Insert this line above script imports  -->
+            <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+            <!--#include virtual="/aaf-global/includes/global-scripts.inc" -->
+            <script src="/mods/scripts/min/download-min.js" charset="utf-8"></script>
+
+            <!-- Insert this line after script imports -->
+            <script>if (window.module) module = window.module;</script>
+	</body>
+</html>
