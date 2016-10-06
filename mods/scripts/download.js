@@ -57,8 +57,6 @@ function onOpen(evt)
     browserConnect();
     updateStatus("Hello <span class='username'>" + info.username + "</span>");
     updateFile("Current Install Location is: " + info.installDir);
-
-    $("#status_updater").removeClass("orange").addClass("green");
 }
 
 function onClose(evt)
@@ -112,6 +110,7 @@ function updaterNowConnected(free) {
     writeToScreen("Connected to Updater");
     console.log("Updater Ping - Connected");
     connected = true;
+    $("#status_updater").removeClass("orange").addClass("green");
     if(free == "free") {
         $('input').removeAttr("disabled");
         $('input').removeAttr("class");
