@@ -66,13 +66,6 @@ html, body {
             .minimise {
                 background: rgba(#333333, 0.42);
             }
-            .logout {
-                color: transparent;
-                text-decoration: none;
-                &:hover {
-                    cursor: default;
-                }
-            }
         }
 
         .logo {
@@ -133,6 +126,14 @@ html, body {
                             background-image: url('/mods/electron/images/status_red_2x.png');
                         }
                     }
+                }
+            }
+
+            .logout {
+                color: transparent;
+                text-decoration: none;
+                &:hover {
+                    cursor: default;
                 }
             }
         }
