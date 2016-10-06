@@ -110,7 +110,7 @@ function updaterNowConnected(free) {
     writeToScreen("Connected to Updater");
     console.log("Updater Ping - Connected");
     connected = true;
-    $("#status_updater").removeClass("orange").addClass("green");
+    $("#status_updater").removeClass("orange").removeClass("red").addClass("green");
     if(free == "free") {
         $('input').removeAttr("disabled");
         $('input').removeAttr("class");
