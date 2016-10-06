@@ -139,15 +139,15 @@ html, body {
         }
 
         .banner {
-            height: 315px;
+            height: calc(100vh - 280px);
             width: 100%;
             background-image: url('/mods/electron/images/pano_background_2x.png');
-            background-size: 1076px 315px;
+            background-size: cover;
             background-position: center;
             margin-top: 30px;
 
             @include breakpoint(large) {
-                background-size: cover;
+
             }
         }
 
