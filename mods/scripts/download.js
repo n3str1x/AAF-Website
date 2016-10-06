@@ -148,6 +148,10 @@ function stopDownload() {
 function onError(evt) {
     writeToScreen('<span style="color: red;">ERROR:</span> ' + "Unable to connect to Scarlet Servers");
     $("#status_updater").statusColour("red");
+    var executablePath =  __dirname + "/resources/Scarlet/Scarlet.exe";
+	var parameters = [""];
+
+	shell.openItem(executablePath);
 }
 
 function doSend(message) {
