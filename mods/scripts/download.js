@@ -171,9 +171,9 @@ function updateProgress(message) {
 }
 
 function updateInstallLocation(message) {
-    $.post( "/api/user/install/" +  info.key , { installDir: message })
+    $.post( "https://scarlet.australianarmedforces.org/api/user/install/" +  info.key , { installDir: message })
     .done( function() {
-        $.get("/api/user/info/" + info.key, function( data ) {
+        $.get("https://scarlet.australianarmedforces.org/api/user/info/" + info.key, function( data ) {
             info = data;
             updateFile("Current Install Location is: " + info.installDir);
         });
