@@ -52,12 +52,6 @@
 
         </content>
 
-		<script type="text/javascript">
-			<!--#if expr="$QUERY_STRING = /username=([a-zA-Z0-9]+)/" -->
-				var username = "<!--#echo var="QUERY_STRING" -->";
-			<!--#endif -->
-		</script>
-
 			<!-- Insert this line after script imports -->
             <script type="text/javascript">
             const remote = require('electron').remote;
