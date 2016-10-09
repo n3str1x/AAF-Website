@@ -1,140 +1,148 @@
 @import "foundation";
 @import 'util/mixins';
-
-@font-face {
-  font-family: 'Exo 2 Black';
-  src: url('/mods/fonts/Exo2-Black.eot'); /* IE9 Compat Modes */
-  src: url('/mods/fonts/Exo2-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/mods/fonts/Exo2-Black.woff') format('woff'), /* Modern Browsers */
-       url('/mods/fonts/Exo2-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/mods/fonts/Exo2-Black.svg#74fd74341f2364b31e7ac5758fd0bb78') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  400;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/mods/fonts/Exo2-Bold.eot'); /* IE9 Compat Modes */
-  src: url('/mods/fonts/Exo2-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/mods/fonts/Exo2-Bold.woff') format('woff'), /* Modern Browsers */
-       url('/mods/fonts/Exo2-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/mods/fonts/Exo2-Bold.svg#64afc03f87116c5051f965b967fd1484') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  700;
-}
-
-@font-face {
-  font-family: 'Exo 2 Extra Bold';
-  src: url('/mods/fonts/Exo2-ExtraBold.eot'); /* IE9 Compat Modes */
-  src: url('/mods/fonts/Exo2-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/mods/fonts/Exo2-ExtraBold.woff') format('woff'), /* Modern Browsers */
-       url('/mods/fonts/Exo2-ExtraBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/mods/fonts/Exo2-ExtraBold.svg#5c6f465ead681ebe8b401b267a278b99') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  700;
-}
-
-@font-face {
-  font-family: 'Exo 2 Extra Light';
-  src: url('/mods/fonts/Exo2-ExtraLight.eot'); /* IE9 Compat Modes */
-  src: url('/mods/fonts/Exo2-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/mods/fonts/Exo2-ExtraLight.woff') format('woff'), /* Modern Browsers */
-       url('/mods/fonts/Exo2-ExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/mods/fonts/Exo2-ExtraLight.svg#e455284e9cce265b30657b98e0bd9b5a') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  200;
-}
-
-@font-face {
-  font-family: 'Exo 2 Light';
-  src: url('/mods/fonts/Exo2-Light.eot'); /* IE9 Compat Modes */
-  src: url('/mods/fonts/Exo2-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/mods/fonts/Exo2-Light.woff') format('woff'), /* Modern Browsers */
-       url('/mods/fonts/Exo2-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/mods/fonts/Exo2-Light.svg#ff051db9324094c7f2ab3333041643f1') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  200;
-}
-
-@font-face {
-  font-family: 'Exo 2 Medium';
-  src: url('/mods/fonts/Exo2-Medium.eot'); /* IE9 Compat Modes */
-  src: url('/mods/fonts/Exo2-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/mods/fonts/Exo2-Medium.woff') format('woff'), /* Modern Browsers */
-       url('/mods/fonts/Exo2-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/mods/fonts/Exo2-Medium.svg#de1d09bf165e7107e3d0f120dc6d00b9') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  400;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/mods/fonts/Exo2-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/mods/fonts/Exo2-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/mods/fonts/Exo2-Regular.woff') format('woff'), /* Modern Browsers */
-       url('/mods/fonts/Exo2-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/mods/fonts/Exo2-Regular.svg#f0a8d850465eacfae734af2af3416d42') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  400;
-}
-
-@font-face {
-  font-family: 'Exo 2 Semi Bold';
-  src: url('/mods/fonts/Exo2-SemiBold.eot'); /* IE9 Compat Modes */
-  src: url('/mods/fonts/Exo2-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/mods/fonts/Exo2-SemiBold.woff') format('woff'), /* Modern Browsers */
-       url('/mods/fonts/Exo2-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/mods/fonts/Exo2-SemiBold.svg#0dee4e42d52f33e419f5f3b2a1abdcd3') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  700;
-}
-
-@font-face {
-  font-family: 'Exo 2 Thin';
-  src: url('/mods/fonts/Exo2-Thin.eot'); /* IE9 Compat Modes */
-  src: url('/mods/fonts/Exo2-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/mods/fonts/Exo2-Thin.woff') format('woff'), /* Modern Browsers */
-       url('/mods/fonts/Exo2-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/mods/fonts/Exo2-Thin.svg#15baac2f6c40d87d2c543e01969efca8') format('svg'); /* Legacy iOS */
-
-  font-style:   normal;
-  font-weight:  200;
-}
+@import '../../aaf-global/styles/_exofont';
 
 body.downloader {
-    overflow: hidden;
 
-    header, footer {
-        display: none;
-    }
+
     .titles {
-        padding-top: 30px;
-    }
-    .bottom {
-        background-image: url('/aaf-global/images/content/body_background_large.png');
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: 3143px 1005px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        z-index: 100;
-        height: 169px;
-    }
-}
 
-section.background {
-    background-image: url('https://images-ext-2.discordapp.net/.eJwNxUsOwiAQANC7cABG_kN3fPQeE0Jqo7RNgZXx7vo278Pm9WYLe45xLgBbo7V2Ti9qtPE-KrXZ61WOfdR98HI0mGsBaaRBr7yQKG4GjbKgHlKjS06HHO5aYIjKeJtsTMGpjNn-c1E4YN8figYhsw.5jyhD3h43zZWiFtw5U3z7qEsNac');
-    background-size: cover;
-    background-position: center;;
-    height: 100vh;
-    margin: 40px 0;
+    }
+
+
+    .status_area {
+        float: right;
+        margin-right: 30px;
+        margin-top: -40px;
+        -webkit-user-select:none;
+
+        & > span {
+            display: block;
+            color: #717b92;
+            font-family: 'Exo 2';
+            font-size: 12px;
+            text-align: right;
+            margin-bottom: 2px;
+
+            .statusicon {
+                height: 9px;
+                width: 9px;
+                background-size: 9px 9px;
+                display: inline-block;
+                margin-top: 1px;
+                margin-left: 10px;
+
+                &.green {
+                    background-image: url('/mods/electron/images/status_green.png');
+
+                    @include breakpoint(retina) {
+                        background-image: url('/mods/electron/images/status_green_2x.png');
+                    }
+                }
+
+                &.orange {
+                    background-image: url('/mods/electron/images/status_orange.png');
+
+                    @include breakpoint(retina) {
+                        background-image: url('/mods/electron/images/status_orange_2x.png');
+                    }
+                }
+
+                &.red {
+                    background-image: url('/mods/electron/images/status_red.png');
+
+                    @include breakpoint(retina) {
+                        background-image: url('/mods/electron/images/status_red_2x.png');
+                    }
+                }
+            }
+        }
+
+        .logout {
+            color: transparent;
+            text-decoration: none;
+            &:hover {
+                cursor: default;
+            }
+        }
+    }
+
+    .banner {
+        height: calc(100vh - 400px);
+        width: 100%;
+        background-image: url('/mods/electron/images/pano_background_2x.png');
+        background-size: cover;
+        background-position: center;
+
+        @include breakpoint(large) {
+
+        }
+    }
+
+    .progress-wrapper {
+        -webkit-user-select:none;
+        padding: 0 30px;
+
+        &, &:focus, .progress, .progress:focus {
+            outline: none;
+        }
+
+        .progress {
+            margin: -30px 0 0;
+            width: 100%;
+            height: 48px;
+            background-color: #060b16;
+            border-radius: 4px;
+            padding: 6px;
+
+            .progress-meter {
+                background-color: #3787d0;
+                height: 100%;
+                width: 0;
+                border-radius: 4px;
+
+                #granim-canvas {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+    .control-wrapper {
+        font-family: 'Exo 2';
+        font-size: 14px;
+        display: block;
+        padding: 0 30px;
+        -webkit-user-select:none;
+        margin-bottom: 10px;
+
+        .status {
+            color: #3787d0;
+        }
+        .file {
+            color: #FFF;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            display: block;
+
+            input {
+                border: none;
+                font-family: 'Exo 2 Medium';
+                font-size: 14px;
+                background: #3787d0;
+                color: #FFF;
+                padding: 8px 28px;
+                border-radius: 4px;
+                cursor: pointer;
+
+                &#location {
+                    color: #7a8c9d;
+                    background-color: #284056;
+                }
+            }
+        }
+    }
 }
