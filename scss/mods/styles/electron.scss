@@ -127,6 +127,15 @@ html, body {
                         }
                     }
                 }
+
+                #playerNo {
+                    display: none;
+                    color: #555e71;
+
+                    i {
+                        font-style: normal;
+                    }
+                }
             }
 
             .logout {

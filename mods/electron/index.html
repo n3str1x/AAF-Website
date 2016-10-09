@@ -22,7 +22,7 @@
 				<span>Scarlet API
 					<span id="status_scarletapi" class="statusicon orange"></span>
 				</span>
-				<span>AAF ARMA Server
+				<span>AAF Arma <span id="playerNo">(Players : <i></i>)</span>
 					<span id="status_arma" class="statusicon orange"></span>
 				</span>
 				<span>Updater Connected
@@ -53,7 +53,9 @@
         </content>
 
 		<script type="text/javascript">
-			var username = "<!--#echo var="QUERY_STRING" -->";
+			<!--#if expr="$QUERY_STRING = /username=([a-zA-Z0-9]+)/" -->
+				var username = "<!--#echo var="QUERY_STRING" -->";
+			<!--#endif -->
 		</script>
 
 			<!-- Insert this line after script imports -->

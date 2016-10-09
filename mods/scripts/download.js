@@ -26,9 +26,12 @@ $.getJSON("https://scarlet.australianarmedforces.org/api/armaserver", function(d
     serverInfo = data;
     if(serverInfo["58.162.184.102:2302"].gq_online == true) {
         $("#status_arma").statusColour("green");
+        $("#playerNo i").text(serverInfo["58.162.184.102:2302"].gq_numplayers);
+        $("#playerNo").css("display", "inline");
     } else{
         $("#status_arma").statusColour("red");
     }
+
 });
 
 function capitalizeFirstLetter(string) {
