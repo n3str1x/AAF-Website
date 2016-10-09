@@ -14,7 +14,17 @@ main {
 
 	figure {
 		padding: 0;
-		max-height: 153.3px;
+
+		img {
+		}
+	}
+
+	.pano {
+		height: 302px;
+
+		img {
+			width: 100%;
+		}
 	}
 }
 
