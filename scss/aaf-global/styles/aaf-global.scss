@@ -107,7 +107,7 @@ header {
     	}
 	}
 
-	nav {
+	nav.desktop {
 		display: inline-block;
 		margin-top: 25px;
 		vertical-align: top;
@@ -138,10 +138,64 @@ header {
 			margin-top: -13px;
 			padding: 16px 40px;
 		}
+    	&.right {
+    		float: right;
+    	}
 	}
-	nav.right {
-		float: right;
-	}
+
+    nav.mobile {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        @include breakpoint(medium) {
+            display: none !important;
+        }
+
+        .wrapper {
+            display: block;
+            background: #FFF;
+            position: fixed;
+            z-index: 600;
+            width: calc(100% - 60px);
+            margin: 30px;
+            border-radius: 7px;
+            top: 0;
+            opacity: 1;
+            padding-top: 40px;
+
+            a {
+                display: block;
+                width: 100%;
+                text-align: center;
+                color: #222;
+                font-family: "Exo";
+                font-weight: 300;
+                font-size: 24px;
+                padding: 20px 0;
+            }
+            span {
+                position: absolute;
+                right: 0;
+                font-size: 28px;
+                padding: 15px 20px;
+                margin-top: -40px;
+                color: #888;
+            }
+        }
+
+
+        .shade {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 500;
+            top: 0;
+            display: block;
+        }
+    }
 
 	a.mobile_menu_button {
 		width: 29px;
@@ -178,7 +232,11 @@ main {
 	z-index: 998;
 
     .titles {
-        padding-top: 100px;
+        padding-top: 130px;
+
+        @include breakpoint(medium) {
+            padding-top: 100px;
+        }
     }
 
 	.AAF-white {

@@ -1,0 +1,1 @@
+$(".mobile_menu_button").click(function(){$("nav.mobile").addClass("active"),alert("Ok")});
