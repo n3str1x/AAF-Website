@@ -75,10 +75,8 @@ section {
 section#intro {
 	background-image: url('/about/images/intro_bg.jpg');
 	background-position: center top;
-	padding-top: 130px;
 
 	@include breakpoint(medium) {
-		padding-top: 100px;
 	}
 }
 section span.text-center {

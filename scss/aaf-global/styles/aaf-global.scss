@@ -163,7 +163,7 @@ header {
             border-radius: 7px;
             top: 0;
             opacity: 1;
-            padding-top: 40px;
+            padding-top: 30px;
 
             a {
                 display: block;
@@ -178,9 +178,9 @@ header {
             span {
                 position: absolute;
                 right: 0;
-                font-size: 28px;
-                padding: 15px 20px;
-                margin-top: -40px;
+                font-size: 24px;
+                padding: 10px 15px;
+                margin-top: -30px;
                 color: #888;
             }
         }
@@ -219,6 +219,16 @@ header {
 
 
 
+.titles {
+    padding-top: 130px;
+    text-align: center;
+
+    @include breakpoint(medium) {
+        padding-top: 100px;
+        text-align: left;
+    }
+}
+
 
 main {
 	color: #FFF;
@@ -230,14 +240,6 @@ main {
     background-size: 3143px 1005px;
 	position: absolute;
 	z-index: 998;
-
-    .titles {
-        padding-top: 130px;
-
-        @include breakpoint(medium) {
-            padding-top: 100px;
-        }
-    }
 
 	.AAF-white {
 		background-image: url('/aaf-global/images/content/logo_white_large.png');
