@@ -1,33 +1,28 @@
+// @codekit-prepend "slick.js"
 
+$('.slick-slider').slick({
+    dots: true,
+    speed: 600,
+    fade: false,
+    adaptiveHeight: false,
+    infinite: true,
+    swipe: false,
+    autoplay: false,
+    autoplaySpeed: 4000,
+    prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0" role="button"></button>',
+    nextArrow: '<button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0" role="button"></button>',
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        infinite: true,
+        swipe: true
+      }
+    }]
+});
+$(".slick-list").focus();
 
-var wsUri = "ws://localhost:1001";
-
-function init()
-{
-    testWebSocket();
-}
-
-function testWebSocket()
-{
-    websocket = new WebSocket(wsUri);
-    websocket.onopen = function(evt) { onOpen(evt) };
-    websocket.onclose = function(evt) { onClose(evt) };
-    websocket.onerror = function(evt) { onError(evt) };
-}
-
-function onOpen(evt)
-{
-    window.location = "/mods/download/";
-}
-
-function onClose(evt)
-{
-
-}
-
-function onError(evt)
-{
-    console.log("Error, Could not Connect to ScarletSVC");
-}
-
-init();
+$('.slick-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+    $(".bg." + currentSlide).fadeOut();
+    $(".bg." + nextSlide).fadeIn();
+});

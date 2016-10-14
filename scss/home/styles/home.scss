@@ -1,4 +1,7 @@
 @import '../../aaf-global/styles/settings';
+@import "../../aaf-global/styles/slick";
+@import "_slick.preferences";
+
 
 main {
 	min-height: 400px;
@@ -8,12 +11,43 @@ main {
 	z-index: 1;
 	height: 800px;
 	text-align: left;
-	padding: 300px 0 25px;
 
-	@media screen and (min-width: 40em) {
-		text-align: center;
-		height: 800px;
-		padding: 330px 0 0;
+	&.jointop {
+		padding: 290px 0 25px;
+
+		@include breakpoint(medium) {
+			text-align: center;
+			padding: 290px 0 0;
+		}
+
+		.icons {
+			margin: 0 auto;
+			margin-bottom: 10px;
+			width: 273px;
+			height: 42px;
+			background-image: url("/home/images/banner_jointop_icons.png");
+			background-size: 273px 42px;
+
+			@include breakpoint(retina) {
+				background-image: url("/home/images/banner_jointop_icons_2x.png");
+			}
+		}
+		p {
+		}
+		a {
+			margin-top: 30px;
+			box-shadow: none;
+			background-color: #e09a37;
+		}
+	}
+
+	&.leaders {
+		padding: 300px 0 25px;
+
+		@include breakpoint(medium) {
+			text-align: center;
+			padding: 300px 0 0;
+		}
 	}
 
 	.small-12>p {
@@ -22,7 +56,7 @@ main {
 		font-weight: 400;
 		color: #dadada;
 		max-width: 700px;
-		margin: 0px auto 30px;
+		margin: 0px auto;
 		text-shadow: rgba(0,0,0,0.7) 0px 0px 12px;
 
 
@@ -115,13 +149,14 @@ main {
 			max-width: 400px;
 			display: inline-block;
 			border-radius: 4px;
-			background-color: rgb(213, 68, 34);
+			border-color: #f87648;
+			color: #f87648;
+			background: transparent;
 			margin: 0 auto;
 			font-size: 9px;
 			font-family: 'Montserrat', sans-serif;
 			text-transform: uppercase;
-			color: rgb(255, 255, 255);
-			font-weight: bold;
+			font-weight: normal;
 			text-align: center;
 		}
 	}
@@ -129,53 +164,93 @@ main {
 }
 
 
-.bg {
+.bg-container {
 	position: absolute;
 	z-index: -20;
 	top: 0;
 	height: 800px;
 	width: 100%;
-	background: url("/home/images/banner_temp.png") no-repeat;
-	background-size: cover;
-	background-position: center center;
 	pointer-events: none;
-	overflow: hidden;
-	background-image: url('/home/images/banner_home_small.png');
 
-	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+	.bg {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: url("/home/images/banner_temp.png") no-repeat;
+		background-size: cover;
+		background-position: center center;
+		overflow: hidden;
 
-		& {
-			background-image: url('/home/images/banner_home_small_2x.png');
-		}
+		&.leaders {
+			background-image: url('/home/images/banner_home_small.png');
 
-	}
-	@media screen and (min-width: 40em) {
-		& {
-			background-image: url('/home/images/banner_home_large.png');
-		}
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
-		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+				& {
+					background-image: url('/home/images/banner_home_small_2x.png');
+				}
 
-			& {
-				background-image: url('/home/images/banner_home_large_2x.png');
+			}
+			@media screen and (min-width: 40em) {
+				& {
+					background-image: url('/home/images/banner_home_large.png');
+				}
+
+				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+					& {
+						background-image: url('/home/images/banner_home_large_2x.png');
+					}
+				}
+			}
+			@media screen and (min-width: 64em) {
+				& {
+					background-image: url('/home/images/banner_home_large.png');
+				}
+
+				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+					& {
+						background-image: url('/home/images/banner_home_large_2x.png');
+					}
+				}
 			}
 		}
-	}
-	@media screen and (min-width: 64em) {
-		& {
-			background-image: url('/home/images/banner_home_large.png');
-		}
+		&.jointop {
+			background-image: url('/home/images/banner_jointop_small.png');
 
-		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
-			& {
-				background-image: url('/home/images/banner_home_large_2x.png');
+				& {
+					background-image: url('/home/images/banner_jointop_small_2x.png');
+				}
+
 			}
-		}
+			@media screen and (min-width: 40em) {
+				& {
+					background-image: url('/home/images/banner_jointop_large.png');
+				}
 
-		video {
-			width: 100%;
-			display: none;
+				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+					& {
+						background-image: url('/home/images/banner_jointop_large_2x.png');
+					}
+				}
+			}
+			@media screen and (min-width: 64em) {
+				& {
+					background-image: url('/home/images/banner_jointop_large.png');
+				}
+
+				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+					& {
+						background-image: url('/home/images/banner_jointop_large_2x.png');
+					}
+				}
+			}
 		}
 	}
 }
