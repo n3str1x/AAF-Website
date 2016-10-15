@@ -13,7 +13,7 @@ main {
 	text-align: left;
 
 	&.jointop {
-		padding: 290px 0 25px;
+		padding: 220px 0 25px;
 
 		@include breakpoint(medium) {
 			text-align: center;
@@ -42,7 +42,7 @@ main {
 	}
 
 	&.leaders {
-		padding: 300px 0 25px;
+		padding: 240px 0 25px;
 
 		@include breakpoint(medium) {
 			text-align: center;
@@ -146,7 +146,7 @@ main {
 
 		.callout {
 			padding: 5px 20px;
-			max-width: 400px;
+			width: 100%;
 			display: inline-block;
 			border-radius: 4px;
 			border-color: #f87648;
@@ -158,6 +158,11 @@ main {
 			text-transform: uppercase;
 			font-weight: normal;
 			text-align: center;
+
+			@include breakpoint(medium) {
+				max-width: 400px;
+				width: auto;
+			}
 		}
 	}
 
@@ -177,77 +182,77 @@ main {
 		top: 0;
 		width: 100%;
 		height: 100%;
-		background: url("/home/images/banner_temp.png") no-repeat;
+		background: url("/home/images/banner_temp.png") no-rjpgat;
 		background-size: cover;
 		background-position: center center;
 		overflow: hidden;
 
 		&.leaders {
-			background-image: url('/home/images/banner_home_small.png');
+			background-image: url('/home/images/banner_home_small.jpg');
 
 			@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
 				& {
-					background-image: url('/home/images/banner_home_small_2x.png');
+					background-image: url('/home/images/banner_home_small_2x.jpg');
 				}
 
 			}
 			@media screen and (min-width: 40em) {
 				& {
-					background-image: url('/home/images/banner_home_large.png');
+					background-image: url('/home/images/banner_home_large.jpg');
 				}
 
 				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
 					& {
-						background-image: url('/home/images/banner_home_large_2x.png');
+						background-image: url('/home/images/banner_home_large_2x.jpg');
 					}
 				}
 			}
 			@media screen and (min-width: 64em) {
 				& {
-					background-image: url('/home/images/banner_home_large.png');
+					background-image: url('/home/images/banner_home_large.jpg');
 				}
 
 				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
 					& {
-						background-image: url('/home/images/banner_home_large_2x.png');
+						background-image: url('/home/images/banner_home_large_2x.jpg');
 					}
 				}
 			}
 		}
 		&.jointop {
-			background-image: url('/home/images/banner_jointop_small.png');
+			background-image: url('/home/images/banner_jointop_small.jpg');
 
 			@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
 				& {
-					background-image: url('/home/images/banner_jointop_small_2x.png');
+					background-image: url('/home/images/banner_jointop_small_2x.jpg');
 				}
 
 			}
 			@media screen and (min-width: 40em) {
 				& {
-					background-image: url('/home/images/banner_jointop_large.png');
+					background-image: url('/home/images/banner_jointop_large.jpg');
 				}
 
 				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
 					& {
-						background-image: url('/home/images/banner_jointop_large_2x.png');
+						background-image: url('/home/images/banner_jointop_large_2x.jpg');
 					}
 				}
 			}
 			@media screen and (min-width: 64em) {
 				& {
-					background-image: url('/home/images/banner_jointop_large.png');
+					background-image: url('/home/images/banner_jointop_large.jpg');
 				}
 
 				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
 					& {
-						background-image: url('/home/images/banner_jointop_large_2x.png');
+						background-image: url('/home/images/banner_jointop_large_2x.jpg');
 					}
 				}
 			}
