@@ -1,6 +1,6 @@
 # Australian Armed Forces Website
 
-![AAF Website](//i.imgur.com/hfNHsM1.jpg)
+![AAF Website](http://i.imgur.com/hfNHsM1.jpg)
 
 [AAF Website](//i.imgur.com/hfNHsM1.jpg)
 
