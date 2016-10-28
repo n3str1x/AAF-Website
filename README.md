@@ -1,4 +1,4 @@
-# Australian Armed Forces Website
+# aafcom - Australian Armed Forces Website
 
 ![AAF Website](http://i.imgur.com/hfNHsM1.jpg)
 
