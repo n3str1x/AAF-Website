@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-AU" lang="en-AU" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <!--#include virtual="/aaf-global/includes/global-ie9.inc" -->
+
+    <title>Admin - Australian Armed Forces | Arma 3&trade; Unit</title>
+    <!--#include virtual="/aaf-global/includes/global-meta.inc" -->
+
+    <!--#include virtual="/aaf-global/includes/global-styles.inc" -->
+    <link rel="stylesheet" href="/admin/styles/admin.css" />
+</head>
+
+<body id="admin-panel content">
+
+    <!--#include virtual="/aaf-global/includes/header.inc" -->
+
+    <main>
+        <div class="row titles">
+            <div class="small-12 columns">
+                <h1>Admin <small>Please stop breaking the things.</small></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-6 columns">
+                <section class="armaServer">
+                    <div class="banner">
+                        <div class="shade">
+                            <div>
+                                <span class="statusicon" v-bind:class="status"></span>
+                                <h4 v-cloak>{{ server.name }}</h4>
+                                <div v-cloak>{{ server.mission }} – {{ server.players }} players online</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="small-12 medium-6 columns">
+                <section class="teamspeakServer">
+                    <div class="banner">
+                        <div class="shade">
+                            <div>
+                                <span class="statusicon" v-bind:class="status"></span>
+                                <h4 v-cloak>{{ server.name }}</h4>
+                                <div v-cloak>{{ server.players }} teampseak members</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-6 columns">
+                <section class="discord">
+                    <div class="banner">
+                        <div class="shade">
+                            <div>
+                                <span class="statusicon" v-bind:class="status"></span>
+                                <h4 v-cloak>Discord Mission Coming Soon</h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-6 columns">
+                <section class="scarlet">
+                    <h3>Scarlet User Info</h3>
+                    <pre class="prettyprint" v-cloak>{{ details }}</pre>
+                </section>
+            </div>
+        </div>
+
+        <!--#include virtual="/aaf-global/includes/footer.inc" -->
+        <!--#include virtual="/aaf-global/includes/global-scripts.inc" -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.min.js" charset="utf-8"></script>
+        <script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+
+        <script src="/admin/scripts/admin.js" charset="utf-8"></script>
+
+    </main>
+</body>
+
+
+</html>

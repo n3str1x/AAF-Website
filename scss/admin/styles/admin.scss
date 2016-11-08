@@ -1,0 +1,111 @@
+@import "foundation";
+@import 'util/mixins';
+@import '../../aaf-global/styles/_exofont';
+
+h3, h4 {
+	font-family: 'Exo';
+}
+
+.titles {
+	margin-bottom: 20px;
+}
+
+section {
+	padding: 20px 0;
+}
+[v-cloak] {
+	display: none;
+}
+pre {
+	font-size: 10px;
+}
+section {
+	.banner {
+		width: 100%;
+
+		background-size: cover;
+		background-position: center;
+		height: 100px;
+		border-radius: 6px;
+
+		.shade {
+			width: 80%;
+			height: 100%;
+			border-radius: 6px;
+		    background-image: -webkit-gradient(linear, 0% 0%, 100% 0%,color-stop(0, rgba(0, 0, 0, 0.92)),color-stop(1, rgba(0, 0, 0, 0)));
+
+			& > div {
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+				padding-left: 40px;
+
+				h4 {
+					display: inline-block;
+				}
+
+				div {
+					display: block;
+					margin-top: -15px;
+					font-size: 13px;
+					opacity: 0.6;
+				}
+			}
+		}
+	}
+
+	&.armaServer {
+		.banner {
+			background-image: url("/admin/images/arma_bg_2x.png");
+		}
+	}
+	&.teamspeakServer {
+		.banner {
+			background-image: url("/admin/images/teamspeak_bg_2x.png");
+		}
+	}
+	&.discord {
+		.banner {
+			background-color: #738bd7;
+		}
+	}
+}
+
+
+
+
+
+
+.statusicon {
+	height: 9px;
+	width: 9px;
+	background-size: 9px 9px;
+	display: inline-block;
+	margin-top: 14px;
+	margin-left: -17px;
+	position: absolute;
+
+	&.green {
+		background-image: url('/mods/electron/images/status_green.png');
+
+		@include breakpoint(retina) {
+			background-image: url('/mods/electron/images/status_green_2x.png');
+		}
+	}
+
+	&.orange {
+		background-image: url('/mods/electron/images/status_orange.png');
+
+		@include breakpoint(retina) {
+			background-image: url('/mods/electron/images/status_orange_2x.png');
+		}
+	}
+
+	&.red {
+		background-image: url('/mods/electron/images/status_red.png');
+
+		@include breakpoint(retina) {
+			background-image: url('/mods/electron/images/status_red_2x.png');
+		}
+	}
+}
