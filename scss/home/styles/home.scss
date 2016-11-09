@@ -12,6 +12,15 @@ main {
 	height: 800px;
 	text-align: left;
 
+	&.leaders {
+		padding: 240px 0 25px;
+
+		@include breakpoint(medium) {
+			text-align: center;
+			padding: 300px 0 0;
+		}
+	}
+
 	&.jointop {
 		padding: 220px 0 25px;
 
@@ -41,12 +50,17 @@ main {
 		}
 	}
 
-	&.leaders {
-		padding: 240px 0 25px;
+	&.teamspeak {
+		padding: 300px 0 25px;
 
 		@include breakpoint(medium) {
 			text-align: center;
-			padding: 300px 0 0;
+			padding: 320px 0 0;
+		}
+		a {
+			margin-top: 20px;
+			box-shadow: none;
+			background-color: #475e7d;
 		}
 	}
 
@@ -191,6 +205,11 @@ main {
 		background-size: cover;
 		background-position: center center;
 		overflow: hidden;
+		display: none;
+
+		&.leaders {
+			display: block;
+		}
 
 		&.leaders {
 			background-image: url('/home/images/banner_home_small.jpg');
@@ -239,13 +258,13 @@ main {
 			}
 			@media screen and (min-width: 40em) {
 				& {
-					background-image: url('/home/images/banner_jointop_large.jpg');
+					background-image: url('/home/images/banner_jointop_medium.jpg');
 				}
 
 				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
 
 					& {
-						background-image: url('/home/images/banner_jointop_large_2x.jpg');
+						background-image: url('/home/images/banner_jointop_medium_2x.jpg');
 					}
 				}
 			}
@@ -258,6 +277,41 @@ main {
 
 					& {
 						background-image: url('/home/images/banner_jointop_large_2x.jpg');
+					}
+				}
+			}
+		}
+		&.teamspeak {
+			background-image: url('/home/images/banner_teamspeak_small.jpg');
+
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+				& {
+					background-image: url('/home/images/banner_teamspeak_small_2x.jpg');
+				}
+
+			}
+			@media screen and (min-width: 40em) {
+				& {
+					background-image: url('/home/images/banner_teamspeak_medium.jpg');
+				}
+
+				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+					& {
+						background-image: url('/home/images/banner_teamspeak_medium_2x.jpg');
+					}
+				}
+			}
+			@media screen and (min-width: 64em) {
+				& {
+					background-image: url('/home/images/banner_teamspeak_large.jpg');
+				}
+
+				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+					& {
+						background-image: url('/home/images/banner_teamspeak_large_2x.jpg');
 					}
 				}
 			}
