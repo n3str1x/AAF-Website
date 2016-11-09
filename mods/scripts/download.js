@@ -28,7 +28,7 @@ jQuery.fn.extend({
     }
 });
 
-$.getJSON("https://scarlet.australianarmedforces.org/api/user/info/" + username)
+$.post("https://scarlet.australianarmedforces.org/api/user/info/" + username)
 .done(function(data) {
     info = data;
     info.username = capitalizeFirstLetter(info.username);
@@ -38,7 +38,7 @@ $.getJSON("https://scarlet.australianarmedforces.org/api/user/info/" + username)
     $("#status_scarletapi").statusColour("red");
 });
 
-$.getJSON("https://scarlet.australianarmedforces.org/api/armaserver", function(data) {
+$.post("https://scarlet.australianarmedforces.org/api/armaserver", function(data) {
     serverInfo = data;
     if(serverInfo["58.162.184.102:2302"].gq_online == true) {
         $("#status_arma").statusColour("green");
@@ -56,7 +56,7 @@ function capitalizeFirstLetter(string) {
 
 
 $(function() {
-    $.getJSON("https://scarlet.australianarmedforces.org/api/ip/").done(function(json) {
+    $.post("https://scarlet.australianarmedforces.org/api/ip/").done(function(json) {
         IP = json.ip;
     });
 });
@@ -192,7 +192,7 @@ function updateProgress(message) {
 function updateInstallLocation(message) {
     $.post( "https://scarlet.australianarmedforces.org/api/user/install/" +  info.key , { installDir: message })
     .done( function() {
-        $.get("https://scarlet.australianarmedforces.org/api/user/info/" + info.key, function( data ) {
+        $.post("https://scarlet.australianarmedforces.org/api/user/info/" + info.key, function( data ) {
             info = data;
             updateFile("Current Install Location is: " + info.installDir);
         });
