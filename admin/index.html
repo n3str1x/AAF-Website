@@ -30,7 +30,7 @@
                             <div>
                                 <span class="statusicon" v-bind:class="status"></span>
                                 <h4 v-cloak>{{ server.name }}</h4>
-                                <div v-cloak>{{ server.mission }} – {{ server.numplayers }} players online</div>
+                                <div v-cloak>{{ server.state }}</div>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             <div>
                                 <span class="statusicon" v-bind:class="status"></span>
                                 <h4 v-cloak>{{ server.name }}</h4>
-                                <div v-cloak>{{ server.players }} teampseak members</div>
+                                <div v-cloak>{{ server.state }}</div>
                             </div>
                         </div>
                     </div>
