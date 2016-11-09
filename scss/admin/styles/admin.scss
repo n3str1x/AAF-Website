@@ -2,16 +2,23 @@
 @import 'util/mixins';
 @import '../../aaf-global/styles/_exofont';
 
+@media screen and (min-width: 40em) {
+	.column, .columns {
+	    padding-left: .3rem;
+	    padding-right: .3rem;
+	}
+}
+
 h3, h4 {
 	font-family: 'Exo';
 }
 
 .titles {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 section {
-	padding: 20px 0;
+	padding: .6rem 0 0;
 }
 [v-cloak] {
 	display: none;
@@ -19,6 +26,11 @@ section {
 pre {
 	font-size: 10px;
 }
+.reveal-overlay .reveal {
+	border-radius: 8px;
+	font-family: 'Exo';
+}
+
 section {
 	.banner {
 		width: 100%;
@@ -67,11 +79,106 @@ section {
 	&.discord {
 		.banner {
 			background-color: #738bd7;
+			.shade {
+				background: none;
+				padding: 20px;
+				width: 100%;
+
+				.logo {
+					background-image: url("https://discordapp.com/assets/4f004ac9be168ac6ee18fc442a52ab53.svg");
+					width: 130px;
+					height: 36px;
+					display: inline-block;
+				}
+
+				button {
+					height: 100%;
+					display: inline-block;
+					float: right;
+					background-color: #94aeff;
+				}
+			}
+		}
+	}
+
+	&.scarlet {
+		.banner {
+			background-image: url("https://scarlet.australianarmedforces.org/images/home_bg_2x.png");
+
+			.shade {
+				background-image: -webkit-gradient(linear, 0% 0%, 100% 0%,color-stop(0, rgba(0, 0, 0, 0.8)),color-stop(1, rgba(0, 0, 0, 0)));
+			}
 		}
 	}
 }
 
 
+
+/* ARMA */
+.arma3list {
+	display: none;
+	font-family: Whitney;
+	line-height: 0;
+
+	.header {
+		padding: 10px 20px;
+		text-align: left;
+		margin-bottom: 10px;
+		background: #363636 !important;
+		border-radius: 5px 5px 0 0;
+		margin: 0;
+		text-align: center;
+
+		a {
+			display: inline-block;
+
+			&:hover {
+				opacity: 0.5;
+				transition: opacity 0.25s ease-out;
+				cursor: pointer;
+			}
+
+			h3 {
+				text-indent: 300% !important;
+				white-space: nowrap !important;
+				width: 112px;
+				height: 50px;
+				background-image: url('https://arma3.com/assets/img/logos/arma3.png');
+				background-size: 112px 50px;
+				margin: 0;
+				overflow: hidden;
+			}
+		}
+	}
+	.list {
+		width: 100%;
+		background-color: #212121;
+		border-radius: 0 0 5px 5px;
+		margin-bottom: 20px;
+		padding: 20px;
+
+		&::-webkit-scrollbar{width:10px}
+		&::-webkit-scrollbar-thumb{background-color:hsla(0,0%,100%,.1);background-clip:padding-box;border:3px solid transparent;border-radius:5px}
+		&::-webkit-scrollbar-track-piece{background-color:transparent;background-clip:padding-box;border:3px solid transparent;border-radius:5px}
+
+		li {
+			list-style: none;
+
+			img {
+				margin-right: 5px;
+			}
+		}
+
+		h4 {
+			color: #8a8e94;
+			font-size: 14px;
+			font-weight: 600;
+			font-family: Whitney;
+		}
+	}
+}
+
+/* End ARMA */
 
 
 

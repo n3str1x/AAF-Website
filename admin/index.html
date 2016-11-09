@@ -23,14 +23,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="small-12 medium-6 columns">
+            <div class="small-12 medium-4 columns">
                 <section class="armaServer">
                     <div class="banner">
                         <div class="shade">
                             <div>
                                 <span class="statusicon" v-bind:class="status"></span>
                                 <h4 v-cloak>{{ server.name }}</h4>
-                                <div v-cloak>{{ server.mission }} – {{ server.players }} players online</div>
+                                <div v-cloak>{{ server.mission }} – {{ server.numplayers }} players online</div>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                 </section>
             </div>
 
-            <div class="small-12 medium-6 columns">
+            <div class="small-12 medium-4 columns">
                 <section class="teamspeakServer">
                     <div class="banner">
                         <div class="shade">
@@ -51,15 +51,35 @@
                     </div>
                 </section>
             </div>
+            <div class="small-12 medium-4 columns">
+                <section class="discord">
+                    <div class="banner">
+                        <div class="shade">
+                                <div class="logo"></div>
+                                <button type="button" class="button" name="button" data-open="model">Rally Up</button>
+                        </div>
+                    </div>
+
+
+                    <div class="reveal text-center" id="model" data-reveal>
+                        <h1>Rally Up.</h1>
+                        <p>Once this button is clicked, it sends out a rally up notification.</p>
+                        <button type="button" class="button success" name="button" v-on:click="rally()">Rally Up</button>
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </section>
+            </div>
         </div>
         <div class="row">
-            <div class="small-12 medium-6 columns">
-                <section class="discord">
+            <div class="small-12 columns">
+                <section class="scarlet">
                     <div class="banner">
                         <div class="shade">
                             <div>
                                 <span class="statusicon" v-bind:class="status"></span>
-                                <h4 v-cloak>Discord Mission Coming Soon</h4>
+                                <h4>Scarlet</h4>
                             </div>
                         </div>
                     </div>
@@ -67,11 +87,16 @@
             </div>
         </div>
         <div class="row">
-            <div class="small-12 medium-6 columns">
-                <section class="scarlet">
-                    <h3>Scarlet User Info</h3>
-                    <pre class="prettyprint" v-cloak>{{ details }}</pre>
-                </section>
+            <div class="small-3 columns">
+
+    			<div class="arma3list">
+    				<div class="header">
+    					<a href="https://units.arma3.com/unit/australian-armed-forces"><h3>ARMA 3</h3></a>
+    				</div>
+    				<div class="list">
+    					<h4>CURRENTLY IN GAME</h4>
+    				</div>
+    			</div>
             </div>
         </div>
 
