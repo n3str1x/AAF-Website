@@ -20,8 +20,7 @@ var armaServer = new Vue({
         status: "orange",
         server: {
             name: "",
-            players: "",
-            gameType: "",
+            state: "",
             status: "",
             numplayers: ""
         }
@@ -34,14 +33,16 @@ var armaServer = new Vue({
             this.details = response.body[Object.keys(response.body)[0]];
             this.server.name = this.details.gq_hostname;
             this.server.numplayers = this.details.num_players;
-            this.server.mission = this.details.gq_gametype;
             this.server.status = this.details.gq_online;
-            this.server.players = this.details.players;
+            this.server.state = this.details.gq_gametype + " – " + this.details.players + " currently playing.";
 
-            if (this.server.status == true) {
+            if (this.server.online == true) {
                 this.status = "green";
+
             } else {
                 this.status = "red";
+                this.server.name = "ARMA Offline";
+                this.server.state = "No server response"
             }
         });
     }
@@ -53,7 +54,8 @@ var teamspeakServer = new Vue({
     data: {
         server: {
             name: "",
-            players: ""
+            state: "",
+            status: ""
         }
     },
     created: function() {
@@ -63,14 +65,15 @@ var teamspeakServer = new Vue({
         Vue.http.post("https://scarlet.australianarmedforces.org/api/teamspeak", formData).then((response) => {
             this.details = response.body[Object.keys(response.body)[0]];
             this.server.name = this.details.gq_hostname;
-            this.server.players = this.details.numplayers;
-            this.server.mission = this.details.gq_gametype;
             this.server.status = this.details.gq_online;
+            this.server.state = this.details.numplayers + " teamspeak members.";
 
-            if (this.server.status === true) {
+            if (this.server.status == true) {
                 this.status = "green";
             } else {
                 this.status = "red";
+                this.server.name = "TS Offline"
+                this.server.state = "No server response"
             }
         });
     }
