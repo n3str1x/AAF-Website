@@ -2,6 +2,13 @@
 @import 'util/mixins';
 @import '../../aaf-global/styles/_exofont';
 
+
+.column, .columns {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
 @media screen and (min-width: 40em) {
 	.column, .columns {
 	    padding-left: .3rem;
@@ -14,11 +21,15 @@ h3, h4 {
 }
 
 .titles {
-	margin-bottom: 0px;
+	margin-bottom: 1rem;
 }
 
 section {
-	padding: .6rem 0 0;
+	padding: 0;
+
+	@media screen and (min-width: 40em) {
+		padding: .6rem 0 0;
+	}
 }
 [v-cloak] {
 	display: none;
@@ -34,17 +45,22 @@ pre {
 section {
 	.banner {
 		width: 100%;
-
 		background-size: cover;
 		background-position: center;
 		height: 100px;
-		border-radius: 6px;
+
+		@media screen and (min-width: 40em) {
+			border-radius: 6px;
+		}
 
 		.shade {
 			width: 80%;
 			height: 100%;
-			border-radius: 6px;
 		    background-image: -webkit-gradient(linear, 0% 0%, 100% 0%,color-stop(0, rgba(0, 0, 0, 0.92)),color-stop(1, rgba(0, 0, 0, 0)));
+
+			@media screen and (min-width: 40em) {
+				border-radius: 6px;
+			}
 
 			& > div {
 				position: relative;
