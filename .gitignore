@@ -3,6 +3,7 @@ bower_components/
 .htaccess
 
 *.codekit
+*.codekit3
 config.codekit
 *.scssc
 .DS_Store
