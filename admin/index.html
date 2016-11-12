@@ -56,15 +56,17 @@
                     <div class="banner">
                         <div class="shade">
                                 <div class="logo"></div>
-                                <button type="button" class="button" name="button" data-open="model">Rally Up</button>
+                                <button type="button" class="button" name="button" data-open="discordModel">Rally Up</button>
                         </div>
                     </div>
 
 
-                    <div class="reveal text-center" id="model" data-reveal>
+                    <div class="reveal text-center" id="discordModel" data-reveal>
                         <h1>Rally Up.</h1>
                         <p>Once this button is clicked, it sends out a rally up notification.</p>
-                        <button type="button" class="button success" name="button" v-on:click="rally()">Rally Up</button>
+                        <div class="discordVue">
+                            <button type="button" class="button success" name="button" v-on:click="rally()">Rally Up</button>
+                        </div>
                         <button class="close-button" data-close aria-label="Close modal" type="button">
                         <span aria-hidden="true">&times;</span>
                         </button>

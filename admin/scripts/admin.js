@@ -42,7 +42,7 @@ var armaServer = new Vue({
             } else {
                 this.status = "red";
                 this.server.name = "ARMA Offline";
-                this.server.state = "No server response"
+                this.server.state = "No server response";
             }
         });
     }
@@ -72,24 +72,25 @@ var teamspeakServer = new Vue({
                 this.status = "green";
             } else {
                 this.status = "red";
-                this.server.name = "TS Offline"
-                this.server.state = "No server response"
+                this.server.name = "TS Offline";
+                this.server.state = "No server response";
             }
         });
     }
 
 });
 
-
-var discord = new Vue({
-    el: '.discord',
+var discordVue = new Vue({
+    el: '.discordVue',
     methods: {
         rally : function() {
             var formData = new FormData();
             formData.append('content', '@everyone Mission Notification. Rally Up.');
             formData.append('username', 'Mission Specialist');
 
-            Vue.http.post("https://discordapp.com/api/webhooks/237049941862645761/gDARL75xEY80FbherWNqyTueBhi8eTqobWZ_0xJv4cOPv8FPvE0ki9_UVjxMewLHg0Hn", formData);
+            Vue.http.post("https://discordapp.com/api/webhooks/237049941862645761/gDARL75xEY80FbherWNqyTueBhi8eTqobWZ_0xJv4cOPv8FPvE0ki9_UVjxMewLHg0Hn", formData).then((response) => {
+                $('#discordModel').foundation('close');
+            });
         }
     }
 
@@ -101,15 +102,7 @@ var scarlet = new Vue({
         status: "orange"
     },
     methods: {
-        rally : function() {
-            var formData = new FormData();
-            formData.append('content', '@everyone Mission Notification. Rally Up.');
-            formData.append('username', 'Mission Specialist');
 
-            Vue.http.post("https://discordapp.com/api/webhooks/237049941862645761/gDARL75xEY80FbherWNqyTueBhi8eTqobWZ_0xJv4cOPv8FPvE0ki9_UVjxMewLHg0Hn", formData).then((response) => {
-                this.posted = true;
-            });
-        }
     }
 
 });
