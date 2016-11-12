@@ -36,7 +36,7 @@ var armaServer = new Vue({
             this.server.status = this.details.gq_online;
             this.server.state = this.details.gq_gametype + " – " + this.details.players + " currently playing.";
 
-            if (this.server.online == true) {
+            if (this.server.gq_online == true) {
                 this.status = "green";
 
             } else {
