@@ -21,35 +21,6 @@ main {
 		}
 	}
 
-	&.jointop {
-		padding: 220px 0 25px;
-
-		@include breakpoint(medium) {
-			text-align: center;
-			padding: 290px 0 0;
-		}
-
-		.icons {
-			margin: 0 auto;
-			margin-bottom: 10px;
-			width: 273px;
-			height: 42px;
-			background-image: url("/home/images/banner_jointop_icons.png");
-			background-size: 273px 42px;
-
-			@include breakpoint(retina) {
-				background-image: url("/home/images/banner_jointop_icons_2x.png");
-			}
-		}
-		p {
-		}
-		a {
-			margin-top: 30px;
-			box-shadow: none;
-			background-color: #f87648;
-		}
-	}
-
 	&.teamspeak {
 		padding: 300px 0 25px;
 
@@ -242,41 +213,6 @@ main {
 
 					& {
 						background-image: url('/home/images/banner_home_large_2x.jpg');
-					}
-				}
-			}
-		}
-		&.jointop {
-			background-image: url('/home/images/banner_jointop_small.jpg');
-
-			@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-
-				& {
-					background-image: url('/home/images/banner_jointop_small_2x.jpg');
-				}
-
-			}
-			@media screen and (min-width: 40em) {
-				& {
-					background-image: url('/home/images/banner_jointop_medium.jpg');
-				}
-
-				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-
-					& {
-						background-image: url('/home/images/banner_jointop_medium_2x.jpg');
-					}
-				}
-			}
-			@media screen and (min-width: 64em) {
-				& {
-					background-image: url('/home/images/banner_jointop_large.jpg');
-				}
-
-				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
-
-					& {
-						background-image: url('/home/images/banner_jointop_large_2x.jpg');
 					}
 				}
 			}

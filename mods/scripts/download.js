@@ -194,7 +194,7 @@ function updateInstallLocation(message) {
     .done( function() {
         $.post("https://scarlet.australianarmedforces.org/api/user/info/" + info.key, function( data ) {
             info = data;
-            updateFile("Current Install Location is: " + info.installDir);
+            updateFile("Current Install Location is: " + info.installDir + "\@Mods_AAF");
         });
     } );
 }
