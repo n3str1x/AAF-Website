@@ -12,6 +12,10 @@ section {
 	background-position: center center;
 	background-size: cover;
 
+	.copy {
+		opacity: 0;
+	}
+
 	@include breakpoint(medium up) {
 		min-height: auto;
 		padding: 0;
@@ -77,6 +81,10 @@ section#intro {
 	background-position: center top;
 
 	@include breakpoint(medium) {
+	}
+
+	.copy {
+		opacity: 1;
 	}
 }
 section span.text-center {
@@ -167,22 +175,26 @@ section#friends {
 		max-width: 700px;
 		margin: 0 auto;
 	}
-	a.button {
-		margin: 0 auto;
+	.buttonGroup {
 		margin-top: 50px;
-		font-family: 'Montserrat', sans-serif;;
-		font-weight: 400;
-		font-size: 14px;
-		padding: 15px 35px;
-		margin-right: 10px;
-		width: 100%;
+		a.button {
+			margin: 0 auto;
+			margin-top: 50px;
+			font-family: 'Montserrat', sans-serif;;
+			font-weight: 400;
+			font-size: 14px;
+			padding: 15px 35px;
+			margin-right: 10px;
+			width: 100%;
+			margin-top: 8px;
 
-		@media screen and (min-width: 30em) {
-			width: auto;
+			@media screen and (min-width: 30em) {
+				width: auto;
+			}
 		}
-	}
 
-	a.secondary {
-		background-color: hsla(215,24%,12%,1);
+		a.secondary {
+			background-color: hsla(215,24%,12%,1);
+		}
 	}
 }
