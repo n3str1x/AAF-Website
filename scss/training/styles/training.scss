@@ -1,0 +1,30 @@
+@import "foundation";
+@import 'util/mixins';
+
+
+header {
+    position: absolute;
+}
+main {
+    .titles {
+        margin-bottom: 30px;
+    }
+	p, li, small {
+		color: #8fa2b3;
+	}
+}
+
+img {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+
+thead, tbody, tfoot {
+    border: none;
+    background-color: #202738;
+    & tr:nth-child(even) {
+        background-color: #2a3347;
+    }
+}
