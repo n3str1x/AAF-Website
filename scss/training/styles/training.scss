@@ -12,6 +12,23 @@ main {
 	p, li, small {
 		color: #8fa2b3;
 	}
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 25px;
+        color: #a9b8c7;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 15px;
+    }
 }
 
 img {
