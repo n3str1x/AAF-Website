@@ -1,7 +1,7 @@
 {
-  "name": "foundation-sites-template",
+  "name": "Australian Armed Forces",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Website Source for http://australianarmedforces.org.",
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.9.0",
@@ -21,7 +21,7 @@
     "url": "https://github.com/zurb/foundation-sites/issues",
     "email": "foundation@zurb.com"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "Alex <chess2ryme@gmail.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {

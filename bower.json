@@ -1,13 +1,13 @@
 {
-  "name": "foundation-sites-template",
+  "name": "Australian Armed Forces",
   "version": "1.0.0",
   "authors": [
-    "ZURB <foundation@zurb.com>"
+    "Alex <chess2ryme@gmail.com>"
   ],
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Website Source for http://australianarmedforces.org.",
   "main": "index.html",
   "license": "MIT",
-  "homepage": "http://foundation.zurb.com",
+  "homepage": "http://australianarmedforces.org",
   "dependencies": {
     "foundation-sites": "^6.2.3",
     "motion-ui": "~1.1.0"

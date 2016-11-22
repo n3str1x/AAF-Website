@@ -1,2 +1,5 @@
 ErrorDocument 404 /aaf-global/errors/404.html
+ErrorDocument 403 /aaf-global/errors/404.html
 AddType application/octet-stream paa
+IndexIgnore *
+Options -Indexes
