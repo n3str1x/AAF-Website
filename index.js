@@ -4,7 +4,7 @@ var file = new static.Server();
 
 var inputDirectory = "/tmp/test";
 var outputDirectory = "/tmp/output";
-var matcher = ".*";
+var matcher = "*";
 
 var includes = new ssi(inputDirectory, outputDirectory, matcher, true);
 includes.compile();
