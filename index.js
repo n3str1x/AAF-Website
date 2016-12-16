@@ -1,12 +1,10 @@
 var static = require('node-static');
 var ssi = require("ssi");
-var file = new static.Server();
+var file = new static.Server('./public');
 
 var inputDirectory = ".";
 var outputDirectory = "./public";
 var matcher = "**/*.inc";
-
-var fileServer = new static.Server('./public');
 
 var includes = new ssi(inputDirectory, outputDirectory, matcher, true);
 includes.compile();
