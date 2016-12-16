@@ -3,8 +3,8 @@ var ssi = require("ssi");
 var file = new static.Server('./public');
 
 var inputDirectory = "./";
-var outputDirectory = "./public";
-var matcher = "**/*.inc";
+var outputDirectory = "./public/";
+var matcher = "**/*.html";
 
 var includes = new ssi(inputDirectory, outputDirectory, matcher, true);
 includes.compile();
