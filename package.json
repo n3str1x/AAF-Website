@@ -1,5 +1,5 @@
 {
-  "name": "Australian Armed Forces",
+  "name": "aaf-website",
   "version": "1.0.0",
   "description": "Website Source for http://australianarmedforces.org.",
   "main": "gulpfile.js",
