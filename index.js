@@ -2,7 +2,7 @@ var static = require('node-static');
 var ssi = require("ssi");
 var file = new static.Server('./public');
 
-var inputDirectory = ".";
+var inputDirectory = "./";
 var outputDirectory = "./public";
 var matcher = "**/*.inc";
 
