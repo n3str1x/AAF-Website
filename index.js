@@ -2,8 +2,8 @@ var static = require('node-static');
 var ssi = require("ssi");
 var file = new static.Server();
 
-var inputDirectory = "/";
-var outputDirectory = "/public";
+var inputDirectory = ".";
+var outputDirectory = "./public";
 var matcher = "*";
 
 var fileServer = new static.Server('./public');
