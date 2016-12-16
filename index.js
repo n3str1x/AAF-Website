@@ -4,7 +4,7 @@ var file = new static.Server('./public/');
 
 var inputDirectory = "./";
 var outputDirectory = "./public/";
-var matcher = "**/(a-z|A-Z).(html|png|css|js|jpg|jpeg)";
+var matcher = "**/*.(html|png|css|js|jpg|jpeg)";
 
 var includes = new ssi(inputDirectory, outputDirectory, matcher, true);
 includes.compile();
