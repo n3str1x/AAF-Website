@@ -2,9 +2,11 @@ var static = require('node-static');
 var ssi = require("ssi");
 var file = new static.Server();
 
-var inputDirectory = "/";
-var outputDirectory = "/";
+var inputDirectory = "./";
+var outputDirectory = "./public";
 var matcher = "*";
+
+var fileServer = new static.Server('./public');
 
 var includes = new ssi(inputDirectory, outputDirectory, matcher, true);
 includes.compile();
