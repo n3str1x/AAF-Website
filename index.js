@@ -2,8 +2,8 @@ var static = require('node-static');
 var ssi = require("ssi");
 var file = new static.Server();
 
-var inputDirectory = "/tmp/test";
-var outputDirectory = "/tmp/output";
+var inputDirectory = "/";
+var outputDirectory = "/";
 var matcher = "*";
 
 var includes = new ssi(inputDirectory, outputDirectory, matcher, true);
