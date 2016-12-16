@@ -4,7 +4,7 @@ var file = new static.Server();
 
 var inputDirectory = ".";
 var outputDirectory = "./public";
-var matcher = "*";
+var matcher = "**/*.inc";
 
 var fileServer = new static.Server('./public');
 
