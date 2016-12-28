@@ -1,8 +1,52 @@
 @import "../../aaf-global/styles/_settings";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 main {
 	padding-top: 20px;
 	min-height: auto;
+}
+
+.subnav {
+	padding-top: 90px;
+	background-color: rgba(5, 8, 11, 0.66);
+	margin-bottom: -70px;
+
+	ul {
+		list-style: none;
+		margin-left: 0;
+
+		li {
+			display: inline-block;
+			text-align: center;
+			padding-bottom: 20px;
+
+			i {
+				display: none;
+				font-size: 28px;
+				display: block;
+				padding-bottom: 10px;
+			}
+		}
+
+		a {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 12px;
+			text-transform: uppercase;
+			color: rgba(#eeeeee, 0.46);
+
+			&:hover {
+				color: #FFF;
+
+				&[href="/training/"] {
+					color: #32c2f0;
+				}
+
+				&[href="/mods/"] {
+					color: #e34c42;
+				}
+			}
+		}
+	}
 }
 
 section {
@@ -81,6 +125,11 @@ section#intro {
 	background-position: center top;
 
 	@include breakpoint(medium) {
+		height: 950px;
+	}
+
+	span.text-center {
+		padding-top: 140px;
 	}
 
 	.copy {
