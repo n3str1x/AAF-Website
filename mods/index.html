@@ -30,10 +30,16 @@
 					<small class="release-info"></small>
 				</p>
 			</div>
-			<div class="download">
-				<a class="button show-for-medium">
+			<div id="download" class="download">
+
+				<a v-cloak v-if="active" class="button show-for-medium">
 					Download Updater
 				</a>
+
+				<p v-cloak v-if="!active" >
+					Join AAF to download the Scarlet Downloader
+				</p>
+
 				<p class="hide-for-medium">
 					Please use a desktop to download the Scarlet Updater.
 				</p>

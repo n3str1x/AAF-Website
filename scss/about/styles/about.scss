@@ -7,7 +7,7 @@ main {
 }
 
 .subnav {
-	padding-top: 90px;
+	padding-top: 85px;
 	background-color: rgba(5, 8, 11, 0.66);
 	margin-bottom: -70px;
 
@@ -18,8 +18,7 @@ main {
 		li {
 			display: inline-block;
 			text-align: center;
-			padding-bottom: 20px;
-
+			padding-bottom: 18px;
 			i {
 				display: none;
 				font-size: 28px;
@@ -30,20 +29,13 @@ main {
 
 		a {
 			font-family: 'Montserrat', sans-serif;
-			font-size: 12px;
+			font-size: 13px;
 			text-transform: uppercase;
-			color: rgba(#eeeeee, 0.46);
+			color: rgba(#eeeeee, 0.71);
 
 			&:hover {
 				color: #FFF;
-
-				&[href="/training/"] {
-					color: #32c2f0;
-				}
-
-				&[href="/mods/"] {
-					color: #e34c42;
-				}
+				text-shadow: 0 0 20px #000;
 			}
 		}
 	}
