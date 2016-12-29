@@ -1,10 +1,12 @@
+// @codekit-prepend "../../bower_components/vue/dist/vue.min.js"
 
-$(document).ready(function () {
+
+$(document).ready(function() {
     GetLatestReleaseInfo();
 });
 
 function GetLatestReleaseInfo() {
-    $.getJSON("https://api.github.com/repos/sifex/Scarlet/releases/latest").done(function (release) {
+    $.getJSON("https://api.github.com/repos/sifex/Scarlet/releases/latest").done(function(release) {
         var asset = release.assets[0];
         var downloadCount = 0;
         for (var i = 0; i < release.assets.length; i++) {
@@ -14,12 +16,9 @@ function GetLatestReleaseInfo() {
         var oneDay = 24 * oneHour;
         var dateDiff = new Date() - new Date(asset.updated_at);
         var timeAgo;
-        if (dateDiff < oneDay)
-        {
+        if (dateDiff < oneDay) {
             timeAgo = (dateDiff / oneHour).toFixed(1) + " hours ago";
-        }
-        else
-        {
+        } else {
             timeAgo = (dateDiff / oneDay).toFixed(1) + " days ago";
         }
         var releaseInfo = release.name + " was updated " + timeAgo + " and downloaded " + downloadCount.toLocaleString() + " times.";
@@ -28,3 +27,17 @@ function GetLatestReleaseInfo() {
         $(".release-info").fadeIn("slow");
     });
 }
+
+
+var download = new Vue({
+    el: '#download',
+    data: {
+        active: false
+    },
+    created: function() {
+        if(getParameterByName('nodownload') == null) {
+            this.active = true;
+            console.log(this.active);
+        }
+    }
+})
