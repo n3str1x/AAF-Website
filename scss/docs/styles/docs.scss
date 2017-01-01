@@ -36,12 +36,3 @@ img {
     margin: 20px auto;
     display: block;
 }
-
-
-thead, tbody, tfoot {
-    border: none;
-    background-color: #202738;
-    & tr:nth-child(even) {
-        background-color: #2a3347;
-    }
-}

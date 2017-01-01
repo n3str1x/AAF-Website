@@ -68,11 +68,11 @@ section {
 				transform: translateY(-50%);
 				padding-left: 40px;
 
-				h4 {
+				.name {
 					display: inline-block;
 				}
 
-				div {
+				.state {
 					display: block;
 					margin-top: -15px;
 					font-size: 13px;

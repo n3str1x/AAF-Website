@@ -1,9 +1,12 @@
 @import "../../aaf-global/styles/_settings";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 main {
 	padding-top: 20px;
 	min-height: auto;
 }
+
+
 
 section {
 	min-height: 900px;
@@ -81,6 +84,11 @@ section#intro {
 	background-position: center top;
 
 	@include breakpoint(medium) {
+		height: 950px;
+	}
+
+	span.text-center {
+		padding-top: 140px;
 	}
 
 	.copy {
