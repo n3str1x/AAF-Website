@@ -1,18 +1,22 @@
+'use strict';
+
 var scarlet = new Vue({
     el: '.scarlet',
     data: {
         details: ""
     },
-    created: function() {
+    created: function created() {
+        var _this = this;
+
         var formData = new FormData();
         formData.append('authKey', '4f64MC76YMLsC8rW89QZaMDVTdYZN4C2');
 
-        Vue.http.post("https://scarlet.australianarmedforces.org/api/user/info/*", formData).then((response) => {
-            this.details = response.body;
+        Vue.http.post("https://scarlet.australianarmedforces.org/api/user/info/*", formData).then(function(response) {
+            _this.details = response.body;
         });
     }
 
-})
+});
 
 var armaServer = new Vue({
     el: '.armaServer',
@@ -23,27 +27,30 @@ var armaServer = new Vue({
             state: "",
             status: "",
             numplayers: ""
-        }
+        },
+        loading: true
     },
-    created: function() {
+    created: function created() {
+        var _this = this;
+
         var formData = new FormData();
         formData.append('authKey', '4f64MC76YMLsC8rW89QZaMDVTdYZN4C2');
 
-        Vue.http.post("https://scarlet.australianarmedforces.org/api/armaserver", formData).then((response) => {
-            this.details = response.body[Object.keys(response.body)[0]];
-            this.server.name = this.details.gq_hostname;
-            this.server.numplayers = this.details.num_players;
-            this.server.status = this.details.gq_online;
-            this.server.state = this.details.gq_gametype + " – " + this.details.players + " currently playing.";
+        Vue.http.post("https://scarlet.australianarmedforces.org/api/armaserver", formData).then(function(response) {
+            _this.details = response.body[Object.keys(response.body)[0]];
+            _this.server.name = _this.details.gq_hostname;
+            _this.server.numplayers = _this.details.num_players;
+            _this.server.status = _this.details.gq_online;
+            _this.server.state = _this.details.gq_gametype + " – " + _this.details.players + " currently playing.";
 
-            if (this.server.gq_online == true) {
-                this.status = "green";
-
+            if (_this.server.gq_online == true) {
+                _this.status = "green";
             } else {
-                this.status = "red";
-                this.server.name = "ARMA Offline";
-                this.server.state = "No server response";
+                _this.status = "red";
+                _this.server.name = "ARMA Offline";
+                _this.server.state = "No server response";
             }
+            _this.loading = false;
         });
     }
 
@@ -56,25 +63,29 @@ var teamspeakServer = new Vue({
             name: "",
             state: "",
             status: ""
-        }
+        },
+        loading: true
     },
-    created: function() {
+    created: function created() {
+        var _this = this;
+
         var formData = new FormData();
         formData.append('authKey', '4f64MC76YMLsC8rW89QZaMDVTdYZN4C2');
 
-        Vue.http.post("https://scarlet.australianarmedforces.org/api/teamspeak", formData).then((response) => {
-            this.details = response.body[Object.keys(response.body)[0]];
-            this.server.name = this.details.gq_hostname;
-            this.server.status = this.details.gq_online;
-            this.server.state = this.details.numplayers + " teamspeak members.";
+        Vue.http.post("https://scarlet.australianarmedforces.org/api/teamspeak", formData).then(function(response) {
+            _this.details = response.body[Object.keys(response.body)[0]];
+            _this.server.name = _this.details.gq_hostname;
+            _this.server.status = _this.details.gq_online;
+            _this.server.state = _this.details.numplayers + " teamspeak members.";
 
-            if (this.server.status == true) {
-                this.status = "green";
+            if (_this.server.status == true) {
+                _this.status = "green";
             } else {
-                this.status = "red";
-                this.server.name = "TS Offline";
-                this.server.state = "No server response";
+                _this.status = "red";
+                _this.server.name = "TS Offline";
+                _this.server.state = "No server response";
             }
+            //_this.loading = false;
         });
     }
 
@@ -83,12 +94,12 @@ var teamspeakServer = new Vue({
 var discordVue = new Vue({
     el: '.discordVue',
     methods: {
-        rally : function() {
+        rally: function rally() {
             var formData = new FormData();
             formData.append('content', '@everyone Mission Notification. Rally Up.');
             formData.append('username', 'Mission Specialist');
 
-            Vue.http.post("https://discordapp.com/api/webhooks/237049941862645761/gDARL75xEY80FbherWNqyTueBhi8eTqobWZ_0xJv4cOPv8FPvE0ki9_UVjxMewLHg0Hn", formData).then((response) => {
+            Vue.http.post("https://discordapp.com/api/webhooks/237049941862645761/gDARL75xEY80FbherWNqyTueBhi8eTqobWZ_0xJv4cOPv8FPvE0ki9_UVjxMewLHg0Hn", formData).then(function(response) {
                 $('#discordModel').foundation('close');
             });
         }
@@ -101,8 +112,6 @@ var scarlet = new Vue({
     data: {
         status: "orange"
     },
-    methods: {
-
-    }
+    methods: {}
 
 });
