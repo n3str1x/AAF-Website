@@ -45,6 +45,22 @@ figure { margin: 0; }
     display: inline-block;
 }
 
+/* Loading Icons */
+
+.loader{
+  margin: 0 auto;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto 1em;
+  display: block;
+  vertical-align: center;
+}
+
+svg path,
+svg rect{
+  fill: #009cff;
+}
+
 
 /* HEADER */
 
@@ -117,7 +133,7 @@ header {
 		vertical-align: top;
 
 		a {
-			font-family: 'Montserrat', sans-serif;;
+			font-family: 'Montserrat', sans-serif;
 			font-weight: 400;
 			font-size: 14px;
 			color: #FFF;
@@ -222,6 +238,44 @@ header {
 }
 
 
+/* SUBNAV */
+
+.subnav {
+	padding-top: 85px;
+	background-color: rgba(5, 8, 11, 0.66);
+	margin-bottom: -70px;
+
+	ul {
+		list-style: none;
+		margin-left: 0;
+
+		li {
+			display: inline-block;
+			text-align: center;
+			padding-bottom: 18px;
+			i {
+				display: none;
+				font-size: 28px;
+				display: block;
+				padding-bottom: 10px;
+			}
+		}
+
+		a {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 13px;
+			text-transform: uppercase;
+			color: rgba(#eeeeee, 0.71);
+
+			&:hover {
+				color: #FFF;
+				text-shadow: 0 0 20px #000;
+			}
+		}
+	}
+}
+
+/* TITLES */
 
 .titles {
     padding-top: 130px;
@@ -472,8 +526,40 @@ footer {
 	}
 }
 
-#content.error {
-    main {
-        padding-top: 45vh;
+.error {
+        padding: 30vh 0 20vh;
+}
+
+
+
+table {
+    color: #8da6c7;
+    font-size: 14px;
+
+
+    &, tbody, thead {
+        border: none;
+        background: none;
     }
+
+    thead, .heading {
+        font-weight: bold;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: rgba(255,255,255,0.03);
+    }
+
+    tbody {
+        td {
+            padding: .3rem;
+
+            small, .small {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+
 }

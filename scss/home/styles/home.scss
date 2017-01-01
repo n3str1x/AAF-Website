@@ -12,6 +12,25 @@ main {
 	height: 800px;
 	text-align: left;
 
+
+	&.year {
+		padding: 300px 0 25px;
+
+		@include breakpoint(medium) {
+			text-align: center;
+			padding: 320px 0 0;
+		}
+		a {
+			margin-top: 20px;
+			box-shadow: none;
+			background-color: #b93e3e;
+
+			&:hover {
+				background-color: #993535;
+			}
+		}
+	}
+
 	&.leaders {
 		padding: 240px 0 25px;
 
@@ -32,6 +51,10 @@ main {
 			margin-top: 20px;
 			box-shadow: none;
 			background-color: #475e7d;
+
+			&:hover {
+				background-color: #3c4f69;
+			}
 		}
 	}
 
@@ -178,10 +201,45 @@ main {
 		overflow: hidden;
 		display: none;
 
-		&.leaders {
+		&.year {
 			display: block;
 		}
 
+		&.year {
+			background-image: url('/home/images/banner_year_small.jpg');
+
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+				& {
+					background-image: url('/home/images/banner_year_small_2x.jpg');
+				}
+
+			}
+			@media screen and (min-width: 40em) {
+				& {
+					background-image: url('/home/images/banner_year_large.jpg');
+				}
+
+				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+					& {
+						background-image: url('/home/images/banner_year_large_2x.jpg');
+					}
+				}
+			}
+			@media screen and (min-width: 64em) {
+				& {
+					background-image: url('/home/images/banner_year_large.jpg');
+				}
+
+				@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+					& {
+						background-image: url('/home/images/banner_year_large_2x.jpg');
+					}
+				}
+			}
+		}
 		&.leaders {
 			background-image: url('/home/images/banner_home_small.jpg');
 
