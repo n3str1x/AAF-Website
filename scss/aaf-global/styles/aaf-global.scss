@@ -23,6 +23,10 @@ figure { margin: 0; }
     clear: both;
 }
 
+[v-cloak] {
+  display: none;
+}
+
 /* Icons */
 
 .icon.youtube {
@@ -39,6 +43,22 @@ figure { margin: 0; }
     height: 48px;
     width: 59px;
     display: inline-block;
+}
+
+/* Loading Icons */
+
+.loader{
+  margin: 0 auto;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto 1em;
+  display: block;
+  vertical-align: center;
+}
+
+svg path,
+svg rect{
+  fill: #009cff;
 }
 
 
@@ -113,7 +133,7 @@ header {
 		vertical-align: top;
 
 		a {
-			font-family: 'Montserrat', sans-serif;;
+			font-family: 'Montserrat', sans-serif;
 			font-weight: 400;
 			font-size: 14px;
 			color: #FFF;
@@ -218,6 +238,44 @@ header {
 }
 
 
+/* SUBNAV */
+
+.subnav {
+	padding-top: 85px;
+	background-color: rgba(5, 8, 11, 0.66);
+	margin-bottom: -70px;
+
+	ul {
+		list-style: none;
+		margin-left: 0;
+
+		li {
+			display: inline-block;
+			text-align: center;
+			padding-bottom: 18px;
+			i {
+				display: none;
+				font-size: 28px;
+				display: block;
+				padding-bottom: 10px;
+			}
+		}
+
+		a {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 13px;
+			text-transform: uppercase;
+			color: rgba(#eeeeee, 0.71);
+
+			&:hover {
+				color: #FFF;
+				text-shadow: 0 0 20px #000;
+			}
+		}
+	}
+}
+
+/* TITLES */
 
 .titles {
     padding-top: 130px;
@@ -268,6 +326,167 @@ main {
 			color: #576d80;
 		}
 	}
+
+    &.promo-overlay {
+        aside.promo-tiles {
+        	section {
+                margin-top: -100px;
+            }
+        }
+    }
+
+    aside.promo-tiles {
+    	section {
+    		max-width: 1920px;
+    		min-height: auto;
+    		height: auto;
+    		margin: 0 auto;
+    		padding: 0 0px;
+            margin-top: 40px;
+
+    		.promo-tile {
+    			padding: 0px;
+    		    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
+    		    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
+    		    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
+
+    			@media screen and (min-width: 40em) {
+    				padding: 0px 5px;
+    			}
+
+    			a {
+    				border-radius: $global-radius;
+    				height: 256px;
+    				background-size: 670px 256px;
+    				background-position: center top;
+    				background-repeat: no-repeat;
+    				display: block;
+
+    				@media screen and (min-width: 64em) {
+    					background-size: 474px 256px;
+    				}
+
+    				.alt {
+    					position: absolute;
+    					clip: rect(1px 1px 1px 1px);
+    					clip: rect(1px, 1px, 1px, 1px);
+    					-webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    					clip-path: inset(0px 0px 99.9% 99.9%);
+    					overflow: hidden;
+    					height: 1px;
+    					width: 1px;
+    					padding: 0;
+    					border: 0;
+    				}
+    			}
+    		}
+    	}
+
+
+    	.promo-1 a {
+    		background-image: url('/home/images/promo_youtube_small.png');
+    	}
+    	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+    		.promo-1 a {
+    			background-image: url('/home/images/promo_youtube_small_2x.png');
+    		}
+
+    	}
+    	@media screen and (min-width: 64em) {
+    		.promo-1 a {
+    			background-image: url('/home/images/promo_youtube_large.png');
+    		}
+
+    		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+    			.promo-1 a {
+    				background-image: url('/home/images/promo_youtube_large_2x.png');
+    			}
+    		}
+    	}
+
+
+    	.promo-2 a {
+    		background-image: url('/home/images/promo_recruiting_small.png');
+    	}
+    	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+    		.promo-2 a {
+    			background-image: url('/home/images/promo_recruiting_small_2x.png');
+    		}
+    	}
+    	@media screen and (min-width: 64em) {
+    		.promo-2 a {
+    			background-image: url('/home/images/promo_recruiting_large.png');
+    		}
+
+    		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+    			.promo-2 a {
+    				background-image: url('/home/images/promo_recruiting_large_2x.png');
+    			}
+    		}
+    	}
+
+
+
+    	.promo-3 a {
+    		background-image: url('/home/images/promo_aam_small.png');
+    	}
+    	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+    		.promo-3 a {
+    			background-image: url('/home/images/promo_aam_small_2x.png');
+    		}
+
+    	}
+    	@media screen and (min-width: 64em) {
+    		.promo-3 a {
+    			background-image: url('/home/images/promo_aam_large.png');
+    		}
+
+    		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+    			.promo-3 a {
+    				background-image: url('/home/images/promo_aam_large_2x.png');
+    			}
+    		}
+    	}
+
+
+
+    	.promo-4 a {
+    		background-image: url('/home/images/promo_who_small.png');
+    	}
+    	@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+    		.promo-4 a {
+    			background-image: url('/home/images/promo_who_small_2x.png');
+    		}
+    	}
+    	@media screen and (min-width: 64em) {
+    		.promo-4 a {
+    			background-image: url('/home/images/promo_who_large.png');
+    		}
+
+    		@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+
+    			.promo-4 a {
+    				background-image: url('/home/images/promo_who_large_2x.png');
+    			}
+    		}
+    	}
+    }
+
+    aside.promo-tiles:before, aside.promo-tiles:after {
+    	content: ' ';
+        display: table;
+    }
+    aside.promo-tiles:after {
+    	clear: both;
+    }
+
 }
 
 
@@ -307,8 +526,40 @@ footer {
 	}
 }
 
-#content.error {
-    main {
-        padding-top: 45vh;
+.error {
+        padding: 30vh 0 20vh;
+}
+
+
+
+table {
+    color: #8da6c7;
+    font-size: 14px;
+
+
+    &, tbody, thead {
+        border: none;
+        background: none;
     }
+
+    thead, .heading {
+        font-weight: bold;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: rgba(255,255,255,0.03);
+    }
+
+    tbody {
+        td {
+            padding: .3rem;
+
+            small, .small {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+
 }
