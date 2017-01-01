@@ -1,7 +1,7 @@
 <div class="subnav">
     <div class="row">
     <ul>
-        <a href="/docs/afpg/">
+        <a href="/training/">
             <li class="small-6 medium-2 columns">
                 Training
             </li>
