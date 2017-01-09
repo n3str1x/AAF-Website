@@ -9,16 +9,20 @@ main {
 
 .hero {
 	z-index: 1;
-	height: 800px;
+	min-height: 800px;
+	height: calc(110vh - 466px);
 	text-align: left;
-
+	
+	
+	.small-12.columns {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
 
 	&.year {
-		padding: 300px 0 25px;
-
 		@include breakpoint(medium) {
 			text-align: center;
-			padding: 320px 0 0;
 		}
 		a {
 			margin-top: 20px;
@@ -32,20 +36,16 @@ main {
 	}
 
 	&.leaders {
-		padding: 240px 0 25px;
 
 		@include breakpoint(medium) {
 			text-align: center;
-			padding: 300px 0 0;
 		}
 	}
 
 	&.teamspeak {
-		padding: 300px 0 25px;
 
 		@include breakpoint(medium) {
 			text-align: center;
-			padding: 320px 0 0;
 		}
 		a {
 			margin-top: 20px;
@@ -186,7 +186,8 @@ main {
 	position: absolute;
 	z-index: -20;
 	top: 0;
-	height: 800px;
+	min-height: 800px;
+	height: calc(110vh - 466px);
 	width: 100%;
 	pointer-events: none;
 

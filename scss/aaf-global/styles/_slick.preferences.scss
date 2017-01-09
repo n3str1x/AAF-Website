@@ -5,7 +5,8 @@
 }
 
 .slick-list {
-    height: 800px;
+	min-height: 800px;
+	height: calc(110vh - 466px);
 }
 
 .slick-slide:focus { outline: none; }
