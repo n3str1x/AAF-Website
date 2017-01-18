@@ -1,13 +1,6 @@
 		<script src="/aaf-global/scripts/min/aaf-global-v1-min.js"></script>
 	    <script src="/aaf-global/scripts/min/jquery.smoothState-min.js"></script>
 
-
-	    <script>
-		    ;(function ($) {
-		      $('#content').smoothState();
-		    })(jQuery);
-	    </script>
-
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

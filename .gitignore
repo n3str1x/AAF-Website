@@ -9,3 +9,4 @@ npm-*
 config.codekit
 *.scssc
 .DS_Store
+custom-hosts
