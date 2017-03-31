@@ -61,8 +61,8 @@
                 <section class="discord">
                     <div class="banner">
                         <div class="shade">
-                                <div class="logo"></div>
-                                <button type="button" class="button" name="button" data-open="discordModel">Rally Up</button>
+                            <div class="logo"></div>
+                            <button type="button" class="button" name="button" data-open="discordModel">Rally Up</button>
                         </div>
                     </div>
 
@@ -85,33 +85,21 @@
                 <section class="scarlet">
                     <div class="banner">
                         <div class="shade">
-                            <div>
-                                <span class="statusicon" v-bind:class="status"></span>
+                                <span class="statusicon"></span>
                                 <h4>Scarlet</h4>
-                            </div>
+								<ul>
+									<li v-for="player in players"><b>{{player.username}}</b> - {{player.key}} - {{player.installDir}}</li>
+								</ul>
                         </div>
                     </div>
                 </section>
-            </div>
-        </div>
-        <div class="row">
-            <div class="small-3 columns">
-
-    			<div class="arma3list">
-    				<div class="header">
-    					<a href="https://units.arma3.com/unit/australian-armed-forces"><h3>ARMA 3</h3></a>
-    				</div>
-    				<div class="list">
-    					<h4>CURRENTLY IN GAME</h4>
-    				</div>
-    			</div>
             </div>
         </div>
 
         <!--#include virtual="/aaf-global/includes/footer.inc" -->
         <!--#include virtual="/aaf-global/includes/global-scripts.inc" -->
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js" charset="utf-8"></script>
         <script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
         <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 

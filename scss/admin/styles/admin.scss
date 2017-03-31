@@ -118,11 +118,32 @@ section {
 	}
 
 	&.scarlet {
+
 		.banner {
+			height: auto;
 			background-image: url("https://scarlet.australianarmedforces.org/images/home_bg_2x.png");
 
 			.shade {
 				background-image: -webkit-gradient(linear, 0% 0%, 100% 0%,color-stop(0, rgba(0, 0, 0, 0.8)),color-stop(1, rgba(0, 0, 0, 0)));
+
+				width: 100%;
+
+				ul {
+					width: 100%;
+					display: block;
+					list-style: none;
+
+					li {
+						color: rgba(255,255,255, 0.7);
+						padding: 10px 40px;
+						&:nth-child(odd) {
+							background-color: rgba(0,0,0,0.1);
+						}
+						b {
+							color: #FFF;
+						}
+					}
+				}
 			}
 		}
 	}
