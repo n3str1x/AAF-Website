@@ -1,417 +1,411 @@
 <?xml version="1.0"?>
 <!DOCTYPE squad SYSTEM "squad.dtd">
 <squad nick="AAF">
-    <name>Australian Armed Forces</name>
-    <email>australianarmedforces@gmail.com</email>
-    <web>https://australianarmedforces.org/</web>
-    <picture>aaf_logo.paa</picture>
-    <title>Aust. Armed Forces</title>
-    <member id="76561198019542540" nick="Kav0K">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Talk first, Think later.</remark>
-    </member>
-    <member id="76561197985731410" nick="Leno">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>It's Not a Bug, it's a Feature!</remark>
-    </member>
-    <member id="76561198000596244" nick="Lukas">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>I have never played soccer with a mollusc</remark>
-    </member>
-    <member id="76561198008930274" nick="Det0n8ted">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>The human brain is a wonderful thing. It starts working the moment you are born, and never stops until you are asked a question by some of our favourite resident applicants.</remark>
-    </member>
-    <member id="76561198017664736" nick="Stryker">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>whaddayatalkinabeet</remark>
-    </member>
-    <member id="76561198031628089" nick="Keyadrone">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Mini-me</remark>
-    </member>
-    <member id="76561198036443330" nick="Joeiron3">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Professional pilot and ex-team killer.</remark>
-    </member>
-    <member id="76561198058250167" nick="T. Taylor">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Did you just make eye contact?</remark>
-    </member>
-    <member id="76561198072278717" nick="MeltingPineapple">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Stop abandoning me!</remark>
-    </member>
-    <member id="76561198123705423" nick="Snowballlz">
-        <name>N/A</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>SO MANY ACTIVITIES!!!</remark>
-    </member>
-    <member id="76561198066332335" nick="Hipster Pingu">
-        <name>&quot;Hipster Pingu&quot;</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>All aboard the Noot Noot Train.</remark>
-    </member>
-    <member id="76561198021103627" nick="Corny">
-        <name>Corny</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Never go Full Potato</remark>
-    </member>
-    <member id="76561198010877383" nick="Gnrnr">
-        <name>Gnrnr</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Where is everyone?</remark>
-    </member>
-    <member id="76561198000746503" nick="Monty">
-        <name>Monty</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Noble Three</remark>
-    </member>
-    <member id="76561197998984138" nick="Mr. Mazza">
-        <name>Mr. Mazza</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Ummmmmm</remark>
-    </member>
-    <member id="76561198016006482" nick="Omega">
-        <name>Omega</name>
-        <email>N/A</email>
-        <icq>http://alexsinnott.me/</icq>
-        <remark>The Engineer.</remark>
-    </member>
-    <member id="76561198141027127" nick="IceJad">
-        <name>IceJad</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Smoke me a kipper I'll be home for breakfast.</remark>
-    </member>
-    <member id="76561197990250291" nick="Rommel">
-        <name>Rommel</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Just the tip</remark>
-    </member>
-    <member id="76561197994625073" nick="AliasAlpha">
-        <name>AliasAlpha</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>No Gods, No Masters</remark>
-    </member>
-    <member id="76561198014394595" nick="Valk">
-        <name>Valk</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Brass polished to the nth degree.</remark>
-    </member>
-    <member id="76561198062322029" nick="Humbint">
-        <name>Humbint</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>I pesci sono amici non cibo.</remark>
-    </member>
-    <member id="76561198008943380" nick="Dr. Jones">
-        <name>Dr. Jones</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Scratch a dog's dick.</remark>
-    </member>
-    <member id="76561198166430899" nick="Matt Damon">
-        <name>Matt Damon</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Rescue pending...</remark>
-    </member>
-    <member id="76561198075475199" nick="Sharp5hot007">
-        <name>Sharp5hot007</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Nah, just fuck off dude.</remark>
-    </member>
-    <member id="76561198050937324" nick="Brock">
-        <name>Brock</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Can I fly?</remark>
-    </member>
-    <member id="76561197987931346" nick="Skyth">
-        <name>Skyth</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Rocketman!</remark>
-    </member>
-    <member id="76561198046455465" nick="Arty">
-        <name>Arty</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Never enuff DAKKA!</remark>
-    </member>
-    <member id="76561198038751158" nick="Nate4984">
-        <name>Nate4984</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>The only thing I feel when I kill, is the recoil from my rifle.</remark>
-    </member>
-    <member id="76561198009998188" nick="chilly429">
-        <name>chilly429</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>RPG Solutions</remark>
-    </member>
-    <member id="76561198040868360" nick="Causon">
-        <name>Causon</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Bullet sponge</remark>
-    </member>
-    <member id="76561198307377422" nick="Damo">
-        <name>Damo</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>FUCKSAKE DAMO</remark>
-    </member>
-    <member id="76561198010458841" nick="Duke">
-        <name>Duke</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Hail to the king baby!</remark>
-    </member>
-    <member id="76561198132980843" nick="Sweets">
-        <name>Sweets</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Give me some sugar baby.</remark>
-    </member>
-    <member id="76561198044032407" nick="Mike">
-        <name>Mike</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Team Melting is blasting off again!</remark>
-    </member>
-    <member id="76561198049024845" nick="Cody">
-        <name>Cody</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Mission Always Comes First Sir</remark>
-    </member>
-    <member id="76561198005650777" nick="Wraith">
-        <name>Wraith</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>1200 rounds per minute, 5 team members per minute</remark>
-    </member>
-    <member id="76561198015817978" nick="Jazzadazza">
-        <name>Jazzadazza</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Jazzadazza</remark>
-    </member>
-    <member id="76561198040175436" nick="JOYFLITE">
-        <name>JOYFLITE</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Welcome to Arma 3. Where the minimum requirements are made up and your specs don't matter.</remark>
-    </member>
-    <member id="76561198007394403" nick="Quiet">
-        <name>Quiet</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Listen up boy, or pornography starring your mother will be the second worst thing that happens to you today.</remark>
-    </member>
-    <member id="76561197994391013" nick="Tommo">
-        <name>Tommo</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Silent 'n salty.</remark>
-    </member>
-    <member id="76561198025883065" nick="Kryen">
-        <name>Kryen</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>-</remark>
-    </member>
-    <member id="76561198062322029" nick="Humbint">
-        <name>Humbint</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>I pesce sono amici, non cibo</remark>
-    </member>
-    <member id="76561198120948533" nick="Dolan">
-        <name>Dolan</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Don't make me drive, I don't have my learners for a reason</remark>
-    </member>
-    <member id="76561198003779032" nick="Deanosaurs">
-        <name>Deanosaurs</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>But I always salute you! Teleports ZAP</remark>
-    </member>
-    <member id="76561198042735639" nick="Kniuan">
-        <name>Kniuan</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Let's strike thoroughly. Be careful not to neglect scouting!</remark>
-    </member>
-    <member id="76561198069628377" nick="BUBBLEWHALE_">
-        <name>BUBBLEWHALE_</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Is that a friendly? Yes? Ok firing!</remark>
-    </member>
-    <member id="76561198000162431" nick="Earl Grey">
-        <name>Earl Grey</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Victory through incompetence</remark>
-    </member>
-    <member id="76561198045271298" nick="AlDrag">
-        <name>AlDrag</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark></remark>
-    </member>
-    <member id="76561198029931578" nick="Sp33dyt0mat0">
-        <name>Sp33dyt0mat0</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>You know the music, time to dance</remark>
-    </member>
-    <member id="76561198130870561" nick="Slave">
-        <name>Slave</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>A king is nothing without his Slave</remark>
-    </member>
-    <member id="76561198074246065" nick="Jakew100">
-        <name>Jakew100</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>This an American tank we talk American</remark>
-    </member>
-    <member id="76561198052982455" nick="Looper">
-        <name>Looper</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Today isnt a good day to die, its a little chilly</remark>
-    </member>
-    <member id="76561198067329988" nick="AcidAssasin360">
-        <name>AcidAssasin360</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Good Intentions + Me = Friendly Fire</remark>
-    </member>
-    <member id="76561198037172936" nick="Peachy">
-        <name>Peachy</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Ha, look I did it Monty. Be proud of me!</remark>
-    </member>
-    <member id="76561198044031872" nick="Sav">
-        <name>Sav</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Why have abs when you can have kebabs?</remark>
-    </member>
-    <member id="76561198045342235" nick="Sparky">
-        <name>Sparky</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Join me, And together we can rule this field!</remark>
-    </member>
-    <member id="76561198139620665" nick="thenb">
-        <name>thenb</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>HOLD THE LINE!</remark>
-    </member>
-    <member id="76561198144357902" nick="nickguw">
-        <name>nickguw</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>do you reckon we can make it between the powerlines</remark>
-    </member>
-    <member id="76561198057475207" nick="Axelgrease">
-        <name>Axelgrease</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Aut viam inveniam aut faciam</remark>
-    </member>
-    <member id="76561198070234844" nick="Trey Gyory">
-        <name>Trey Gyory</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Go Get The Hostage!</remark>
-    </member>
-    <member id="76561198011857510" nick="Lachy">
-        <name>Lachy</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>No good formation survives first contact with a forest</remark>
-    </member>
-    <member id="76561198156930406" nick="Guesty">
-        <name>Guesty</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Trust me i got this "gets shot" MEDIC!!</remark>
-    </member>
-    <member id="76561198119267264" nick="L0g1C">
-        <name>L0g1C</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>You are not my passengers, you are my victims</remark>
-    </member>
-    <member id="76561198049434540" nick="Choo">
-        <name>Choo</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>Sounds like these guys need some freedom</remark>
-    </member>
-    <member id="76561198103376158" nick="MrPokination">
-        <name>MrPokination</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>I pressed G, what now?</remark>
-    </member>
-    <member id="76561198095863887" nick="StellarChief">
-        <name>StellarChief</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>If they don't stand with us, they stand against us!</remark>
-    </member>
-    <member id="76561198039197477" nick="Mossy">
-        <name>Mossy</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>The only hope you have is to accept the fact that you're already dead. The sooner you accept that, the sooner you'll be able to function as a soldier is supposed to function.</remark>
-    </member>
-    <member id="76561198074246065" nick="Jakew100">
-        <name>Jakew100</name>
-        <email>N/A</email>
-        <icq>N/A</icq>
-        <remark>If in doubt, Monty it out.</remark>
-    </member>
+	<name>Australian Armed Forces</name>
+	<email>australianarmedforces@gmail.com</email>
+	<web>https://australianarmedforces.org/</web>
+	<picture>aaf_logo.paa</picture>
+	<title>Aust. Armed Forces</title>
+	<member id="76561198019542540" nick="Kav0K">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Talk first, Think later.</remark>
+	</member>
+	<member id="76561197985731410" nick="Leno">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>It's Not a Bug, it's a Feature!</remark>
+	</member>
+	<member id="76561198000596244" nick="Lukas">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>I have never played soccer with a mollusc</remark>
+	</member>
+	<member id="76561198008930274" nick="Det0n8ted">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>The human brain is a wonderful thing. It starts working the moment you are born, and never stops until you are asked a question by some of our favourite resident applicants.</remark>
+	</member>
+	<member id="76561198017664736" nick="Stryker">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>whaddayatalkinabeet</remark>
+	</member>
+	<member id="76561198031628089" nick="Keyadrone">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Mini-me</remark>
+	</member>
+	<member id="76561198036443330" nick="Joeiron3">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Professional pilot and ex-team killer.</remark>
+	</member>
+	<member id="76561198058250167" nick="T. Taylor">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Did you just make eye contact?</remark>
+	</member>
+	<member id="76561198072278717" nick="MeltingPineapple">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Stop abandoning me!</remark>
+	</member>
+	<member id="76561198123705423" nick="Snowballlz">
+		<name>N/A</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>SO MANY ACTIVITIES!!!</remark>
+	</member>
+	<member id="76561198066332335" nick="Hipster Pingu">
+		<name>&quot;Hipster Pingu&quot;</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>All aboard the Noot Noot Train.</remark>
+	</member>
+	<member id="76561198021103627" nick="Corny">
+		<name>Corny</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Never go Full Potato</remark>
+	</member>
+	<member id="76561198010877383" nick="Gnrnr">
+		<name>Gnrnr</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Where is everyone?</remark>
+	</member>
+	<member id="76561198000746503" nick="Monty">
+		<name>Monty</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Noble Three</remark>
+	</member>
+	<member id="76561197998984138" nick="Mr. Mazza">
+		<name>Mr. Mazza</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Ummmmmm</remark>
+	</member>
+	<member id="76561198016006482" nick="Omega">
+		<name>Omega</name>
+		<email>N/A</email>
+		<icq>http://alexsinnott.me/</icq>
+		<remark>The Engineer.</remark>
+	</member>
+	<member id="76561198141027127" nick="IceJad">
+		<name>IceJad</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Smoke me a kipper I'll be home for breakfast.</remark>
+	</member>
+	<member id="76561197990250291" nick="Rommel">
+		<name>Rommel</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Just the tip</remark>
+	</member>
+	<member id="76561197994625073" nick="AliasAlpha">
+		<name>AliasAlpha</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>No Gods, No Masters</remark>
+	</member>
+	<member id="76561198014394595" nick="Valk">
+		<name>Valk</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Brass polished to the nth degree.</remark>
+	</member>
+	<member id="76561198062322029" nick="Humbint">
+		<name>Humbint</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>I pesci sono amici non cibo.</remark>
+	</member>
+	<member id="76561198008943380" nick="Dr. Jones">
+		<name>Dr. Jones</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Scratch a dog's dick.</remark>
+	</member>
+	<member id="76561198166430899" nick="Matt Damon">
+		<name>Matt Damon</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Rescue pending...</remark>
+	</member>
+	<member id="76561198075475199" nick="Sharp5hot007">
+		<name>Sharp5hot007</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Nah, just fuck off dude.</remark>
+	</member>
+	<member id="76561198050937324" nick="Brock">
+		<name>Brock</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Can I fly?</remark>
+	</member>
+	<member id="76561197987931346" nick="Skyth">
+		<name>Skyth</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Rocketman!</remark>
+	</member>
+	<member id="76561198046455465" nick="Arty">
+		<name>Arty</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Never enuff DAKKA!</remark>
+	</member>
+	<member id="76561198038751158" nick="Nate4984">
+		<name>Nate4984</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>The only thing I feel when I kill, is the recoil from my rifle.</remark>
+	</member>
+	<member id="76561198009998188" nick="chilly429">
+		<name>chilly429</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>RPG Solutions</remark>
+	</member>
+	<member id="76561198040868360" nick="Causon">
+		<name>Causon</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Bullet sponge</remark>
+	</member>
+	<member id="76561198307377422" nick="Damo">
+		<name>Damo</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>FUCKSAKE DAMO</remark>
+	</member>
+	<member id="76561198010458841" nick="Duke">
+		<name>Duke</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Hail to the king baby!</remark>
+	</member>
+	<member id="76561198132980843" nick="Sweets">
+		<name>Sweets</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Give me some sugar baby.</remark>
+	</member>
+	<member id="76561198044032407" nick="Mike">
+		<name>Mike</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Team Melting is blasting off again!</remark>
+	</member>
+	<member id="76561198049024845" nick="Cody">
+		<name>Cody</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Mission Always Comes First Sir</remark>
+	</member>
+	<member id="76561198005650777" nick="Wraith">
+		<name>Wraith</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>1200 rounds per minute, 5 team members per minute</remark>
+	</member>
+	<member id="76561198015817978" nick="Jazzadazza">
+		<name>Jazzadazza</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Jazzadazza</remark>
+	</member>
+	<member id="76561198040175436" nick="JOYFLITE">
+		<name>JOYFLITE</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Welcome to Arma 3. Where the minimum requirements are made up and your specs don't matter.</remark>
+	</member>
+	<member id="76561198007394403" nick="Quiet">
+		<name>Quiet</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Listen up boy, or pornography starring your mother will be the second worst thing that happens to you today.</remark>
+	</member>
+	<member id="76561197994391013" nick="Tommo">
+		<name>Tommo</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Silent 'n salty.</remark>
+	</member>
+	<member id="76561198025883065" nick="Kryen">
+		<name>Kryen</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>-</remark>
+	</member>
+	<member id="76561198062322029" nick="Humbint">
+		<name>Humbint</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>I pesce sono amici, non cibo</remark>
+	</member>
+	<member id="76561198120948533" nick="Dolan">
+		<name>Dolan</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Don't make me drive, I don't have my learners for a reason</remark>
+	</member>
+	<member id="76561198003779032" nick="Deanosaurs">
+		<name>Deanosaurs</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>But I always salute you! Teleports ZAP</remark>
+	</member>
+	<member id="76561198042735639" nick="Kniuan">
+		<name>Kniuan</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Let's strike thoroughly. Be careful not to neglect scouting!</remark>
+	</member>
+	<member id="76561198069628377" nick="BUBBLEWHALE_">
+		<name>BUBBLEWHALE_</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Is that a friendly? Yes? Ok firing!</remark>
+	</member>
+	<member id="76561198000162431" nick="Earl Grey">
+		<name>Earl Grey</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Victory through incompetence</remark>
+	</member>
+	<member id="76561198045271298" nick="AlDrag">
+		<name>AlDrag</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark></remark>
+	</member>
+	<member id="76561198029931578" nick="Sp33dyt0mat0">
+		<name>Sp33dyt0mat0</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>You know the music, time to dance</remark>
+	</member>
+	<member id="76561198130870561" nick="Slave">
+		<name>Slave</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>A king is nothing without his Slave</remark>
+	</member>
+	<member id="76561198052982455" nick="Looper">
+		<name>Looper</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Today isnt a good day to die, its a little chilly</remark>
+	</member>
+	<member id="76561198067329988" nick="AcidAssasin360">
+		<name>AcidAssasin360</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Good Intentions + Me = Friendly Fire</remark>
+	</member>
+	<member id="76561198037172936" nick="Peachy">
+		<name>Peachy</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Ha, look I did it Monty. Be proud of me!</remark>
+	</member>
+	<member id="76561198044031872" nick="Sav">
+		<name>Sav</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Why have abs when you can have kebabs?</remark>
+	</member>
+	<member id="76561198045342235" nick="Sparky">
+		<name>Sparky</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Join me, And together we can rule this field!</remark>
+	</member>
+	<member id="76561198139620665" nick="thenb">
+		<name>thenb</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>HOLD THE LINE!</remark>
+	</member>
+	<member id="76561198144357902" nick="nickguw">
+		<name>nickguw</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>do you reckon we can make it between the powerlines</remark>
+	</member>
+	<member id="76561198057475207" nick="Axelgrease">
+		<name>Axelgrease</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Aut viam inveniam aut faciam</remark>
+	</member>
+	<member id="76561198070234844" nick="Trey Gyory">
+		<name>Trey Gyory</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Go Get The Hostage!</remark>
+	</member>
+	<member id="76561198011857510" nick="Lachy">
+		<name>Lachy</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>No good formation survives first contact with a forest</remark>
+	</member>
+	<member id="76561198156930406" nick="Guesty">
+		<name>Guesty</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Trust me i got this "gets shot" MEDIC!!</remark>
+	</member>
+	<member id="76561198119267264" nick="L0g1C">
+		<name>L0g1C</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>You are not my passengers, you are my victims</remark>
+	</member>
+	<member id="76561198049434540" nick="Choo">
+		<name>Choo</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>Sounds like these guys need some freedom</remark>
+	</member>
+	<member id="76561198103376158" nick="MrPokination">
+		<name>MrPokination</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>I pressed G, what now?</remark>
+	</member>
+	<member id="76561198095863887" nick="StellarChief">
+		<name>StellarChief</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>If they don't stand with us, they stand against us!</remark>
+	</member>
+	<member id="76561198039197477" nick="Mossy">
+		<name>Mossy</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>The only hope you have is to accept the fact that you're already dead. The sooner you accept that, the sooner you'll be able to function as a soldier is supposed to function.</remark>
+	</member>
+	<member id="76561198074246065" nick="Jakew100">
+		<name>Jakew100</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>If in doubt, Monty it out.</remark>
+	</member>
 </squad>
